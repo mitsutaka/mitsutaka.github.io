@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>chromiumos on NO TITLE</title>
+    <link>https://mitsutaka.github.io/tags/chromiumos/</link>
+    <description>Recent content in chromiumos on NO TITLE</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 27 Feb 2010 17:13:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://mitsutaka.github.io/tags/chromiumos/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Chromium OS(Chrome OS) partitioning</title>
+      <link>https://mitsutaka.github.io/posts/chromium-oschrome-os-partitioning/</link>
+      <pubDate>Sat, 27 Feb 2010 17:13:00 +0000</pubDate>
+      
+      <guid>https://mitsutaka.github.io/posts/chromium-oschrome-os-partitioning/</guid>
+      <description>My article about Chromium OS(Chrome OS) has already published on Japanese linux magazine. This is a part of contents.
+This is the partitioning of Chromium OS.
+&amp;nbsp;&amp;nbsp;</description>
+    </item>
+    
+    <item>
+      <title>Chromium OS(Chrome OS) login sequence</title>
+      <link>https://mitsutaka.github.io/posts/chromium-oschrome-os-login-sequence/</link>
+      <pubDate>Sat, 05 Dec 2009 07:42:00 +0000</pubDate>
+      
+      <guid>https://mitsutaka.github.io/posts/chromium-oschrome-os-login-sequence/</guid>
+      <description>As you know, I&amp;rsquo;m writing an article about Chromium OS(Chrome OS) and created some material. so I posted a part of memo.
+This is the login sequence of Chromium OS.
+
+
+Graphical login. slim is graphical login manager for chromium os.
+Input your google account.
+pam_google.so. If you don&amp;rsquo;t save login cache of your google account, It has to connect network. pam_google.so is Google account authentication PAM module.
+pam_mount.so. mount to /home/chronos as tmpfs.</description>
+    </item>
+    
+  </channel>
+</rss>

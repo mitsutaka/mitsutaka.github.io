@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Mitz Amano">
+    <meta name="description" content="Mitz&#39;s personal website">
+    <meta name="keywords" content="blog,developer,personal">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="--versionのバージョン情報が信じられなくなった日"/>
+<meta name="twitter:description" content="あるPPP通信カードで設定ファイルを生成するコマンドwvdialconfが失敗するという情報が挙がりました。wvdialはppp接続をするためのツールです。前に組み込んでいたwvdialconfと現状の組み込んであるwvdialconfではバージョンが同等であるにもかかわらず、現状のものでは失敗する。ライブラリ関係のバージョンの違いとの推測も考えられたがそれもなし。実際に前に組み込んでいたwvdialconfとそれに依存するライブラリを現状のものに移行したら動作しました。&ndash;versionは信じられないですね。バイナリレベルで差分があると困ります。"/>
+
+    <meta property="og:title" content="--versionのバージョン情報が信じられなくなった日" />
+<meta property="og:description" content="あるPPP通信カードで設定ファイルを生成するコマンドwvdialconfが失敗するという情報が挙がりました。wvdialはppp接続をするためのツールです。前に組み込んでいたwvdialconfと現状の組み込んであるwvdialconfではバージョンが同等であるにもかかわらず、現状のものでは失敗する。ライブラリ関係のバージョンの違いとの推測も考えられたがそれもなし。実際に前に組み込んでいたwvdialconfとそれに依存するライブラリを現状のものに移行したら動作しました。&ndash;versionは信じられないですね。バイナリレベルで差分があると困ります。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://mitsutaka.github.io/posts/-version%E3%81%AE%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E6%83%85%E5%A0%B1%E3%81%8C%E4%BF%A1%E3%81%98%E3%82%89%E3%82%8C%E3%81%AA%E3%81%8F%E3%81%AA%E3%81%A3%E3%81%9F%E6%97%A5/" />
+<meta property="article:published_time" content="2007-06-11T16:30:00+00:00" />
+<meta property="article:modified_time" content="2007-06-11T16:30:00+00:00" />
+
+
+    
+      <base href="https://mitsutaka.github.io/posts/-version%E3%81%AE%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E6%83%85%E5%A0%B1%E3%81%8C%E4%BF%A1%E3%81%98%E3%82%89%E3%82%8C%E3%81%AA%E3%81%8F%E3%81%AA%E3%81%A3%E3%81%9F%E6%97%A5/">
+    
+    <title>
+  --versionのバージョン情報が信じられなくなった日 · NO TITLE
+</title>
+
+    
+      <link rel="canonical" href="https://mitsutaka.github.io/posts/-version%E3%81%AE%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E6%83%85%E5%A0%B1%E3%81%8C%E4%BF%A1%E3%81%98%E3%82%89%E3%82%8C%E3%81%AA%E3%81%8F%E3%81%AA%E3%81%A3%E3%81%9F%E6%97%A5/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="https://mitsutaka.github.io/css/coder.min.28d751104f30c16da1aa1bb04015cbe662cacfe0d1b01af4f2240ad58580069c.css" integrity="sha256-KNdREE8wwW2hqhuwQBXL5mLKz&#43;DRsBr08iQK1YWABpw=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+      
+        
+        
+        <link rel="stylesheet" href="https://mitsutaka.github.io/css/coder-inverted.min.b275a7d098cfe39135a5644e9c6d811e77fc4bdeac01e8e339c7d767146340a8.css" integrity="sha256-snWn0JjP45E1pWROnG2BHnf8S96sAejjOcfXZxRjQKg=" crossorigin="anonymous" media="screen" />
+      
+    
+
+    
+
+    
+    
+    <link rel="icon" type="image/png" href="https://mitsutaka.github.io/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://mitsutaka.github.io/images/favicon-16x16.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.57.2" />
+  </head>
+
+  <body class=" inverted">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="https://mitsutaka.github.io/">
+      NO TITLE
+    </a>
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://mitsutaka.github.io/about/">About</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://mitsutaka.github.io/posts/">Blog</a>
+          </li>
+        
+      
+      
+    </ul>
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">--versionのバージョン情報が信じられなくなった日</h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fas fa-calendar"></i>
+              <time datetime='2007-06-11T16:30:00Z'>
+                June 11, 2007
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fas fa-clock"></i>
+              One minute read
+            </span>
+          </div>
+          
+          
+        </div>
+      </header>
+
+      <div>
+        <p>あるPPP通信カードで設定ファイルを生成するコマンドwvdialconfが失敗するという情報が挙がりました。wvdialはppp接続をするためのツールです。<br/><br/>前に組み込んでいたwvdialconfと現状の組み込んであるwvdialconfではバージョンが同等であるにもかかわらず、現状のものでは失敗する。ライブラリ関係のバージョンの違いとの推測も考えられたがそれもなし。実際に前に組み込んでいたwvdialconfとそれに依存するライブラリを現状のものに移行したら動作しました。<br/><br/>&ndash;versionは信じられないですね。バイナリレベルで差分があると困ります。<br/><br/></p>
+
+      </div>
+
+      <footer>
+        
+
+
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+      </div>
+
+      <footer class="footer">
+  <section class="container">
+    
+      <p>Copyright © 2006 - 2019 Mitz Amano. All rights reserved.</p>
+    
+     © 2019
+    
+       · 
+      Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+    
+    
+       · 
+      [<a href="https://github.com/luizdepra/hugo-coder/tree/"></a>]
+    
+  </section>
+</footer>
+
+    </main>
+
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-138710986-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+  </body>
+
+</html>

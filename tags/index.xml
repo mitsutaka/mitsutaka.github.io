@@ -6,9 +6,145 @@
     <description>Recent content in Tags on NO TITLE</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <lastBuildDate>Wed, 18 Jan 2012 08:30:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mitsutaka.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>tizen</title>
+      <link>https://mitsutaka.github.io/tags/tizen/</link>
+      <pubDate>Wed, 18 Jan 2012 08:30:00 +0000</pubDate>
+      
+      <guid>https://mitsutaka.github.io/tags/tizen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>books</title>
+      <link>https://mitsutaka.github.io/tags/books/</link>
+      <pubDate>Mon, 31 Oct 2011 15:00:00 +0000</pubDate>
+      
+      <guid>https://mitsutaka.github.io/tags/books/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://mitsutaka.github.io/tags/linux/</link>
+      <pubDate>Sun, 16 Jan 2011 06:05:00 +0000</pubDate>
+      
+      <guid>https://mitsutaka.github.io/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>meego</title>
+      <link>https://mitsutaka.github.io/tags/meego/</link>
+      <pubDate>Sun, 16 Jan 2011 06:05:00 +0000</pubDate>
+      
+      <guid>https://mitsutaka.github.io/tags/meego/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nexusone</title>
+      <link>https://mitsutaka.github.io/tags/nexusone/</link>
+      <pubDate>Sun, 16 Jan 2011 06:05:00 +0000</pubDate>
+      
+      <guid>https://mitsutaka.github.io/tags/nexusone/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>android</title>
+      <link>https://mitsutaka.github.io/tags/android/</link>
+      <pubDate>Fri, 12 Nov 2010 20:23:00 +0000</pubDate>
+      
+      <guid>https://mitsutaka.github.io/tags/android/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kernel</title>
+      <link>https://mitsutaka.github.io/tags/kernel/</link>
+      <pubDate>Fri, 12 Nov 2010 20:23:00 +0000</pubDate>
+      
+      <guid>https://mitsutaka.github.io/tags/kernel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>xorg</title>
+      <link>https://mitsutaka.github.io/tags/xorg/</link>
+      <pubDate>Sat, 06 Nov 2010 10:49:00 +0000</pubDate>
+      
+      <guid>https://mitsutaka.github.io/tags/xorg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linuxcon</title>
+      <link>https://mitsutaka.github.io/tags/linuxcon/</link>
+      <pubDate>Mon, 04 Oct 2010 09:08:00 +0000</pubDate>
+      
+      <guid>https://mitsutaka.github.io/tags/linuxcon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linuxfoundation</title>
+      <link>https://mitsutaka.github.io/tags/linuxfoundation/</link>
+      <pubDate>Mon, 04 Oct 2010 09:08:00 +0000</pubDate>
+      
+      <guid>https://mitsutaka.github.io/tags/linuxfoundation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>n900</title>
+      <link>https://mitsutaka.github.io/tags/n900/</link>
+      <pubDate>Sun, 12 Sep 2010 18:57:00 +0000</pubDate>
+      
+      <guid>https://mitsutaka.github.io/tags/n900/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>macbook</title>
+      <link>https://mitsutaka.github.io/tags/macbook/</link>
+      <pubDate>Sat, 06 Mar 2010 09:58:00 +0000</pubDate>
+      
+      <guid>https://mitsutaka.github.io/tags/macbook/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>chromiumos</title>
+      <link>https://mitsutaka.github.io/tags/chromiumos/</link>
+      <pubDate>Sat, 27 Feb 2010 17:13:00 +0000</pubDate>
+      
+      <guid>https://mitsutaka.github.io/tags/chromiumos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>iphone</title>
+      <link>https://mitsutaka.github.io/tags/iphone/</link>
+      <pubDate>Thu, 11 Feb 2010 03:18:00 +0000</pubDate>
+      
+      <guid>https://mitsutaka.github.io/tags/iphone/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>emacs</title>
+      <link>https://mitsutaka.github.io/tags/emacs/</link>
+      <pubDate>Sat, 08 Dec 2007 14:23:00 +0000</pubDate>
+      
+      <guid>https://mitsutaka.github.io/tags/emacs/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

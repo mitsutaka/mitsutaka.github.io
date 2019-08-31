@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tizen on NO TITLE</title>
+    <link>https://mitsutaka.github.io/tags/tizen/</link>
+    <description>Recent content in tizen on NO TITLE</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 18 Jan 2012 08:30:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://mitsutaka.github.io/tags/tizen/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tizen SDK is a copy of the Android SDK? / Tizen seems to be based on Samsung Linux Platform(SLP)</title>
+      <link>https://mitsutaka.github.io/posts/tizen-sdk-is-a-copy-of-the-android-sdk-tizen-seems-to-be-based-on-samsung-linux-platformslp/</link>
+      <pubDate>Wed, 18 Jan 2012 08:30:00 +0000</pubDate>
+      
+      <guid>https://mitsutaka.github.io/posts/tizen-sdk-is-a-copy-of-the-android-sdk-tizen-seems-to-be-based-on-samsung-linux-platformslp/</guid>
+      <description>This is first time posting in Beijing, China :) As geeks know, Tizen SDK preview has been released at Jan 9th 2012.
+So I checked the Tizen Linux as usual. SDK has an emulator. It will seem to support armel and x86. Currently, you can select only x86 emulator. You can downlowd from https://developer.tizen.org/sdk.html
+Then...My conclusion is Tizen SDK is a copy of the Android SDK.
+But Tizen is not Android.</description>
+    </item>
+    
+  </channel>
+</rss>
