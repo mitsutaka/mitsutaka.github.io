@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on NO TITLE</title>
-    <link>http://mitsutaka.github.io/posts/</link>
+    <link>https://mitsutaka.github.io/posts/</link>
     <description>Recent content in Posts on NO TITLE</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sat, 31 Aug 2019 09:39:38 +0900</lastBuildDate>
     
-	<atom:link href="http://mitsutaka.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://mitsutaka.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>WIP</title>
-      <link>http://mitsutaka.github.io/posts/wip/</link>
+      <link>https://mitsutaka.github.io/posts/wip/</link>
       <pubDate>Sat, 31 Aug 2019 09:39:38 +0900</pubDate>
       
-      <guid>http://mitsutaka.github.io/posts/wip/</guid>
+      <guid>https://mitsutaka.github.io/posts/wip/</guid>
       <description>Current blog page: https://blog.mitsutaka.org/</description>
     </item>
     
