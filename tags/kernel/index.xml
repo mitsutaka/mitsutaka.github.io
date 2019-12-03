@@ -17,8 +17,7 @@
       <pubDate>Fri, 12 Nov 2010 20:23:00 +0000</pubDate>
       
       <guid>https://mitsutaka.github.io/posts/japan-linux-conference-2010-porting-meego-to-android-platforms-20101112/</guid>
-      <description>Text is only Japanese sorry.
-Check out this SlideShare Presentation:Japan Linux Conference 2010 Porting MeeGo to Android platforms 20101112View more presentations from Mitsutaka Amano.</description>
+      <description>Text is only Japanese sorry.Check out this SlideShare Presentation:Japan Linux Conference 2010 Porting MeeGo to Android platforms 20101112View more presentationsfrom Mitsutaka Amano.</description>
     </item>
     
     <item>
@@ -27,12 +26,7 @@ Check out this SlideShare Presentation:Japan Linux Conference 2010 Porting MeeGo
       <pubDate>Sat, 06 Nov 2010 10:49:00 +0000</pubDate>
       
       <guid>https://mitsutaka.github.io/posts/meego-1.1-for-nexusone-status-part2-and-how-to-workusing-microsd-and-no-fastboot-you-can-also-dualboot-both-of-meego-and-android./</guid>
-      <description>As you see, Here is about MeeGo 1.1 can boot on NexusOne from microSD via fastboot. Part1: http://blog.mitsutaka.org/2010/11/meego-11-for-nexusone-status-and-how-to.html
-As I referred at LinuxCon Japan, Next step is standalone boot. So it&amp;rsquo;s complete replacement. Android =&amp;gt; MeeGo. BTW, The slide of LinuxCon Japan is the following.
-http://events.linuxfoundation.org/slides/2010/linuxcon_japan/linuxcon_jp2010_amano.pdf
-http://www.slideshare.net/mitsutaka/linuxcon-japan-2010-porting-meego-to-other-devices-20100927
-Warning: APPLY THIS AT YOUR OWN RISK!
-I replaced boot.img the Android to MeeGo. But boot partition(/dev/mtdblock2) is too small. This block only can write data about 2.</description>
+      <description>As you see, Here is about MeeGo 1.1 can boot on NexusOne from microSD via fastboot. Part1: http://blog.mitsutaka.org/2010/11/meego-11-for-nexusone-status-and-how-to.htmlAs I referred at LinuxCon Japan, Next step is standalone boot. So it&#39;s complete replacement. Android =&amp;gt; MeeGo. BTW, The slide of LinuxCon Japan is the following.http://events.linuxfoundation.org/slides/2010/linuxcon_japan/linuxcon_jp2010_amano.pdfhttp://www.slideshare.net/mitsutaka/linuxcon-japan-2010-porting-meego-to-other-devices-20100927Warning: APPLY THIS AT YOUR OWN RISK!I replaced boot.img the Android to MeeGo. But boot partition(/dev/mtdblock2) is too small. This block only can write data about 2.5MB. So It can&#39;t put fully rootfs or intelligent initrd.</description>
     </item>
     
     <item>
@@ -41,21 +35,7 @@ I replaced boot.img the Android to MeeGo. But boot partition(/dev/mtdblock2) is 
       <pubDate>Wed, 03 Nov 2010 02:05:00 +0000</pubDate>
       
       <guid>https://mitsutaka.github.io/posts/meego-1.1-for-nexusone-status-and-how-to-workusing-microsd-and-boot-vi-fastboot./</guid>
-      <description>Updated on 20101107(kernel build, kickstart file, dialer screenshot, fdisk /dev/mmcblk0) 
-Part2. Single boot: http://blog.mitsutaka.org/2010/11/meego-11-for-nexusone-status-part2-and.html
-As you know, MeeGo could be worked on the NexusOne. It was v1.1 development release that time. Then I tried if MeeGo 1.1 final release could work on it. Of course, It could be work. and We&amp;rsquo;ve made it more responsive to running.
-
-
-
-
-
-
-
-
-
-
-
-1. Linux kernel zImage is loaded from PC via fastboot command.</description>
+      <description>Updated on 20101107(kernel build, kickstart file, dialer screenshot, fdisk /dev/mmcblk0) Part2. Single boot: http://blog.mitsutaka.org/2010/11/meego-11-for-nexusone-status-part2-and.htmlAs you know, MeeGo could be worked on the NexusOne. It was v1.1 development release that time. Then I tried if MeeGo 1.1 final release could work on it. Of course, It could be work. and We&#39;ve made it more responsive to running.1. Linux kernel zImage is loaded from PC via fastboot command. It uses the Android kernel for MSM.</description>
     </item>
     
     <item>
@@ -64,8 +44,7 @@ As you know, MeeGo could be worked on the NexusOne. It was v1.1 development rele
       <pubDate>Mon, 04 Oct 2010 09:08:00 +0000</pubDate>
       
       <guid>https://mitsutaka.github.io/posts/linuxcon-japan-2010-my-summary-and-review/</guid>
-      <description>LinuxCon Japan is the premiere Linux conference in Asia. Attending many core open source developers, kernel hackers, administrators, users and so on. It&amp;rsquo;s an important opportunity for open source contributors. So this is my summary and review.
-About my session. It&amp;rsquo;s my first time presentation in English. Actually I had prepared three months. First, I&amp;rsquo;m not a native speaker. don&amp;rsquo;t speak English well. So it needed. Second, My presentation was a plan to port the MeeGo to a device.</description>
+      <description>LinuxCon Japan is the premiere Linux conference in Asia. Attending many core open source developers, kernel hackers, administrators, users and so on. It&#39;s an important opportunity for open source contributors. So this is my summary and review.About my session. It&#39;s my first time presentation in English. Actually I had prepared three months. First, I&#39;m not a native speaker. don&#39;t speak English well. So it needed. Second, My presentation was a plan to port the MeeGo to a device.</description>
     </item>
     
     <item>
@@ -74,18 +53,7 @@ About my session. It&amp;rsquo;s my first time presentation in English. Actually
       <pubDate>Sun, 12 Sep 2010 18:57:00 +0000</pubDate>
       
       <guid>https://mitsutaka.github.io/posts/meego-1.1-development-release1.0.90.1.20100831.1-for-n900-status/</guid>
-      <description>As you know, MeeGo 1.1 Development Release(Nightly build) has been released. I saved some log files on my N900 when it was booted by microSD.
-I used in the following files.
-meego-handset-armv7l-n900-nokia-proprietary-1.0.90.1.20100831.1-mmcblk0p.raw.bz2
-meego-handset-armv7l-n900-nokia-proprietary-1.0.90.1.20100831.1-vmlinuz-2.6.35.3-5.2-n900
-You can get this image from http://tablets-dev.nokia.com/meego-codedrop.php on which you need your N900 product ID.
-BTW, N900 image can display the Handset UX. Also rotation can be worked.
-
-
-
-
-dmesg
-[&amp;nbsp;&amp;nbsp;&amp;nbsp; 0.000000] Linux version 2.</description>
+      <description>As you know, MeeGo 1.1 Development Release(Nightly build) has been released. I saved some log files on my N900 when it was booted by microSD.I used in the following files.meego-handset-armv7l-n900-nokia-proprietary-1.0.90.1.20100831.1-mmcblk0p.raw.bz2meego-handset-armv7l-n900-nokia-proprietary-1.0.90.1.20100831.1-vmlinuz-2.6.35.3-5.2-n900You can get this image from http://tablets-dev.nokia.com/meego-codedrop.php on which you need your N900 product ID.BTW, N900 image can display the Handset UX. Also rotation can be worked.dmesg[ 0.000000] Linux version 2.6.35.3-5.2-n900 (abuild@build04) (gcc version 4.5.0 20100414 (MeeGo 4.5.0-1) (GCC) ) #1 PREEMPT Wed Aug 25 20:14:23 UTC 2010[ 0.</description>
     </item>
     
     <item>
@@ -94,13 +62,7 @@ dmesg
       <pubDate>Sat, 24 Jul 2010 09:03:00 +0000</pubDate>
       
       <guid>https://mitsutaka.github.io/posts/memo-dmesg-and-x.org.0.log-on-the-meego-nexus-one/</guid>
-      <description>MeeGo kernel was paniced on the N1. then I used android kernel was built by myself.
-X.Org doesn&amp;rsquo;t work yet. dmesg
-[&amp;nbsp;&amp;nbsp;&amp;nbsp; 0.000000] Initializing cgroup subsys cpu
-[&amp;nbsp;&amp;nbsp;&amp;nbsp; 0.000000] Linux version 2.6.29-droid-debian (dbrowne@TheBria) (gcc version 4.4.0 (GCC) ) #11 PREEMPT Mon Feb 8 01:02:44 EST 2010
-[&amp;nbsp;&amp;nbsp;&amp;nbsp; 0.000000] CPU: ARMv7 Processor [510f00f2] revision 2 (ARMv7), cr=10c5387f
-[&amp;nbsp;&amp;nbsp;&amp;nbsp; 0.000000] CPU: VIPT nonaliasing data cache, VIVT ASID tagged instruction cache
-[&amp;nbsp;&amp;nbsp;&amp;nbsp; 0.000000] Machine: mahimahi</description>
+      <description>MeeGo kernel was paniced on the N1. then I used android kernel was built by myself.X.Org doesn&#39;t work yet. dmesg[ 0.000000] Initializing cgroup subsys cpu[ 0.000000] Linux version 2.6.29-droid-debian (dbrowne@TheBria) (gcc version 4.4.0 (GCC) ) #11 PREEMPT Mon Feb 8 01:02:44 EST 2010[ 0.000000] CPU: ARMv7 Processor [510f00f2] revision 2 (ARMv7), cr=10c5387f[ 0.000000] CPU: VIPT nonaliasing data cache, VIVT ASID tagged instruction cache[ 0.000000] Machine: mahimahi[ 0.000000] Ignoring unrecognised tag 0x4d534d71[ 0.</description>
     </item>
     
     <item>
@@ -109,10 +71,7 @@ X.Org doesn&amp;rsquo;t work yet. dmesg
       <pubDate>Thu, 27 May 2010 02:50:00 +0000</pubDate>
       
       <guid>https://mitsutaka.github.io/posts/meego-1.0-for-n900-status/</guid>
-      <description>As you know, MeeGo 1.0 has been released. Netbook has the User Experience then you can test that using image on your netbook. But N900 and IVI image has no UX. They seem to be development release in position :(
-I have a time now, so I output dmesg on my N900 when it was booted by microSD and temporaly boot of kernel.
-I used in the following files.
-meego-n900-open-armv7l-1.0.0.20100525.1-sda.raw.bz2 ( bzcat xxx.</description>
+      <description>As you know, MeeGo 1.0 has been released. Netbook has the User Experience then you can test that using image on your netbook. But N900 and IVI image has no UX. They seem to be development release in position :(I have a time now, so I output dmesg on my N900 when it was booted by microSD and temporaly boot of kernel.I used in the following files.meego-n900-open-armv7l-1.0.0.20100525.1-sda.raw.bz2 ( bzcat xxx.bz2 | dd of=/dev/sdX(microSD) bs=4k)meego-n900-open-armv7l-1.</description>
     </item>
     
     <item>
@@ -121,54 +80,7 @@ meego-n900-open-armv7l-1.0.0.20100525.1-sda.raw.bz2 ( bzcat xxx.</description>
       <pubDate>Tue, 18 May 2010 09:54:00 +0000</pubDate>
       
       <guid>https://mitsutaka.github.io/posts/first-step-watching-git-repositories-of-the-meego-project/</guid>
-      <description>Currently, MeeGo sources were managed by gitorious
-http://meego.gitorious.org/
-It has already been published 44 git repositories in the following. (20100519)
-git://gitorious.org/qemu-maemo/qemu.git
-git://gitorious.org/qemu-maemo/gles-libs.git
-git://gitorious.org/maemo-multimedia/gst-openmax.git
-git://gitorious.org/maemo-multimedia/gst-dsp.git
-git://gitorious.org/maemo-multimedia/gstreamer.git
-git://gitorious.org/maemo-multimedia/gst-plugins-base.git
-git://gitorious.org/maemo-multimedia/gst-plugins-good.git
-git://gitorious.org/maemo-multimedia/gst-plugins-bad.git
-git://gitorious.org/maemo-multimedia/dsp-tools.git
-git://gitorious.org/maemo-multimedia/gst-nokia-videosrc.git
-git://gitorious.org/tracker/tracker.git
-git://gitorious.org/maemo-bluetooth/bluez-packaging.git
-git://gitorious.org/maemo-bluetooth/obexd-packaging.git
-git://gitorious.org/maemo-bluetooth/maemo-bluez-compat.git
-git://gitorious.org/maemo-bluetooth/osso-gwobex.git
-git://gitorious.org/maemo-bluetooth/osso-obc.git
-git://gitorious.org/maemo-bluetooth/openobex-packaging.git
-git://gitorious.org/meego-cellular/libcmtspeechdata.git
-git://gitorious.org/meego-platform-security/refhashutils.git
-git://gitorious.org/meego-platform-security/libcreds2.git
-git://gitorious.org/meego-platform-security/dpkg.git
-git://gitorious.org/meego-developer-tools/image-creator.git
-git://gitorious.org/meego-developer-tools/spectacle.git
-git://gitorious.org/meego-developer-tools/bootchart.git
-git://gitorious.org/meego-developer-tools/madde.git
-git://gitorious.org/meego-developer-tools/obs-project-config.git
-git://gitorious.org/meego-developer-tools/kickstarter.git
-git://gitorious.org/meego-developer-tools/qt-creator.git
-git://gitorious.org/meego-netbook-ux/abrt-netbook.git
-git://gitorious.org/meego-netbook-ux/google-gadgets-meego.git
-git://gitorious.org/meego-netbook-ux/eom.git
-git://gitorious.org/meego-os-base/uxlaunch.git
-git://gitorious.org/meego-os-base/fastinit.git
-git://gitorious.org/meego-os-base/kernel-source.git
-git://gitorious.org/meego-os-base/gconf-dbus.git
-git://gitorious.org/meego-os-base/package-groups.git
-git://gitorious.org/meego-os-base/meego-rpm-config.git
-git://gitorious.org/meego-os-base/sreadahead.git
-git://gitorious.org/meego-os-base/image-configurations.git
-git://gitorious.org/meego-os-base/image-tools.git
-git://gitorious.org/meego-middleware/libsynthesis.git
-git://gitorious.org/meego-middleware/syncevolution.git
-git://gitorious.org/meego-middleware/libsocialweb.git
-git://gitorious.org/meego-middleware/librest.git
-You can watch some updates with gitorious service.</description>
+      <description>Currently, MeeGo sources were managed by gitorioushttp://meego.gitorious.org/It has already been published 44 git repositories in the following. (20100519)git://gitorious.org/qemu-maemo/qemu.gitgit://gitorious.org/qemu-maemo/gles-libs.gitgit://gitorious.org/maemo-multimedia/gst-openmax.gitgit://gitorious.org/maemo-multimedia/gst-dsp.gitgit://gitorious.org/maemo-multimedia/gstreamer.gitgit://gitorious.org/maemo-multimedia/gst-plugins-base.gitgit://gitorious.org/maemo-multimedia/gst-plugins-good.gitgit://gitorious.org/maemo-multimedia/gst-plugins-bad.gitgit://gitorious.org/maemo-multimedia/dsp-tools.gitgit://gitorious.org/maemo-multimedia/gst-nokia-videosrc.gitgit://gitorious.org/tracker/tracker.gitgit://gitorious.org/maemo-bluetooth/bluez-packaging.gitgit://gitorious.org/maemo-bluetooth/obexd-packaging.gitgit://gitorious.org/maemo-bluetooth/maemo-bluez-compat.gitgit://gitorious.org/maemo-bluetooth/osso-gwobex.gitgit://gitorious.org/maemo-bluetooth/osso-obc.gitgit://gitorious.org/maemo-bluetooth/openobex-packaging.gitgit://gitorious.org/meego-cellular/libcmtspeechdata.gitgit://gitorious.org/meego-platform-security/refhashutils.gitgit://gitorious.org/meego-platform-security/libcreds2.gitgit://gitorious.org/meego-platform-security/dpkg.gitgit://gitorious.org/meego-developer-tools/image-creator.gitgit://gitorious.org/meego-developer-tools/spectacle.gitgit://gitorious.org/meego-developer-tools/bootchart.gitgit://gitorious.org/meego-developer-tools/madde.gitgit://gitorious.org/meego-developer-tools/obs-project-config.gitgit://gitorious.org/meego-developer-tools/kickstarter.gitgit://gitorious.org/meego-developer-tools/qt-creator.gitgit://gitorious.org/meego-netbook-ux/abrt-netbook.gitgit://gitorious.org/meego-netbook-ux/google-gadgets-meego.gitgit://gitorious.org/meego-netbook-ux/eom.gitgit://gitorious.org/meego-os-base/uxlaunch.gitgit://gitorious.org/meego-os-base/fastinit.gitgit://gitorious.org/meego-os-base/kernel-source.gitgit://gitorious.org/meego-os-base/gconf-dbus.gitgit://gitorious.org/meego-os-base/package-groups.gitgit://gitorious.org/meego-os-base/meego-rpm-config.gitgit://gitorious.org/meego-os-base/sreadahead.gitgit://gitorious.org/meego-os-base/image-configurations.gitgit://gitorious.org/meego-os-base/image-tools.gitgit://gitorious.org/meego-middleware/libsynthesis.gitgit://gitorious.org/meego-middleware/syncevolution.gitgit://gitorious.org/meego-middleware/libsocialweb.gitgit://gitorious.org/meego-middleware/librest.gitYou can watch some updates with gitorious service. My way to copy the URL to a file, and git clone.$ for repo in cat git.list; do git clone $repo ; done</description>
     </item>
     
     <item>
@@ -177,8 +89,7 @@ You can watch some updates with gitorious service.</description>
       <pubDate>Wed, 07 Apr 2010 11:43:00 +0000</pubDate>
       
       <guid>https://mitsutaka.github.io/posts/about-meego-meego-netbooks-ux-screenshots/</guid>
-      <description>As you know, MeeGo codes has been opened on the end of March. You can get ia32/arm RPMS/SRPMS now. http://repo.meego.com
-But currently User eXperience doesn&amp;rsquo;t published. MeeGo community promised to release at Stard of April. And then, The promise was carried out :-) But we can only boot up and see console screen. There were some opinion to this activity on MeeGo mailing list. For example, &amp;ldquo;User interface has not been released.</description>
+      <description>As you know, MeeGo codes has been opened on the end of March. You can get ia32/arm RPMS/SRPMS now. http://repo.meego.comBut currently User eXperience doesn&#39;t published. MeeGo community promised to release at Stard of April. And then, The promise was carried out :-) But we can only boot up and see console screen. There were some opinion to this activity on MeeGo mailing list. For example, &amp;ldquo;User interface has not been released.</description>
     </item>
     
     <item>
@@ -187,26 +98,7 @@ But currently User eXperience doesn&amp;rsquo;t published. MeeGo community promi
       <pubDate>Sat, 06 Mar 2010 09:58:00 +0000</pubDate>
       
       <guid>https://mitsutaka.github.io/posts/my-crazy-and-funny-desktop-screenshot-/</guid>
-      <description>My desktop was funny and crazy. So I took a screenshot. I use below apps.
-Host OS: MacOSX 10.6.2
-Guest OS: Windows XP SP2 on VMWare Fusion 3.0.2
-Running Apps:
-&amp;nbsp; Host OS:
-&amp;nbsp;&amp;nbsp;&amp;nbsp; About This Mac
-&amp;nbsp;&amp;nbsp;&amp;nbsp; Dropbox
-&amp;nbsp;&amp;nbsp;&amp;nbsp; GrowliTunes
-&amp;nbsp;&amp;nbsp;&amp;nbsp; InsomniaX
-&amp;nbsp;&amp;nbsp;&amp;nbsp; smcFanControl
-&amp;nbsp;&amp;nbsp;&amp;nbsp; Tweetie
-&amp;nbsp;&amp;nbsp;&amp;nbsp; Facebook Notifications
-&amp;nbsp;&amp;nbsp;&amp;nbsp; Timemachine(Currently not use)
-&amp;nbsp;&amp;nbsp;&amp;nbsp; iStat menu
-&amp;nbsp;&amp;nbsp;&amp;nbsp; Tunnelblick(OpenVPN frontend)
-&amp;nbsp;&amp;nbsp;&amp;nbsp; iTunes
-&amp;nbsp;&amp;nbsp;&amp;nbsp; Skype
-&amp;nbsp;&amp;nbsp;&amp;nbsp; Firefox
-&amp;nbsp;&amp;nbsp;&amp;nbsp; VMWare Fusion
-&amp;nbsp;&amp;nbsp;&amp;nbsp; X11.</description>
+      <description></description>
     </item>
     
     <item>
@@ -260,7 +152,7 @@ Running Apps:
       <pubDate>Tue, 02 Jan 2007 14:48:00 +0000</pubDate>
       
       <guid>https://mitsutaka.github.io/posts/%E4%BB%8A%E5%B9%B4%E3%81%AE%E7%9B%AE%E6%A8%99/</guid>
-      <description>今年の目標を列挙します。1. ruby on railsを使いこなす。2. linux kernel日々勉強。3. 英語日々勉強4. とあるコミュニティに参加5. 海外デビュー?などいろいろ。とにかくがんばります。毎日(付け)更新しますが、一つの記事としてはあまり長くありませんのでご了承ください。</description>
+      <description>今年の目標を列挙します。1. ruby on railsを使いこなす。2. linux kernel日々勉強。3. 英語日々勉強4. とあるコミュニティに参加5. 海外デビュー?</description>
     </item>
     
   </channel>

@@ -17,9 +17,7 @@
       <pubDate>Sat, 27 Feb 2010 17:13:00 +0000</pubDate>
       
       <guid>https://mitsutaka.github.io/posts/chromium-oschrome-os-partitioning/</guid>
-      <description>My article about Chromium OS(Chrome OS) has already published on Japanese linux magazine. This is a part of contents.
-This is the partitioning of Chromium OS.
-&amp;nbsp;&amp;nbsp;</description>
+      <description>My article about Chromium OS(Chrome OS) has already published on Japanese linux magazine. This is a part of contents.This is the partitioning of Chromium OS.</description>
     </item>
     
     <item>
@@ -28,14 +26,7 @@ This is the partitioning of Chromium OS.
       <pubDate>Sat, 05 Dec 2009 07:42:00 +0000</pubDate>
       
       <guid>https://mitsutaka.github.io/posts/chromium-oschrome-os-login-sequence/</guid>
-      <description>As you know, I&amp;rsquo;m writing an article about Chromium OS(Chrome OS) and created some material. so I posted a part of memo.
-This is the login sequence of Chromium OS.
-
-
-Graphical login. slim is graphical login manager for chromium os.
-Input your google account.
-pam_google.so. If you don&amp;rsquo;t save login cache of your google account, It has to connect network. pam_google.so is Google account authentication PAM module.
-pam_mount.so. mount to /home/chronos as tmpfs.</description>
+      <description></description>
     </item>
     
   </channel>

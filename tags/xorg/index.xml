@@ -17,12 +17,7 @@
       <pubDate>Sat, 06 Nov 2010 10:49:00 +0000</pubDate>
       
       <guid>https://mitsutaka.github.io/posts/meego-1.1-for-nexusone-status-part2-and-how-to-workusing-microsd-and-no-fastboot-you-can-also-dualboot-both-of-meego-and-android./</guid>
-      <description>As you see, Here is about MeeGo 1.1 can boot on NexusOne from microSD via fastboot. Part1: http://blog.mitsutaka.org/2010/11/meego-11-for-nexusone-status-and-how-to.html
-As I referred at LinuxCon Japan, Next step is standalone boot. So it&amp;rsquo;s complete replacement. Android =&amp;gt; MeeGo. BTW, The slide of LinuxCon Japan is the following.
-http://events.linuxfoundation.org/slides/2010/linuxcon_japan/linuxcon_jp2010_amano.pdf
-http://www.slideshare.net/mitsutaka/linuxcon-japan-2010-porting-meego-to-other-devices-20100927
-Warning: APPLY THIS AT YOUR OWN RISK!
-I replaced boot.img the Android to MeeGo. But boot partition(/dev/mtdblock2) is too small. This block only can write data about 2.</description>
+      <description>As you see, Here is about MeeGo 1.1 can boot on NexusOne from microSD via fastboot. Part1: http://blog.mitsutaka.org/2010/11/meego-11-for-nexusone-status-and-how-to.htmlAs I referred at LinuxCon Japan, Next step is standalone boot. So it&#39;s complete replacement. Android =&amp;gt; MeeGo. BTW, The slide of LinuxCon Japan is the following.http://events.linuxfoundation.org/slides/2010/linuxcon_japan/linuxcon_jp2010_amano.pdfhttp://www.slideshare.net/mitsutaka/linuxcon-japan-2010-porting-meego-to-other-devices-20100927Warning: APPLY THIS AT YOUR OWN RISK!I replaced boot.img the Android to MeeGo. But boot partition(/dev/mtdblock2) is too small. This block only can write data about 2.5MB. So It can&#39;t put fully rootfs or intelligent initrd.</description>
     </item>
     
     <item>
@@ -31,21 +26,7 @@ I replaced boot.img the Android to MeeGo. But boot partition(/dev/mtdblock2) is 
       <pubDate>Wed, 03 Nov 2010 02:05:00 +0000</pubDate>
       
       <guid>https://mitsutaka.github.io/posts/meego-1.1-for-nexusone-status-and-how-to-workusing-microsd-and-boot-vi-fastboot./</guid>
-      <description>Updated on 20101107(kernel build, kickstart file, dialer screenshot, fdisk /dev/mmcblk0) 
-Part2. Single boot: http://blog.mitsutaka.org/2010/11/meego-11-for-nexusone-status-part2-and.html
-As you know, MeeGo could be worked on the NexusOne. It was v1.1 development release that time. Then I tried if MeeGo 1.1 final release could work on it. Of course, It could be work. and We&amp;rsquo;ve made it more responsive to running.
-
-
-
-
-
-
-
-
-
-
-
-1. Linux kernel zImage is loaded from PC via fastboot command.</description>
+      <description>Updated on 20101107(kernel build, kickstart file, dialer screenshot, fdisk /dev/mmcblk0) Part2. Single boot: http://blog.mitsutaka.org/2010/11/meego-11-for-nexusone-status-part2-and.htmlAs you know, MeeGo could be worked on the NexusOne. It was v1.1 development release that time. Then I tried if MeeGo 1.1 final release could work on it. Of course, It could be work. and We&#39;ve made it more responsive to running.1. Linux kernel zImage is loaded from PC via fastboot command. It uses the Android kernel for MSM.</description>
     </item>
     
     <item>
@@ -54,18 +35,7 @@ As you know, MeeGo could be worked on the NexusOne. It was v1.1 development rele
       <pubDate>Sun, 12 Sep 2010 18:57:00 +0000</pubDate>
       
       <guid>https://mitsutaka.github.io/posts/meego-1.1-development-release1.0.90.1.20100831.1-for-n900-status/</guid>
-      <description>As you know, MeeGo 1.1 Development Release(Nightly build) has been released. I saved some log files on my N900 when it was booted by microSD.
-I used in the following files.
-meego-handset-armv7l-n900-nokia-proprietary-1.0.90.1.20100831.1-mmcblk0p.raw.bz2
-meego-handset-armv7l-n900-nokia-proprietary-1.0.90.1.20100831.1-vmlinuz-2.6.35.3-5.2-n900
-You can get this image from http://tablets-dev.nokia.com/meego-codedrop.php on which you need your N900 product ID.
-BTW, N900 image can display the Handset UX. Also rotation can be worked.
-
-
-
-
-dmesg
-[&amp;nbsp;&amp;nbsp;&amp;nbsp; 0.000000] Linux version 2.</description>
+      <description>As you know, MeeGo 1.1 Development Release(Nightly build) has been released. I saved some log files on my N900 when it was booted by microSD.I used in the following files.meego-handset-armv7l-n900-nokia-proprietary-1.0.90.1.20100831.1-mmcblk0p.raw.bz2meego-handset-armv7l-n900-nokia-proprietary-1.0.90.1.20100831.1-vmlinuz-2.6.35.3-5.2-n900You can get this image from http://tablets-dev.nokia.com/meego-codedrop.php on which you need your N900 product ID.BTW, N900 image can display the Handset UX. Also rotation can be worked.dmesg[ 0.000000] Linux version 2.6.35.3-5.2-n900 (abuild@build04) (gcc version 4.5.0 20100414 (MeeGo 4.5.0-1) (GCC) ) #1 PREEMPT Wed Aug 25 20:14:23 UTC 2010[ 0.</description>
     </item>
     
     <item>
@@ -74,13 +44,7 @@ dmesg
       <pubDate>Sat, 24 Jul 2010 09:03:00 +0000</pubDate>
       
       <guid>https://mitsutaka.github.io/posts/memo-dmesg-and-x.org.0.log-on-the-meego-nexus-one/</guid>
-      <description>MeeGo kernel was paniced on the N1. then I used android kernel was built by myself.
-X.Org doesn&amp;rsquo;t work yet. dmesg
-[&amp;nbsp;&amp;nbsp;&amp;nbsp; 0.000000] Initializing cgroup subsys cpu
-[&amp;nbsp;&amp;nbsp;&amp;nbsp; 0.000000] Linux version 2.6.29-droid-debian (dbrowne@TheBria) (gcc version 4.4.0 (GCC) ) #11 PREEMPT Mon Feb 8 01:02:44 EST 2010
-[&amp;nbsp;&amp;nbsp;&amp;nbsp; 0.000000] CPU: ARMv7 Processor [510f00f2] revision 2 (ARMv7), cr=10c5387f
-[&amp;nbsp;&amp;nbsp;&amp;nbsp; 0.000000] CPU: VIPT nonaliasing data cache, VIVT ASID tagged instruction cache
-[&amp;nbsp;&amp;nbsp;&amp;nbsp; 0.000000] Machine: mahimahi</description>
+      <description>MeeGo kernel was paniced on the N1. then I used android kernel was built by myself.X.Org doesn&#39;t work yet. dmesg[ 0.000000] Initializing cgroup subsys cpu[ 0.000000] Linux version 2.6.29-droid-debian (dbrowne@TheBria) (gcc version 4.4.0 (GCC) ) #11 PREEMPT Mon Feb 8 01:02:44 EST 2010[ 0.000000] CPU: ARMv7 Processor [510f00f2] revision 2 (ARMv7), cr=10c5387f[ 0.000000] CPU: VIPT nonaliasing data cache, VIVT ASID tagged instruction cache[ 0.000000] Machine: mahimahi[ 0.000000] Ignoring unrecognised tag 0x4d534d71[ 0.</description>
     </item>
     
     <item>
@@ -89,10 +53,7 @@ X.Org doesn&amp;rsquo;t work yet. dmesg
       <pubDate>Thu, 27 May 2010 02:50:00 +0000</pubDate>
       
       <guid>https://mitsutaka.github.io/posts/meego-1.0-for-n900-status/</guid>
-      <description>As you know, MeeGo 1.0 has been released. Netbook has the User Experience then you can test that using image on your netbook. But N900 and IVI image has no UX. They seem to be development release in position :(
-I have a time now, so I output dmesg on my N900 when it was booted by microSD and temporaly boot of kernel.
-I used in the following files.
-meego-n900-open-armv7l-1.0.0.20100525.1-sda.raw.bz2 ( bzcat xxx.</description>
+      <description>As you know, MeeGo 1.0 has been released. Netbook has the User Experience then you can test that using image on your netbook. But N900 and IVI image has no UX. They seem to be development release in position :(I have a time now, so I output dmesg on my N900 when it was booted by microSD and temporaly boot of kernel.I used in the following files.meego-n900-open-armv7l-1.0.0.20100525.1-sda.raw.bz2 ( bzcat xxx.bz2 | dd of=/dev/sdX(microSD) bs=4k)meego-n900-open-armv7l-1.</description>
     </item>
     
     <item>
@@ -101,7 +62,7 @@ meego-n900-open-armv7l-1.0.0.20100525.1-sda.raw.bz2 ( bzcat xxx.</description>
       <pubDate>Thu, 05 Apr 2007 17:38:00 +0000</pubDate>
       
       <guid>https://mitsutaka.github.io/posts/%E3%83%95%E3%82%A9%E3%83%B3%E3%83%88%E8%AA%BF%E6%95%B4/</guid>
-      <description>あるアプリケーションの日本語フォントの表示が崩れたため調査。どうやらフォントが足りなかった様です。/usr/share/fonts/ja/miscなのですが、これはxorgに依存して作成されるfonts-xorg-baseとは異なるmiscフォントです。これが足りなかったため追加。ただ追加しただけでは意味が無く、xorg.confにFontPathを追加する必要があります。このシステムはxfsを利用していないので直指定です。FontPath &amp;ldquo;/usr/share/fonts/ja/misc&amp;rdquo;どうやらfonts-xorg-baseに含まれているmiscフォントの指定も良くなかったようで、unscaledオプションを追加しました。FontPath &amp;ldquo;/usr/X11R6/lib/X11/fonts/misc:unscaled&amp;rdquo;unscaledオプションをつけるとscaleしないフォントを優先して利用するようになります。細かい話はman Xorgなどで調べましょう。</description>
+      <description>あるアプリケーションの日本語フォントの表示が崩れたため調査。どうやらフォントが足りなかった様です。/usr/share/fonts/ja/miscなのですが、これはxorgに依存して作成されるfonts-xorg-baseとは異なるmiscフォントです。これが足りなかったため追加。ただ追加しただけでは意味が無く、xorg.confにFontPathを追加する必要があります。このシステムはxfsを利用していないので直指定です。FontPath &amp;ldquo;/usr/share/fonts/ja/misc&amp;quot;どうやらfonts-xorg-baseに含まれているmiscフォントの指定も良くなかったようで、unscaledオプションを追加しました。FontPath &amp;ldquo;/usr/X11R6/lib/X11/fonts/misc:unscaled&amp;quot;unscaledオプションをつけるとscaleしないフォントを優先して利用するようになります。細かい話はman Xorgなどで調べましょう。</description>
     </item>
     
   </channel>

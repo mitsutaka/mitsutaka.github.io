@@ -11,10 +11,10 @@
 
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="carbon emacs &#43; wanderlust &#43; gmail"/>
-<meta name="twitter:description" content="なんとか接続できたので簡単に説明。まずgmailはssl認証なのでssl.elが必要。ただし、carbon emacsには入っていなかった(2004-06-27に入れたと書いてあったが)ため、ssl.elをダウンロードしてきます。私はここから持ってきました。システムライブラリ側の方にもっていってもかまわないのですが、環境を移行した時とか面倒なので自分のフォルダに置きました~/.emacs.d/elisp/ssl.el.wlにload-pathの設定を加えます。(append (list (expand-file-name &ldquo;/Users/(ユーザ名)/.emacs.d/elisp/&rdquo;)) load-path))あとはPOPフォルダの設定です。.foldersに以下のような感じでgmailの設定を書きます。|&amp;&ldquo;noir@gmail.com&rdquo;@pop.gmail.com:995!|:&#43;inbox &ldquo;inbox(noir@gmail.com)&rdquo;995の後の!はsslを使用するという意味です。そうそうgmail側のPOP受信の設定も忘れない様にしなければいけません。"/>
+<meta name="twitter:description" content="なんとか接続できたので簡単に説明。まずgmailはssl認証なのでssl.elが必要。ただし、carbon emacsには入っていなかった(2004-06-27に入れたと書いてあったが)ため、ssl.elをダウンロードしてきます。私はここから持ってきました。システムライブラリ側の方にもっていってもかまわないのですが、環境を移行した時とか面倒なので自分のフォルダに置きました~/.emacs.d/elisp/ssl.el.wlにload-pathの設定を加えます。(append (list (expand-file-name &ldquo;/Users/(ユーザ名)/.emacs.d/elisp/&quot;)) load-path))あとはPOPフォルダの設定です。.foldersに以下のような感じでgmailの設定を書きます。|&amp;&ldquo;noir@gmail.com&rdquo;@pop.gmail.com:995!|:&#43;inbox &ldquo;inbox(noir@gmail."/>
 
     <meta property="og:title" content="carbon emacs &#43; wanderlust &#43; gmail" />
-<meta property="og:description" content="なんとか接続できたので簡単に説明。まずgmailはssl認証なのでssl.elが必要。ただし、carbon emacsには入っていなかった(2004-06-27に入れたと書いてあったが)ため、ssl.elをダウンロードしてきます。私はここから持ってきました。システムライブラリ側の方にもっていってもかまわないのですが、環境を移行した時とか面倒なので自分のフォルダに置きました~/.emacs.d/elisp/ssl.el.wlにload-pathの設定を加えます。(append (list (expand-file-name &ldquo;/Users/(ユーザ名)/.emacs.d/elisp/&rdquo;)) load-path))あとはPOPフォルダの設定です。.foldersに以下のような感じでgmailの設定を書きます。|&amp;&ldquo;noir@gmail.com&rdquo;@pop.gmail.com:995!|:&#43;inbox &ldquo;inbox(noir@gmail.com)&rdquo;995の後の!はsslを使用するという意味です。そうそうgmail側のPOP受信の設定も忘れない様にしなければいけません。" />
+<meta property="og:description" content="なんとか接続できたので簡単に説明。まずgmailはssl認証なのでssl.elが必要。ただし、carbon emacsには入っていなかった(2004-06-27に入れたと書いてあったが)ため、ssl.elをダウンロードしてきます。私はここから持ってきました。システムライブラリ側の方にもっていってもかまわないのですが、環境を移行した時とか面倒なので自分のフォルダに置きました~/.emacs.d/elisp/ssl.el.wlにload-pathの設定を加えます。(append (list (expand-file-name &ldquo;/Users/(ユーザ名)/.emacs.d/elisp/&quot;)) load-path))あとはPOPフォルダの設定です。.foldersに以下のような感じでgmailの設定を書きます。|&amp;&ldquo;noir@gmail.com&rdquo;@pop.gmail.com:995!|:&#43;inbox &ldquo;inbox(noir@gmail." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://mitsutaka.github.io/posts/carbon-emacs-wanderlust-gmail/" />
 <meta property="article:published_time" content="2007-02-24T04:44:00+00:00" />
@@ -33,7 +33,7 @@
     
 
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
 
     
@@ -45,12 +45,6 @@
     
 
     
-      
-        
-        
-        <link rel="stylesheet" href="https://mitsutaka.github.io/css/coder-inverted.min.9e2c96f8fa9eaf53cac36cea2d330e990ea903e02e7b2843e916e09da8724be4.css" integrity="sha256-niyW&#43;Pqer1PKw2zqLTMOmQ6pA&#43;AueyhD6RbgnahyS&#43;Q=" crossorigin="anonymous" media="screen" />
-      
-    
 
     
 
@@ -59,10 +53,12 @@
     <link rel="icon" type="image/png" href="https://mitsutaka.github.io/images/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://mitsutaka.github.io/images/favicon-16x16.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.59.1" />
+    <meta name="generator" content="Hugo 0.60.1" />
   </head>
 
-  <body class=" inverted">
+  
+  
+  <body class="colorscheme-light">
     <main class="wrapper">
       <nav class="navigation">
   <section class="container">
@@ -119,7 +115,7 @@
       </header>
 
       <div>
-        <p>なんとか接続できたので簡単に説明。<br/><br/>まずgmailはssl認証なのでssl.elが必要。ただし、carbon emacsには入っていなかった(2004-06-27に入れたと書いてあったが)ため、ssl.elをダウンロードしてきます。私は<a href="http://www.koders.com/lisp/fid86291C1DCD022037D079FEA20CCCD138D50F623D.aspx?s=TV+Raman">ここから</a>持ってきました。<br/><br/>システムライブラリ側の方にもっていってもかまわないのですが、環境を移行した時とか面倒なので自分のフォルダに置きました<br/><pre><br/>~/.emacs.d/elisp/ssl.el<br/></pre><br/><br/>.wlにload-pathの設定を加えます。<br/><pre><br/>(append (list (expand-file-name &ldquo;/Users/(ユーザ名)/.emacs.d/elisp/&rdquo;)) load-path))<br/></pre><br/><br/>あとはPOPフォルダの設定です。.foldersに以下のような感じでgmailの設定を書きます。<br/><pre><br/>|&amp;&ldquo;noir@gmail.com&rdquo;@pop.gmail.com:995!|:+inbox &ldquo;inbox(noir@gmail.com)&rdquo;<br/></pre><br/><br/>995の後の!はsslを使用するという意味です。<br/><br/>そうそうgmail側のPOP受信の設定も忘れない様にしなければいけません。<br/><br/></p>
+        <p>なんとか接続できたので簡単に説明。<!-- raw HTML omitted --><!-- raw HTML omitted -->まずgmailはssl認証なのでssl.elが必要。ただし、carbon emacsには入っていなかった(2004-06-27に入れたと書いてあったが)ため、ssl.elをダウンロードしてきます。私は<!-- raw HTML omitted -->ここから<!-- raw HTML omitted -->持ってきました。<!-- raw HTML omitted --><!-- raw HTML omitted -->システムライブラリ側の方にもっていってもかまわないのですが、環境を移行した時とか面倒なので自分のフォルダに置きました<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->~/.emacs.d/elisp/ssl.el<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->.wlにload-pathの設定を加えます。<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->(append (list (expand-file-name &ldquo;/Users/(ユーザ名)/.emacs.d/elisp/&quot;)) load-path))<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->あとはPOPフォルダの設定です。.foldersに以下のような感じでgmailの設定を書きます。<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->|&amp;&ldquo;<a href="mailto:noir@gmail.com">noir@gmail.com</a>&rdquo;@pop.gmail.com:995!|:+inbox &ldquo;inbox(<a href="mailto:noir@gmail.com">noir@gmail.com</a>)&ldquo;<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->995の後の!はsslを使用するという意味です。<!-- raw HTML omitted --><!-- raw HTML omitted -->そうそうgmail側のPOP受信の設定も忘れない様にしなければいけません。<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
 
       </div>
 
