@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>n900 on NO TITLE</title>
-    <link>https://mitz.dev/tags/n900/</link>
+    <link>https://www.mitz.dev/tags/n900/</link>
     <description>Recent content in n900 on NO TITLE</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 12 Sep 2010 18:57:00 +0000</lastBuildDate>
     
-	<atom:link href="https://mitz.dev/tags/n900/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.mitz.dev/tags/n900/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>MeeGo 1.1 Development Release(1.0.90.1.20100831.1) for N900 status</title>
-      <link>https://mitz.dev/posts/meego-1.1-development-release1.0.90.1.20100831.1-for-n900-status/</link>
+      <link>https://www.mitz.dev/posts/meego-1.1-development-release1.0.90.1.20100831.1-for-n900-status/</link>
       <pubDate>Sun, 12 Sep 2010 18:57:00 +0000</pubDate>
       
-      <guid>https://mitz.dev/posts/meego-1.1-development-release1.0.90.1.20100831.1-for-n900-status/</guid>
+      <guid>https://www.mitz.dev/posts/meego-1.1-development-release1.0.90.1.20100831.1-for-n900-status/</guid>
       <description>As you know, MeeGo 1.1 Development Release(Nightly build) has been released. I saved some log files on my N900 when it was booted by microSD.I used in the following files.meego-handset-armv7l-n900-nokia-proprietary-1.0.90.1.20100831.1-mmcblk0p.raw.bz2meego-handset-armv7l-n900-nokia-proprietary-1.0.90.1.20100831.1-vmlinuz-2.6.35.3-5.2-n900You can get this image from http://tablets-dev.nokia.com/meego-codedrop.php on which you need your N900 product ID.BTW, N900 image can display the Handset UX. Also rotation can be worked.dmesg[ 0.000000] Linux version 2.6.35.3-5.2-n900 (abuild@build04) (gcc version 4.5.0 20100414 (MeeGo 4.5.0-1) (GCC) ) #1 PREEMPT Wed Aug 25 20:14:23 UTC 2010[ 0.</description>
     </item>
     
     <item>
       <title>My CFP has been accepted LinuxCon Japan</title>
-      <link>https://mitz.dev/posts/my-cfp-has-been-accepted-linuxcon-japan/</link>
+      <link>https://www.mitz.dev/posts/my-cfp-has-been-accepted-linuxcon-japan/</link>
       <pubDate>Thu, 01 Jul 2010 18:03:00 +0000</pubDate>
       
-      <guid>https://mitz.dev/posts/my-cfp-has-been-accepted-linuxcon-japan/</guid>
+      <guid>https://www.mitz.dev/posts/my-cfp-has-been-accepted-linuxcon-japan/</guid>
       <description>Yesteaday, LInuxCon Japan was published session schedule by The Linux Foundationhttp://events.linuxfoundation.org/events/linuxcon-japan/scheduleActually, I posted CFP(Call For Partitipation). Making a presentation in English, That&amp;rsquo;s one of the my goal. I got a chance:)My session is &amp;ldquo;Porting MeeGo to another devices&amp;rdquo;. MeeGo is supported Netbooks, Nokia N900 smartphone now. MeeGo is released arm and x86 binaries.This is an opportunity that can use and support many devices. I&amp;rsquo;m sure we can do it. Also I have already ported ubuntu lucid to Nexus One.</description>
     </item>
     
     <item>
       <title>MeeGo 1.0 for N900 status</title>
-      <link>https://mitz.dev/posts/meego-1.0-for-n900-status/</link>
+      <link>https://www.mitz.dev/posts/meego-1.0-for-n900-status/</link>
       <pubDate>Thu, 27 May 2010 02:50:00 +0000</pubDate>
       
-      <guid>https://mitz.dev/posts/meego-1.0-for-n900-status/</guid>
+      <guid>https://www.mitz.dev/posts/meego-1.0-for-n900-status/</guid>
       <description>As you know, MeeGo 1.0 has been released. Netbook has the User Experience then you can test that using image on your netbook. But N900 and IVI image has no UX. They seem to be development release in position :(I have a time now, so I output dmesg on my N900 when it was booted by microSD and temporaly boot of kernel.I used in the following files.meego-n900-open-armv7l-1.0.0.20100525.1-sda.raw.bz2 ( bzcat xxx.bz2 | dd of=/dev/sdX(microSD) bs=4k)meego-n900-open-armv7l-1.</description>
     </item>
     
     <item>
       <title>About MeeGo, MeeGo Netbooks UX screenshots</title>
-      <link>https://mitz.dev/posts/about-meego-meego-netbooks-ux-screenshots/</link>
+      <link>https://www.mitz.dev/posts/about-meego-meego-netbooks-ux-screenshots/</link>
       <pubDate>Wed, 07 Apr 2010 11:43:00 +0000</pubDate>
       
-      <guid>https://mitz.dev/posts/about-meego-meego-netbooks-ux-screenshots/</guid>
+      <guid>https://www.mitz.dev/posts/about-meego-meego-netbooks-ux-screenshots/</guid>
       <description>As you know, MeeGo codes has been opened on the end of March. You can get ia32/arm RPMS/SRPMS now. http://repo.meego.comBut currently User eXperience doesn&amp;rsquo;t published. MeeGo community promised to release at Stard of April. And then, The promise was carried out :-) But we can only boot up and see console screen. There were some opinion to this activity on MeeGo mailing list. For example, &amp;ldquo;User interface has not been released.</description>
     </item>
     

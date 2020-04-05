@@ -16,20 +16,20 @@
     <meta property="og:title" content="あたりまえだけどvmware-any-any-updateがF7に対応していない" />
 <meta property="og:description" content="あたりまえですけどね。Linuxにvmware-server等をインストールし、vmware-config.plを実行したときに、新しいディストリビューションやgccが入ると、コンパイルエラーを起こし、vmwareが使えません。vmware-any-any-updateは新しいディストリビューション用にvmware-config.plその他インストールスクリプトにパッチを当て、そのままvmware-config.plを起動します。今ならFC6くらいまでは利用できると思います。Fedora7は5/31リリースなので、あたりまえですがまだ対応していません。" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://mitz.dev/posts/%E3%81%82%E3%81%9F%E3%82%8A%E3%81%BE%E3%81%88%E3%81%A0%E3%81%91%E3%81%A9vmware-any-any-update%E3%81%8Cf7%E3%81%AB%E5%AF%BE%E5%BF%9C%E3%81%97%E3%81%A6%E3%81%84%E3%81%AA%E3%81%84/" />
+<meta property="og:url" content="https://www.mitz.dev/posts/%E3%81%82%E3%81%9F%E3%82%8A%E3%81%BE%E3%81%88%E3%81%A0%E3%81%91%E3%81%A9vmware-any-any-update%E3%81%8Cf7%E3%81%AB%E5%AF%BE%E5%BF%9C%E3%81%97%E3%81%A6%E3%81%84%E3%81%AA%E3%81%84/" />
 <meta property="article:published_time" content="2007-06-05T16:52:00+00:00" />
 <meta property="article:modified_time" content="2007-06-05T16:52:00+00:00" />
 
 
     
-      <base href="https://mitz.dev/posts/%E3%81%82%E3%81%9F%E3%82%8A%E3%81%BE%E3%81%88%E3%81%A0%E3%81%91%E3%81%A9vmware-any-any-update%E3%81%8Cf7%E3%81%AB%E5%AF%BE%E5%BF%9C%E3%81%97%E3%81%A6%E3%81%84%E3%81%AA%E3%81%84/">
+      <base href="https://www.mitz.dev/posts/%E3%81%82%E3%81%9F%E3%82%8A%E3%81%BE%E3%81%88%E3%81%A0%E3%81%91%E3%81%A9vmware-any-any-update%E3%81%8Cf7%E3%81%AB%E5%AF%BE%E5%BF%9C%E3%81%97%E3%81%A6%E3%81%84%E3%81%AA%E3%81%84/">
     
     <title>
   あたりまえだけどvmware-any-any-updateがF7に対応していない · NO TITLE
 </title>
 
     
-      <link rel="canonical" href="https://mitz.dev/posts/%E3%81%82%E3%81%9F%E3%82%8A%E3%81%BE%E3%81%88%E3%81%A0%E3%81%91%E3%81%A9vmware-any-any-update%E3%81%8Cf7%E3%81%AB%E5%AF%BE%E5%BF%9C%E3%81%97%E3%81%A6%E3%81%84%E3%81%AA%E3%81%84/">
+      <link rel="canonical" href="https://www.mitz.dev/posts/%E3%81%82%E3%81%9F%E3%82%8A%E3%81%BE%E3%81%88%E3%81%A0%E3%81%91%E3%81%A9vmware-any-any-update%E3%81%8Cf7%E3%81%AB%E5%AF%BE%E5%BF%9C%E3%81%97%E3%81%A6%E3%81%84%E3%81%AA%E3%81%84/">
     
 
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
@@ -39,7 +39,7 @@
     
       
       
-      <link rel="stylesheet" href="https://mitz.dev/css/coder.min.a4f332213a21ce8eb521670c614470c58923aaaf385e2a73982c31dd7642decb.css" integrity="sha256-pPMyITohzo61IWcMYURwxYkjqq84XipzmCwx3XZC3ss=" crossorigin="anonymous" media="screen" />
+      <link rel="stylesheet" href="https://www.mitz.dev/css/coder.min.a4f332213a21ce8eb521670c614470c58923aaaf385e2a73982c31dd7642decb.css" integrity="sha256-pPMyITohzo61IWcMYURwxYkjqq84XipzmCwx3XZC3ss=" crossorigin="anonymous" media="screen" />
     
 
     
@@ -52,8 +52,8 @@
 
     
 
-    <link rel="icon" type="image/png" href="https://mitz.dev/images/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="https://mitz.dev/images/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="https://www.mitz.dev/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://www.mitz.dev/images/favicon-16x16.png" sizes="16x16">
 
     <meta name="generator" content="Hugo 0.68.3" />
   </head>
@@ -64,7 +64,7 @@
     <main class="wrapper">
       <nav class="navigation">
   <section class="container">
-    <a class="navigation-title" href="https://mitz.dev/">
+    <a class="navigation-title" href="https://www.mitz.dev/">
       NO TITLE
     </a>
     
@@ -74,11 +74,11 @@
       
         
           <li class="navigation-item">
-            <a class="navigation-link" href="https://mitz.dev/about/">About</a>
+            <a class="navigation-link" href="https://www.mitz.dev/about/">About</a>
           </li>
         
           <li class="navigation-item">
-            <a class="navigation-link" href="https://mitz.dev/posts/">Blog</a>
+            <a class="navigation-link" href="https://www.mitz.dev/posts/">Blog</a>
           </li>
         
       
@@ -113,7 +113,7 @@
           
           <div class="tags">
   <i class="fas fa-tag"></i>
-    <a href="https://mitz.dev/tags/linux/">linux</a></div>
+    <a href="https://www.mitz.dev/tags/linux/">linux</a></div>
 
         </div>
       </header>

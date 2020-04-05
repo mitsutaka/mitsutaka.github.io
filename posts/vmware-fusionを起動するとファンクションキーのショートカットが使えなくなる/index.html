@@ -16,20 +16,20 @@
     <meta property="og:title" content="vmware fusionを起動するとファンクションキーのショートカットが使えなくなる" />
 <meta property="og:description" content="会社ではLinuxを使っています。vmware fusionのおかげで今まで作ったゲストOSもMacOS上で動かす事ができます。しかしvmware fusionを起動すると一部のファンクションキーが使えなくなります。例えばF12はデフォルトでDashboardが起動します。最近知ったので現状調査中。。" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://mitz.dev/posts/vmware-fusion%E3%82%92%E8%B5%B7%E5%8B%95%E3%81%99%E3%82%8B%E3%81%A8%E3%83%95%E3%82%A1%E3%83%B3%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%AD%E3%83%BC%E3%81%AE%E3%82%B7%E3%83%A7%E3%83%BC%E3%83%88%E3%82%AB%E3%83%83%E3%83%88%E3%81%8C%E4%BD%BF%E3%81%88%E3%81%AA%E3%81%8F%E3%81%AA%E3%82%8B/" />
+<meta property="og:url" content="https://www.mitz.dev/posts/vmware-fusion%E3%82%92%E8%B5%B7%E5%8B%95%E3%81%99%E3%82%8B%E3%81%A8%E3%83%95%E3%82%A1%E3%83%B3%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%AD%E3%83%BC%E3%81%AE%E3%82%B7%E3%83%A7%E3%83%BC%E3%83%88%E3%82%AB%E3%83%83%E3%83%88%E3%81%8C%E4%BD%BF%E3%81%88%E3%81%AA%E3%81%8F%E3%81%AA%E3%82%8B/" />
 <meta property="article:published_time" content="2007-01-10T15:01:00+00:00" />
 <meta property="article:modified_time" content="2007-01-10T15:01:00+00:00" />
 
 
     
-      <base href="https://mitz.dev/posts/vmware-fusion%E3%82%92%E8%B5%B7%E5%8B%95%E3%81%99%E3%82%8B%E3%81%A8%E3%83%95%E3%82%A1%E3%83%B3%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%AD%E3%83%BC%E3%81%AE%E3%82%B7%E3%83%A7%E3%83%BC%E3%83%88%E3%82%AB%E3%83%83%E3%83%88%E3%81%8C%E4%BD%BF%E3%81%88%E3%81%AA%E3%81%8F%E3%81%AA%E3%82%8B/">
+      <base href="https://www.mitz.dev/posts/vmware-fusion%E3%82%92%E8%B5%B7%E5%8B%95%E3%81%99%E3%82%8B%E3%81%A8%E3%83%95%E3%82%A1%E3%83%B3%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%AD%E3%83%BC%E3%81%AE%E3%82%B7%E3%83%A7%E3%83%BC%E3%83%88%E3%82%AB%E3%83%83%E3%83%88%E3%81%8C%E4%BD%BF%E3%81%88%E3%81%AA%E3%81%8F%E3%81%AA%E3%82%8B/">
     
     <title>
   vmware fusionを起動するとファンクションキーのショートカットが使えなくなる · NO TITLE
 </title>
 
     
-      <link rel="canonical" href="https://mitz.dev/posts/vmware-fusion%E3%82%92%E8%B5%B7%E5%8B%95%E3%81%99%E3%82%8B%E3%81%A8%E3%83%95%E3%82%A1%E3%83%B3%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%AD%E3%83%BC%E3%81%AE%E3%82%B7%E3%83%A7%E3%83%BC%E3%83%88%E3%82%AB%E3%83%83%E3%83%88%E3%81%8C%E4%BD%BF%E3%81%88%E3%81%AA%E3%81%8F%E3%81%AA%E3%82%8B/">
+      <link rel="canonical" href="https://www.mitz.dev/posts/vmware-fusion%E3%82%92%E8%B5%B7%E5%8B%95%E3%81%99%E3%82%8B%E3%81%A8%E3%83%95%E3%82%A1%E3%83%B3%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%AD%E3%83%BC%E3%81%AE%E3%82%B7%E3%83%A7%E3%83%BC%E3%83%88%E3%82%AB%E3%83%83%E3%83%88%E3%81%8C%E4%BD%BF%E3%81%88%E3%81%AA%E3%81%8F%E3%81%AA%E3%82%8B/">
     
 
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
@@ -39,7 +39,7 @@
     
       
       
-      <link rel="stylesheet" href="https://mitz.dev/css/coder.min.a4f332213a21ce8eb521670c614470c58923aaaf385e2a73982c31dd7642decb.css" integrity="sha256-pPMyITohzo61IWcMYURwxYkjqq84XipzmCwx3XZC3ss=" crossorigin="anonymous" media="screen" />
+      <link rel="stylesheet" href="https://www.mitz.dev/css/coder.min.a4f332213a21ce8eb521670c614470c58923aaaf385e2a73982c31dd7642decb.css" integrity="sha256-pPMyITohzo61IWcMYURwxYkjqq84XipzmCwx3XZC3ss=" crossorigin="anonymous" media="screen" />
     
 
     
@@ -52,8 +52,8 @@
 
     
 
-    <link rel="icon" type="image/png" href="https://mitz.dev/images/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="https://mitz.dev/images/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="https://www.mitz.dev/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://www.mitz.dev/images/favicon-16x16.png" sizes="16x16">
 
     <meta name="generator" content="Hugo 0.68.3" />
   </head>
@@ -64,7 +64,7 @@
     <main class="wrapper">
       <nav class="navigation">
   <section class="container">
-    <a class="navigation-title" href="https://mitz.dev/">
+    <a class="navigation-title" href="https://www.mitz.dev/">
       NO TITLE
     </a>
     
@@ -74,11 +74,11 @@
       
         
           <li class="navigation-item">
-            <a class="navigation-link" href="https://mitz.dev/about/">About</a>
+            <a class="navigation-link" href="https://www.mitz.dev/about/">About</a>
           </li>
         
           <li class="navigation-item">
-            <a class="navigation-link" href="https://mitz.dev/posts/">Blog</a>
+            <a class="navigation-link" href="https://www.mitz.dev/posts/">Blog</a>
           </li>
         
       
@@ -113,7 +113,7 @@
           
           <div class="tags">
   <i class="fas fa-tag"></i>
-    <a href="https://mitz.dev/tags/linux/">linux</a></div>
+    <a href="https://www.mitz.dev/tags/linux/">linux</a></div>
 
         </div>
       </header>

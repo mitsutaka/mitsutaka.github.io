@@ -2,237 +2,237 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>emacs on NO TITLE</title>
-    <link>https://mitz.dev/tags/emacs/</link>
+    <link>https://www.mitz.dev/tags/emacs/</link>
     <description>Recent content in emacs on NO TITLE</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sat, 08 Dec 2007 14:23:00 +0000</lastBuildDate>
     
-	<atom:link href="https://mitz.dev/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.mitz.dev/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>ひたすらEmacsをいじって慣れる</title>
-      <link>https://mitz.dev/posts/%E3%81%B2%E3%81%9F%E3%81%99%E3%82%89emacs%E3%82%92%E3%81%84%E3%81%98%E3%81%A3%E3%81%A6%E6%85%A3%E3%82%8C%E3%82%8B/</link>
+      <link>https://www.mitz.dev/posts/%E3%81%B2%E3%81%9F%E3%81%99%E3%82%89emacs%E3%82%92%E3%81%84%E3%81%98%E3%81%A3%E3%81%A6%E6%85%A3%E3%82%8C%E3%82%8B/</link>
       <pubDate>Sat, 08 Dec 2007 14:23:00 +0000</pubDate>
       
-      <guid>https://mitz.dev/posts/%E3%81%B2%E3%81%9F%E3%81%99%E3%82%89emacs%E3%82%92%E3%81%84%E3%81%98%E3%81%A3%E3%81%A6%E6%85%A3%E3%82%8C%E3%82%8B/</guid>
+      <guid>https://www.mitz.dev/posts/%E3%81%B2%E3%81%9F%E3%81%99%E3%82%89emacs%E3%82%92%E3%81%84%E3%81%98%E3%81%A3%E3%81%A6%E6%85%A3%E3%82%8C%E3%82%8B/</guid>
       <description>既に慣れてるはずですが、メール周りがなかなか設定できていなかったんで。。とりあえずGmail(Imap)の設定は完了しました。無事送受信できています。設定そのものは簡単なんですが、複数アカウント時の設定が問題です。SMTPサーバを切り替えるhookをFrom:のアドレスによる用に設定するんですが、とにかく何がひつようなのかがよく分からずなんとか設定しました。。。。</description>
     </item>
     
     <item>
       <title>時間があればひたすらemacsを使う</title>
-      <link>https://mitz.dev/posts/%E6%99%82%E9%96%93%E3%81%8C%E3%81%82%E3%82%8C%E3%81%B0%E3%81%B2%E3%81%9F%E3%81%99%E3%82%89emacs%E3%82%92%E4%BD%BF%E3%81%86/</link>
+      <link>https://www.mitz.dev/posts/%E6%99%82%E9%96%93%E3%81%8C%E3%81%82%E3%82%8C%E3%81%B0%E3%81%B2%E3%81%9F%E3%81%99%E3%82%89emacs%E3%82%92%E4%BD%BF%E3%81%86/</link>
       <pubDate>Fri, 23 Nov 2007 17:16:00 +0000</pubDate>
       
-      <guid>https://mitz.dev/posts/%E6%99%82%E9%96%93%E3%81%8C%E3%81%82%E3%82%8C%E3%81%B0%E3%81%B2%E3%81%9F%E3%81%99%E3%82%89emacs%E3%82%92%E4%BD%BF%E3%81%86/</guid>
+      <guid>https://www.mitz.dev/posts/%E6%99%82%E9%96%93%E3%81%8C%E3%81%82%E3%82%8C%E3%81%B0%E3%81%B2%E3%81%9F%E3%81%99%E3%82%89emacs%E3%82%92%E4%BD%BF%E3%81%86/</guid>
       <description>viからシフトするって相当な苦労をします。当然H/Wの検証で何か設定ファイルを設定するときはコンソールしか使えないのでやむなくviですが、それ以外は全てemacsで行うようにしています。ターミナルもemacsです。いまのところansi-termがいいですね。なんとかターミナルのscreenもうまく表示できているようです。たまに表示が崩れることもありますが。問題なのはsshで接続した先のターミナルですね。崩れてしまうことがよくあります。</description>
     </item>
     
     <item>
       <title>大分emacsもカスタマイズしたので…</title>
-      <link>https://mitz.dev/posts/%E5%A4%A7%E5%88%86emacs%E3%82%82%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%9E%E3%82%A4%E3%82%BA%E3%81%97%E3%81%9F%E3%81%AE%E3%81%A7/</link>
+      <link>https://www.mitz.dev/posts/%E5%A4%A7%E5%88%86emacs%E3%82%82%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%9E%E3%82%A4%E3%82%BA%E3%81%97%E3%81%9F%E3%81%AE%E3%81%A7/</link>
       <pubDate>Tue, 20 Nov 2007 17:09:00 +0000</pubDate>
       
-      <guid>https://mitz.dev/posts/%E5%A4%A7%E5%88%86emacs%E3%82%82%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%9E%E3%82%A4%E3%82%BA%E3%81%97%E3%81%9F%E3%81%AE%E3%81%A7/</guid>
+      <guid>https://www.mitz.dev/posts/%E5%A4%A7%E5%88%86emacs%E3%82%82%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%9E%E3%82%A4%E3%82%BA%E3%81%97%E3%81%9F%E3%81%AE%E3%81%A7/</guid>
       <description>mapaeからも難なく書けています。前よりかなりdiredやhowmが使えるようになりました。見直してみてよかったです。</description>
     </item>
     
     <item>
       <title>なぜviからemacsへ変える決心を？</title>
-      <link>https://mitz.dev/posts/%E3%81%AA%E3%81%9Cvi%E3%81%8B%E3%82%89emacs%E3%81%B8%E5%A4%89%E3%81%88%E3%82%8B%E6%B1%BA%E5%BF%83%E3%82%92/</link>
+      <link>https://www.mitz.dev/posts/%E3%81%AA%E3%81%9Cvi%E3%81%8B%E3%82%89emacs%E3%81%B8%E5%A4%89%E3%81%88%E3%82%8B%E6%B1%BA%E5%BF%83%E3%82%92/</link>
       <pubDate>Sun, 18 Nov 2007 17:02:00 +0000</pubDate>
       
-      <guid>https://mitz.dev/posts/%E3%81%AA%E3%81%9Cvi%E3%81%8B%E3%82%89emacs%E3%81%B8%E5%A4%89%E3%81%88%E3%82%8B%E6%B1%BA%E5%BF%83%E3%82%92/</guid>
+      <guid>https://www.mitz.dev/posts/%E3%81%AA%E3%81%9Cvi%E3%81%8B%E3%82%89emacs%E3%81%B8%E5%A4%89%E3%81%88%E3%82%8B%E6%B1%BA%E5%BF%83%E3%82%92/</guid>
       <description>会社の中にkernel hackerがいるのですが、ある日linuxの/procについていろいろ教えてもらっていました。その人のモニタを見ながらいろいろしていたのですが、emacsを使っていました。linuxkernelのソースコードを一緒に読んでいたのですが、バッファの使い方が非常に高速でびっくりしました。しかも自分向けにカスタマイズしたemacs(emacs本体)を使っているんだそうです。やはり次元の違う方でした。やろうと思えば何とかなるし、やはりemacsは機能が多いからですね。</description>
     </item>
     
     <item>
       <title>viからemacsへ少しずつ…</title>
-      <link>https://mitz.dev/posts/vi%E3%81%8B%E3%82%89emacs%E3%81%B8%E5%B0%91%E3%81%97%E3%81%9A%E3%81%A4/</link>
+      <link>https://www.mitz.dev/posts/vi%E3%81%8B%E3%82%89emacs%E3%81%B8%E5%B0%91%E3%81%97%E3%81%9A%E3%81%A4/</link>
       <pubDate>Sat, 17 Nov 2007 16:57:00 +0000</pubDate>
       
-      <guid>https://mitz.dev/posts/vi%E3%81%8B%E3%82%89emacs%E3%81%B8%E5%B0%91%E3%81%97%E3%81%9A%E3%81%A4/</guid>
+      <guid>https://www.mitz.dev/posts/vi%E3%81%8B%E3%82%89emacs%E3%81%B8%E5%B0%91%E3%81%97%E3%81%9A%E3%81%A4/</guid>
       <description>少しずつシフトしていっています。そのために多くのカスタマイズを行っています。一番参考になるのは以下のページです。http://www.bookshelf.jp/soft/meadow.htmlMeadowですが、ほとんど流用できるので助かっています。なぜ再度見直しているかというとやはりあまり理解をしていないのに単にカスタマイズだけ行うのはブラックボックス増やすだけで効率的ではないからです。とにかく改めて見直していきます。今回はかなり気合いを入れています。各章を全て読んで行っているので、emacsそのものの機能についても勉強できています。</description>
     </item>
     
     <item>
       <title>emacs荐???筝?</title>
-      <link>https://mitz.dev/posts/emacs%E8%8D%90%E7%AD%9D/</link>
+      <link>https://www.mitz.dev/posts/emacs%E8%8D%90%E7%AD%9D/</link>
       <pubDate>Sun, 11 Nov 2007 23:42:00 +0000</pubDate>
       
-      <guid>https://mitz.dev/posts/emacs%E8%8D%90%E7%AD%9D/</guid>
+      <guid>https://www.mitz.dev/posts/emacs%E8%8D%90%E7%AD%9D/</guid>
       <description>????????障????ï?????┃絎?????????????????????ŝ????????紊????????с????鴻?????????眼???????????????障??????????壔???????ŝ????若?吾????＜???????í?????罎?膣≫賢</description>
     </item>
     
     <item>
       <title>fluxboxいいかも</title>
-      <link>https://mitz.dev/posts/fluxbox%E3%81%84%E3%81%84%E3%81%8B%E3%82%82/</link>
+      <link>https://www.mitz.dev/posts/fluxbox%E3%81%84%E3%81%84%E3%81%8B%E3%82%82/</link>
       <pubDate>Sun, 12 Aug 2007 15:54:00 +0000</pubDate>
       
-      <guid>https://mitz.dev/posts/fluxbox%E3%81%84%E3%81%84%E3%81%8B%E3%82%82/</guid>
+      <guid>https://www.mitz.dev/posts/fluxbox%E3%81%84%E3%81%84%E3%81%8B%E3%82%82/</guid>
       <description>ターミナルはrxvt(urxvt)。emacsもutf8用に設定。日本語は問題なく表示できています。Macキーボードの場合コマンドキーをメタキーにしていたので(WindowsだとAltキーの位置)Mod4と指定する必要があります。それ以外は別に大した設定はありません。</description>
     </item>
     
     <item>
       <title>fluxbox</title>
-      <link>https://mitz.dev/posts/fluxbox/</link>
+      <link>https://www.mitz.dev/posts/fluxbox/</link>
       <pubDate>Sat, 11 Aug 2007 15:41:00 +0000</pubDate>
       
-      <guid>https://mitz.dev/posts/fluxbox/</guid>
+      <guid>https://www.mitz.dev/posts/fluxbox/</guid>
       <description>最近fluxboxがいいなぁと思ってます。ウィンドウの移動はWindowsもMacOSXもキーボードでは操作できません。MacOSXだとRubiscoというツールがあればキーボードでウィンドウのリサイズ、移動が可能です。ただし、一部のアプリケーションのみ有効で、例えばFinderなんかは操作できません。私は基本ターミナルかEmacsなのでこういった操作はむしろ必須なのですが、なかなか腰があがらずにいました。AppleScriptを書いてもいいのですがそこまではいってません。そもそもできるのかどうか&amp;hellip;現在fluxboxの環境を構築中(ubuntu)</description>
     </item>
     
     <item>
       <title>emacs.el見直し</title>
-      <link>https://mitz.dev/posts/emacs.el%E8%A6%8B%E7%9B%B4%E3%81%97/</link>
+      <link>https://www.mitz.dev/posts/emacs.el%E8%A6%8B%E7%9B%B4%E3%81%97/</link>
       <pubDate>Sun, 05 Aug 2007 16:07:00 +0000</pubDate>
       
-      <guid>https://mitz.dev/posts/emacs.el%E8%A6%8B%E7%9B%B4%E3%81%97/</guid>
+      <guid>https://www.mitz.dev/posts/emacs.el%E8%A6%8B%E7%9B%B4%E3%81%97/</guid>
       <description>うたた寝しながらemacs.elを見直しました。それぞれの機能設定は別ファイル化し、requireさせました。(setq load-path (cons (expand-file-name&amp;rdquo;/Users/noir/.emacs.d&amp;rdquo;) load-path))(require &amp;lsquo;emacs-noir)(require &amp;lsquo;path-noir)(require &amp;lsquo;encoding-noir)(require &amp;lsquo;font-noir)(require &amp;lsquo;shell-noir)(require &amp;lsquo;woman-noir)(require &amp;lsquo;color-noir)(require &amp;lsquo;edit-noir)(require &amp;lsquo;emacs20-noir)(require &amp;lsquo;keybind-noir)(require &amp;lsquo;ui-noir)(require &amp;lsquo;elscreen-noir)(require &amp;lsquo;mouse-noir)(require &amp;lsquo;mapae-noir)(require &amp;lsquo;newsticker-noir)(require &amp;lsquo;skk-mode-noir)(require &amp;lsquo;python-mode-noir)(require &amp;lsquo;smartdoc-mode-noir)(require &amp;lsquo;changelog-noir)(require &amp;lsquo;wl-noir)(require &amp;lsquo;bbdb-noir)(require &amp;lsquo;w3m-noir)&amp;hellip; and moreあ〜眠いですね。まぁ日中にバイクを掃除したんで。。。</description>
     </item>
     
     <item>
       <title>mapae続き</title>
-      <link>https://mitz.dev/posts/mapae%E7%B6%9A%E3%81%8D/</link>
+      <link>https://www.mitz.dev/posts/mapae%E7%B6%9A%E3%81%8D/</link>
       <pubDate>Wed, 01 Aug 2007 06:00:00 +0000</pubDate>
       
-      <guid>https://mitz.dev/posts/mapae%E7%B6%9A%E3%81%8D/</guid>
+      <guid>https://www.mitz.dev/posts/mapae%E7%B6%9A%E3%81%8D/</guid>
       <description>新しい記事を登録し、再構築する分にはデフォルトで問題なかったようです。プレビュー、部分再構築を利用する場合はmapae.pm拡張が必要になるのですが、本家からDLできませんでした。記事が「2007年01月14日」と書いてあるのを見ると割と前からあったツールなんですね。いずれにしてもemacsでブログを書けるのはかなりいいですね。Movable Typeがいいとかではなくってemacsでブログが書けるからいい！ということなんですね。。。しばらくはmapaeで書いていこうと思ってます。もしかしたらそのうち不満が出てきてくるかと思いますけどね…というのもなぜメンテされていないのかが気になっています。Movable Type 4が最近リリースされたのでそろそろアップデートしても良いと思うんですが。</description>
     </item>
     
     <item>
       <title>mapae.pm拡張必須</title>
-      <link>https://mitz.dev/posts/mapae.pm%E6%8B%A1%E5%BC%B5%E5%BF%85%E9%A0%88/</link>
+      <link>https://www.mitz.dev/posts/mapae.pm%E6%8B%A1%E5%BC%B5%E5%BF%85%E9%A0%88/</link>
       <pubDate>Tue, 31 Jul 2007 05:00:00 +0000</pubDate>
       
-      <guid>https://mitz.dev/posts/mapae.pm%E6%8B%A1%E5%BC%B5%E5%BF%85%E9%A0%88/</guid>
+      <guid>https://www.mitz.dev/posts/mapae.pm%E6%8B%A1%E5%BC%B5%E5%BF%85%E9%A0%88/</guid>
       <description>プレビュー、再構築等、Moveble Typeで最低限必要な機能を導入するための拡張があるそうですね。</description>
     </item>
     
     <item>
       <title>うーんそろそろターミナルかEmacs上で使えるBlogを…</title>
-      <link>https://mitz.dev/posts/%E3%81%86%E3%83%BC%E3%82%93%E3%81%9D%E3%82%8D%E3%81%9D%E3%82%8D%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB%E3%81%8Bemacs%E4%B8%8A%E3%81%A7%E4%BD%BF%E3%81%88%E3%82%8Bblog%E3%82%92/</link>
+      <link>https://www.mitz.dev/posts/%E3%81%86%E3%83%BC%E3%82%93%E3%81%9D%E3%82%8D%E3%81%9D%E3%82%8D%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB%E3%81%8Bemacs%E4%B8%8A%E3%81%A7%E4%BD%BF%E3%81%88%E3%82%8Bblog%E3%82%92/</link>
       <pubDate>Sat, 28 Jul 2007 14:14:00 +0000</pubDate>
       
-      <guid>https://mitz.dev/posts/%E3%81%86%E3%83%BC%E3%82%93%E3%81%9D%E3%82%8D%E3%81%9D%E3%82%8D%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB%E3%81%8Bemacs%E4%B8%8A%E3%81%A7%E4%BD%BF%E3%81%88%E3%82%8Bblog%E3%82%92/</guid>
+      <guid>https://www.mitz.dev/posts/%E3%81%86%E3%83%BC%E3%82%93%E3%81%9D%E3%82%8D%E3%81%9D%E3%82%8D%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB%E3%81%8Bemacs%E4%B8%8A%E3%81%A7%E4%BD%BF%E3%81%88%E3%82%8Bblog%E3%82%92/</guid>
       <description>ブログを書くためにWebを立ち上げるのが面倒くさくなってきました。今は少しずついろんな作業をEmacsにシフトしていくようにつとめています。ターミナルもtermモードで行けます。ただちょっと気になるのはtermモードとscreenの相性ですね。さて少し探してみますか…</description>
     </item>
     
     <item>
       <title>zsh &#43; screenでキーバインドが使えなくなる</title>
-      <link>https://mitz.dev/posts/zsh-screen%E3%81%A7%E3%82%AD%E3%83%BC%E3%83%90%E3%82%A4%E3%83%B3%E3%83%89%E3%81%8C%E4%BD%BF%E3%81%88%E3%81%AA%E3%81%8F%E3%81%AA%E3%82%8B/</link>
+      <link>https://www.mitz.dev/posts/zsh-screen%E3%81%A7%E3%82%AD%E3%83%BC%E3%83%90%E3%82%A4%E3%83%B3%E3%83%89%E3%81%8C%E4%BD%BF%E3%81%88%E3%81%AA%E3%81%8F%E3%81%AA%E3%82%8B/</link>
       <pubDate>Mon, 09 Jul 2007 08:37:00 +0000</pubDate>
       
-      <guid>https://mitz.dev/posts/zsh-screen%E3%81%A7%E3%82%AD%E3%83%BC%E3%83%90%E3%82%A4%E3%83%B3%E3%83%89%E3%81%8C%E4%BD%BF%E3%81%88%E3%81%AA%E3%81%8F%E3%81%AA%E3%82%8B/</guid>
+      <guid>https://www.mitz.dev/posts/zsh-screen%E3%81%A7%E3%82%AD%E3%83%BC%E3%83%90%E3%82%A4%E3%83%B3%E3%83%89%E3%81%8C%E4%BD%BF%E3%81%88%E3%81%AA%E3%81%8F%E3%81%AA%E3%82%8B/</guid>
       <description>screen上でzshを起動するとDebian系でCtrl + PやCtrl + Nが効かなくなっています。とりあえずbindkey -eで解決。emacsスタイルのキーバインドを使うよう定義します。普段なら記述する必要はありませんが、明示的にということで。Macbookのdeleteキーでbackspaceしてくれないbindkey &amp;ldquo;^?&amp;rdquo; backward-delete-charこれで解決。</description>
     </item>
     
     <item>
       <title>Mach-O</title>
-      <link>https://mitz.dev/posts/mach-o/</link>
+      <link>https://www.mitz.dev/posts/mach-o/</link>
       <pubDate>Wed, 14 Mar 2007 15:13:00 +0000</pubDate>
       
-      <guid>https://mitz.dev/posts/mach-o/</guid>
+      <guid>https://www.mitz.dev/posts/mach-o/</guid>
       <description>普段MacOSXを利用しているにも関わらず、あまり気にならないところがありました。Mach-Oというファイルフォーマット形式です。http://ja.wikipedia.org/wiki/Mach-O今はユニバーサルバイナリと呼ばれているものですが、複数のアーキテクチャのバイナリを保持することができる形式です(MAB)。例えば% file which Emacs &amp;lt;= Carbon Emacsのバイナリファイルを指定する。/usr/bin/Emacs: Mach-O universal binary with 2 architectures/usr/bin/Emacs (for architecture i386): Mach-O executable i386/usr/bin/Emacs (for architecture ppc): Mach-O executable ppci386(IA32), ppcに対応している事が分かります。普段利用しているLinuxであればバイナリファイルはこんな感じに出力されています。test.o: ELF 32-bit LSB relocatable, Intel 80386, version 1 (SYSV), not strippedIntel CPUにチェンジしたAppleには無くてはならない技術ですね。実はNEXTSTEPというOSで既に実現されていた様ですが。http://journal.</description>
     </item>
     
     <item>
       <title>最近覗いたWebページ</title>
-      <link>https://mitz.dev/posts/%E6%9C%80%E8%BF%91%E8%A6%97%E3%81%84%E3%81%9Fweb%E3%83%9A%E3%83%BC%E3%82%B8/</link>
+      <link>https://www.mitz.dev/posts/%E6%9C%80%E8%BF%91%E8%A6%97%E3%81%84%E3%81%9Fweb%E3%83%9A%E3%83%BC%E3%82%B8/</link>
       <pubDate>Wed, 07 Mar 2007 14:18:00 +0000</pubDate>
       
-      <guid>https://mitz.dev/posts/%E6%9C%80%E8%BF%91%E8%A6%97%E3%81%84%E3%81%9Fweb%E3%83%9A%E3%83%BC%E3%82%B8/</guid>
+      <guid>https://www.mitz.dev/posts/%E6%9C%80%E8%BF%91%E8%A6%97%E3%81%84%E3%81%9Fweb%E3%83%9A%E3%83%BC%E3%82%B8/</guid>
       <description>wikiです。http://macwiki.sourceforge.jp/cgi-bin/wiki.cgi?FrontPagehttp://www.emacswiki.org/cgi-bin/wiki携帯で読んで気になるものがあったらPCで直接試してみる感じです。MacWikiに関してはあまり興味のあるネタはなかったのですが、EmacsWikiは登録されているelispが多くあるので、気になるのを試してみたりしています。</description>
     </item>
     
     <item>
       <title>emacsのキーバインドが辛いので〜viper-mode〜</title>
-      <link>https://mitz.dev/posts/emacs%E3%81%AE%E3%82%AD%E3%83%BC%E3%83%90%E3%82%A4%E3%83%B3%E3%83%89%E3%81%8C%E8%BE%9B%E3%81%84%E3%81%AE%E3%81%A7viper-mode/</link>
+      <link>https://www.mitz.dev/posts/emacs%E3%81%AE%E3%82%AD%E3%83%BC%E3%83%90%E3%82%A4%E3%83%B3%E3%83%89%E3%81%8C%E8%BE%9B%E3%81%84%E3%81%AE%E3%81%A7viper-mode/</link>
       <pubDate>Tue, 27 Feb 2007 13:49:00 +0000</pubDate>
       
-      <guid>https://mitz.dev/posts/emacs%E3%81%AE%E3%82%AD%E3%83%BC%E3%83%90%E3%82%A4%E3%83%B3%E3%83%89%E3%81%8C%E8%BE%9B%E3%81%84%E3%81%AE%E3%81%A7viper-mode/</guid>
+      <guid>https://www.mitz.dev/posts/emacs%E3%81%AE%E3%82%AD%E3%83%BC%E3%83%90%E3%82%A4%E3%83%B3%E3%83%89%E3%81%8C%E8%BE%9B%E3%81%84%E3%81%AE%E3%81%A7viper-mode/</guid>
       <description>emacsのキーバインドは慣れたことは慣れたんですが、Ctrlキーを押すのが辛くなってきました。viに近いキーバインドに設定したいと思ったら、emacsに組み込まれていました。3つのモードがあります。参考ページ■vi-modeメジャーモードとして動作vi-mode はコマンド時のみ編集時は通常の Emacss など文字を編集するコマンドで vi-mode を終了■vip-modeマイナーモードとして動作vi 同様 ESCでの切り替えが可能s がC-x bと同じ■viper-modeマイナーモードとして動作vi 同様 ESCでの切り替えが可能C-¥ xを M-x として利用Emacs モードがあり，オフにすることも簡単私はvi(vim)でかなり慣れてしまったので、viper-modeにすることにしました。コマンドモード、編集モードも普通に切り替えられます。viper-modeにはレベルが1〜5まであり、細かい部分で違いがあるそうです。viper-modeをはじめに起動したときのダイアログを参照してください。</description>
     </item>
     
     <item>
       <title>emacs &#43; RSSリーダ(newsticker.el)</title>
-      <link>https://mitz.dev/posts/emacs-rss%E3%83%AA%E3%83%BC%E3%83%80newsticker.el/</link>
+      <link>https://www.mitz.dev/posts/emacs-rss%E3%83%AA%E3%83%BC%E3%83%80newsticker.el/</link>
       <pubDate>Mon, 26 Feb 2007 12:13:00 +0000</pubDate>
       
-      <guid>https://mitz.dev/posts/emacs-rss%E3%83%AA%E3%83%BC%E3%83%80newsticker.el/</guid>
+      <guid>https://www.mitz.dev/posts/emacs-rss%E3%83%AA%E3%83%BC%E3%83%80newsticker.el/</guid>
       <description>EmacsWikiのこのページにemacs用のRSSリーダがありました。minibufferにニュースを表示させたり、画面に列挙させたりできます。なかなか面白いです。とりあえず.emacs.elに設定を書きました。(autoload &amp;lsquo;newsticker-start &amp;ldquo;newsticker&amp;rdquo; &amp;ldquo;Start Newsticker&amp;rdquo; t)(autoload &amp;lsquo;newsticker-show-news &amp;ldquo;newsticker&amp;rdquo; &amp;ldquo;Goto Newsticker buffer&amp;rdquo; t)(add-hook &amp;lsquo;newsticker-mode-hook &amp;lsquo;imenu-add-menubar-index)(setq newsticker-url-list&amp;rsquo;((&amp;ldquo;CNET Japan&amp;rdquo; &amp;ldquo;http://japan.cnet.com/rss/index.rdf&amp;quot;);(&amp;ldquo;lkml.org&amp;rdquo; &amp;ldquo;http://lkml.</description>
     </item>
     
     <item>
       <title>メモはhowmでする?</title>
-      <link>https://mitz.dev/posts/%E3%83%A1%E3%83%A2%E3%81%AFhowm%E3%81%A7%E3%81%99%E3%82%8B/</link>
+      <link>https://www.mitz.dev/posts/%E3%83%A1%E3%83%A2%E3%81%AFhowm%E3%81%A7%E3%81%99%E3%82%8B/</link>
       <pubDate>Sun, 25 Feb 2007 09:30:00 +0000</pubDate>
       
-      <guid>https://mitz.dev/posts/%E3%83%A1%E3%83%A2%E3%81%AFhowm%E3%81%A7%E3%81%99%E3%82%8B/</guid>
+      <guid>https://www.mitz.dev/posts/%E3%83%A1%E3%83%A2%E3%81%AFhowm%E3%81%A7%E3%81%99%E3%82%8B/</guid>
       <description>emacsの利用も少しずつ落ち着いてきましたが、メモはいつもテキストファイルを作って纏めています。でもそれも限界で、どれがどんな内容かというのはファイル名などで管理しなければ行けません。管理ツールがemacsにはありますのでそちらを使うことにしました。howmというツールです。まぁまだ使い始めたということなので、操作方法とは後ほど…といってもhowmのメニューに書いてあるんですがね。emacs-wikiというのもあるようなのでちょっといろいろ試行錯誤してみます。</description>
     </item>
     
     <item>
       <title>carbon emacs &#43; wanderlust &#43; gmail</title>
-      <link>https://mitz.dev/posts/carbon-emacs-wanderlust-gmail/</link>
+      <link>https://www.mitz.dev/posts/carbon-emacs-wanderlust-gmail/</link>
       <pubDate>Sat, 24 Feb 2007 04:44:00 +0000</pubDate>
       
-      <guid>https://mitz.dev/posts/carbon-emacs-wanderlust-gmail/</guid>
+      <guid>https://www.mitz.dev/posts/carbon-emacs-wanderlust-gmail/</guid>
       <description>なんとか接続できたので簡単に説明。まずgmailはssl認証なのでssl.elが必要。ただし、carbon emacsには入っていなかった(2004-06-27に入れたと書いてあったが)ため、ssl.elをダウンロードしてきます。私はここから持ってきました。システムライブラリ側の方にもっていってもかまわないのですが、環境を移行した時とか面倒なので自分のフォルダに置きました~/.emacs.d/elisp/ssl.el.wlにload-pathの設定を加えます。(append (list (expand-file-name &amp;ldquo;/Users/(ユーザ名)/.emacs.d/elisp/&amp;quot;)) load-path))あとはPOPフォルダの設定です。.foldersに以下のような感じでgmailの設定を書きます。|&amp;amp;&amp;ldquo;noir@gmail.com&amp;rdquo;@pop.gmail.com:995!|:+inbox &amp;ldquo;inbox(noir@gmail.</description>
     </item>
     
     <item>
       <title>(x)emacsのツールバーって使います?</title>
-      <link>https://mitz.dev/posts/xemacs%E3%81%AE%E3%83%84%E3%83%BC%E3%83%AB%E3%83%90%E3%83%BC%E3%81%A3%E3%81%A6%E4%BD%BF%E3%81%84%E3%81%BE%E3%81%99/</link>
+      <link>https://www.mitz.dev/posts/xemacs%E3%81%AE%E3%83%84%E3%83%BC%E3%83%AB%E3%83%90%E3%83%BC%E3%81%A3%E3%81%A6%E4%BD%BF%E3%81%84%E3%81%BE%E3%81%99/</link>
       <pubDate>Mon, 22 Jan 2007 14:00:00 +0000</pubDate>
       
-      <guid>https://mitz.dev/posts/xemacs%E3%81%AE%E3%83%84%E3%83%BC%E3%83%AB%E3%83%90%E3%83%BC%E3%81%A3%E3%81%A6%E4%BD%BF%E3%81%84%E3%81%BE%E3%81%99/</guid>
+      <guid>https://www.mitz.dev/posts/xemacs%E3%81%AE%E3%83%84%E3%83%BC%E3%83%AB%E3%83%90%E3%83%BC%E3%81%A3%E3%81%A6%E4%BD%BF%E3%81%84%E3%81%BE%E3%81%99/</guid>
       <description>これです。これはcarbon emacsなので若干アイコンの数が異なるかと思いますが、これって使った事ないんですよね。GUIアプリケーションの醍醐味とも言えるツールバーですが、emacsだと滅多に使いません。私は邪魔なので隠しました。隠す方法は以下のelispになります。(if window-system (progn (tool-bar-mode nil)))GUIで起動したときに、ツールバーを隠すようにします。</description>
     </item>
     
     <item>
       <title>emacs.el公開</title>
-      <link>https://mitz.dev/posts/emacs.el%E5%85%AC%E9%96%8B/</link>
+      <link>https://www.mitz.dev/posts/emacs.el%E5%85%AC%E9%96%8B/</link>
       <pubDate>Sat, 20 Jan 2007 10:59:00 +0000</pubDate>
       
-      <guid>https://mitz.dev/posts/emacs.el%E5%85%AC%E9%96%8B/</guid>
+      <guid>https://www.mitz.dev/posts/emacs.el%E5%85%AC%E9%96%8B/</guid>
       <description>まだ基本的な設定しかできていません。これからです。;;;;;; emacs settings by Noir;;;;;; MacOS only settings(setq mac-option-modifier &amp;lsquo;meta);(setq mac-allow-anti-aliasing nil)(mac-key-mode 1);;; shell settings(setq shell-file-name &amp;ldquo;bash&amp;rdquo;)(setenv &amp;ldquo;SHELL&amp;rdquo; shell-file-name)(setq explicit-shell-file-name shell-file-name)(setq explicit-sh-args &amp;lsquo;(&amp;quot;-login&amp;rdquo; &amp;ldquo;-i&amp;rdquo;))(setq shell-command-switch &amp;ldquo;-c&amp;rdquo;)(setq win32-quote-process-args t);;; clean shell-mode(autoload &amp;lsquo;ansi-color-for-comint-mode-on &amp;ldquo;ansi-color&amp;quot;&amp;quot;Set `ansi-color-for-comint-mode&amp;rsquo; to t.&amp;rdquo; t)(add-hook &amp;lsquo;shell-mode-hook &amp;lsquo;ansi-color-for-comint-mode-on);;; hitory compensention shell-mode(add-hook &amp;lsquo;shell-mode-hook(function (lambda ()(define-key shell-mode-map &amp;ldquo;\C-p&amp;rdquo; &amp;lsquo;comint-previous-input)(define-key shell-mode-map &amp;ldquo;\C-n&amp;rdquo; &amp;lsquo;comint-next-input))));;; character encoding settings(set-language-environment &amp;lsquo;Japanese)(set-default-coding-systems &amp;lsquo;utf-8-unix)(set-buffer-file-coding-system &amp;lsquo;utf-8-unix)(set-clipboard-coding-system &amp;lsquo;sjis-mac)(utf-translate-cjk-mode 1)(set-file-name-coding-system &amp;lsquo;utf-8)(if window-system(set-keyboard-coding-system &amp;lsquo;sjis-mac)(progn(set-keyboard-coding-system &amp;lsquo;utf-8)(set-terminal-coding-system &amp;lsquo;utf-8)));;; PATH settings(setq exec-path (cons &amp;ldquo;/usr/local/bin&amp;rdquo; exec-path))(setenv &amp;ldquo;PATH&amp;quot;(concat &amp;lsquo;&amp;quot;/usr/local/bin:&amp;rdquo; (getenv &amp;ldquo;PATH&amp;rdquo;)));;; Color settings(if window-system (progn(setq initial-frame-alist &amp;lsquo;((vertcal-scroll-bar .</description>
     </item>
     
     <item>
       <title>家では主にRubyとEmacsの勉強</title>
-      <link>https://mitz.dev/posts/%E5%AE%B6%E3%81%A7%E3%81%AF%E4%B8%BB%E3%81%ABruby%E3%81%A8emacs%E3%81%AE%E5%8B%89%E5%BC%B7/</link>
+      <link>https://www.mitz.dev/posts/%E5%AE%B6%E3%81%A7%E3%81%AF%E4%B8%BB%E3%81%ABruby%E3%81%A8emacs%E3%81%AE%E5%8B%89%E5%BC%B7/</link>
       <pubDate>Thu, 18 Jan 2007 17:21:00 +0000</pubDate>
       
-      <guid>https://mitz.dev/posts/%E5%AE%B6%E3%81%A7%E3%81%AF%E4%B8%BB%E3%81%ABruby%E3%81%A8emacs%E3%81%AE%E5%8B%89%E5%BC%B7/</guid>
+      <guid>https://www.mitz.dev/posts/%E5%AE%B6%E3%81%A7%E3%81%AF%E4%B8%BB%E3%81%ABruby%E3%81%A8emacs%E3%81%AE%E5%8B%89%E5%BC%B7/</guid>
       <description>どちらかというとEmacsの方に傾いていますが…、つまりより良いエディタでより良いプログラミングを学習しようという計画で、効率の良い勉強方法だと思います。新しいプログラミング言語を勉強するときは何か一つエディタ(といってもvimやemacsくらい)と組み合わせて勉強するのもありだと思います。あまり知られていませんが、MacOSXにもrubyはしっかり入っています。10.5(Leopard)ではrailsも採用されるようですね。</description>
     </item>
     
     <item>
       <title>ウィンドウをすっきりシャープに</title>
-      <link>https://mitz.dev/posts/%E3%82%A6%E3%82%A3%E3%83%B3%E3%83%89%E3%82%A6%E3%82%92%E3%81%99%E3%81%A3%E3%81%8D%E3%82%8A%E3%82%B7%E3%83%A3%E3%83%BC%E3%83%97%E3%81%AB/</link>
+      <link>https://www.mitz.dev/posts/%E3%82%A6%E3%82%A3%E3%83%B3%E3%83%89%E3%82%A6%E3%82%92%E3%81%99%E3%81%A3%E3%81%8D%E3%82%8A%E3%82%B7%E3%83%A3%E3%83%BC%E3%83%97%E3%81%AB/</link>
       <pubDate>Tue, 16 Jan 2007 16:34:00 +0000</pubDate>
       
-      <guid>https://mitz.dev/posts/%E3%82%A6%E3%82%A3%E3%83%B3%E3%83%89%E3%82%A6%E3%82%92%E3%81%99%E3%81%A3%E3%81%8D%E3%82%8A%E3%82%B7%E3%83%A3%E3%83%BC%E3%83%97%E3%81%AB/</guid>
+      <guid>https://www.mitz.dev/posts/%E3%82%A6%E3%82%A3%E3%83%B3%E3%83%89%E3%82%A6%E3%82%92%E3%81%99%E3%81%A3%E3%81%8D%E3%82%8A%E3%82%B7%E3%83%A3%E3%83%BC%E3%83%97%E3%81%AB/</guid>
       <description>emacs(Carbon Emacs)もだいぶなじんできたので、どんどんカスタムいこうと思います。今回はウィンドウに関する設定です。(setq initial-frame-alist &amp;lsquo;((vertcal-scroll-bar . nil) ;;スクロールバー非表示(active-alpha . 0.90) ;;気分でemacsを透過(active-inalpha . 0.40)(width . 80) ;;ウィンドウ幅(カラム数)(height . 47) ;;ウィンドウ高さ(top . 0) ;;ウィンドウ上位置(left . 1000))) ;;ウィンドウ横位置initial-frame-alistは初期状態の設定になります。全てのemacsウィンドウのデフォルト値として設定するにはdefault-frame-alistを指定します。elispも少しずつ読める様になってきました。</description>
     </item>
     
     <item>
       <title>Firefox 2.0 on MacOSXのキーバインド</title>
-      <link>https://mitz.dev/posts/firefox-2.0-on-macosx%E3%81%AE%E3%82%AD%E3%83%BC%E3%83%90%E3%82%A4%E3%83%B3%E3%83%89/</link>
+      <link>https://www.mitz.dev/posts/firefox-2.0-on-macosx%E3%81%AE%E3%82%AD%E3%83%BC%E3%83%90%E3%82%A4%E3%83%B3%E3%83%89/</link>
       <pubDate>Tue, 16 Jan 2007 14:28:00 +0000</pubDate>
       
-      <guid>https://mitz.dev/posts/firefox-2.0-on-macosx%E3%81%AE%E3%82%AD%E3%83%BC%E3%83%90%E3%82%A4%E3%83%B3%E3%83%89/</guid>
+      <guid>https://www.mitz.dev/posts/firefox-2.0-on-macosx%E3%81%AE%E3%82%AD%E3%83%BC%E3%83%90%E3%82%A4%E3%83%B3%E3%83%89/</guid>
       <description>おそらくFirefoxだけではないかと思いますが、入力フォームのキーバインドがemacsとほとんど同じなのです。emacsにだいぶ慣れてきた私にとってはとても役立っています。私が確認しているのは以下の通りです。•Ctrl + F(カーソルを右へ移動)•Ctrl + B(カーソルを左へ移動)•Ctrl + P(カーソルを上へ移動)•Ctrl + N(カーソルを下へ移動)•Ctrl + H(バックスペース)これだけでも十分使えますね。なぜでしょう？やはりUNIXベースだから？</description>
     </item>
     
     <item>
       <title>自前の.emacs.elを作成開始</title>
-      <link>https://mitz.dev/posts/%E8%87%AA%E5%89%8D%E3%81%AE.emacs.el%E3%82%92%E4%BD%9C%E6%88%90%E9%96%8B%E5%A7%8B/</link>
+      <link>https://www.mitz.dev/posts/%E8%87%AA%E5%89%8D%E3%81%AE.emacs.el%E3%82%92%E4%BD%9C%E6%88%90%E9%96%8B%E5%A7%8B/</link>
       <pubDate>Sun, 14 Jan 2007 10:13:00 +0000</pubDate>
       
-      <guid>https://mitz.dev/posts/%E8%87%AA%E5%89%8D%E3%81%AE.emacs.el%E3%82%92%E4%BD%9C%E6%88%90%E9%96%8B%E5%A7%8B/</guid>
+      <guid>https://www.mitz.dev/posts/%E8%87%AA%E5%89%8D%E3%81%AE.emacs.el%E3%82%92%E4%BD%9C%E6%88%90%E9%96%8B%E5%A7%8B/</guid>
       <description>まぁたいしたオリジナリティは出せないですが、とりあえず少しずつ書いていく事にしました。1.コマンドキーもメタキーとして使う。(setq mac-option-modifier &amp;lsquo;meta)2.日本語環境(set-language-environment &amp;lsquo;Japanese)3.デフォルトのエンコードをeucjpに(set-default-coding-systems &amp;lsquo;euc-jp-unix)4.バッファのエンコードもeucjpに(set-buffer-file-coding-system &amp;lsquo;euc-jp-unix)5.クリップボードのエンコードをsjis-macにする(そのままペーストすると文字化けするから)(set-clipboard-coding-system &amp;lsquo;sjis-mac)6.ファイル名のエンコードをutf8に(set-file-name-coding-system &amp;lsquo;utf-8)全部書いてしまうとネタ切れになるのでここで終了。</description>
     </item>
     

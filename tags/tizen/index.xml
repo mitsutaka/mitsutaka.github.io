@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>tizen on NO TITLE</title>
-    <link>https://mitz.dev/tags/tizen/</link>
+    <link>https://www.mitz.dev/tags/tizen/</link>
     <description>Recent content in tizen on NO TITLE</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 18 Jan 2012 08:30:00 +0000</lastBuildDate>
     
-	<atom:link href="https://mitz.dev/tags/tizen/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.mitz.dev/tags/tizen/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Tizen SDK is a copy of the Android SDK? / Tizen seems to be based on Samsung Linux Platform(SLP)</title>
-      <link>https://mitz.dev/posts/tizen-sdk-is-a-copy-of-the-android-sdk-tizen-seems-to-be-based-on-samsung-linux-platformslp/</link>
+      <link>https://www.mitz.dev/posts/tizen-sdk-is-a-copy-of-the-android-sdk-tizen-seems-to-be-based-on-samsung-linux-platformslp/</link>
       <pubDate>Wed, 18 Jan 2012 08:30:00 +0000</pubDate>
       
-      <guid>https://mitz.dev/posts/tizen-sdk-is-a-copy-of-the-android-sdk-tizen-seems-to-be-based-on-samsung-linux-platformslp/</guid>
+      <guid>https://www.mitz.dev/posts/tizen-sdk-is-a-copy-of-the-android-sdk-tizen-seems-to-be-based-on-samsung-linux-platformslp/</guid>
       <description></description>
     </item>
     
