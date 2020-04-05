@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>linuxcon on NO TITLE</title>
-    <link>https://mitsutaka.github.io/tags/linuxcon/</link>
+    <link>https://mitz.dev/tags/linuxcon/</link>
     <description>Recent content in linuxcon on NO TITLE</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 04 Oct 2010 09:08:00 +0000</lastBuildDate>
     
-	<atom:link href="https://mitsutaka.github.io/tags/linuxcon/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://mitz.dev/tags/linuxcon/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>LinuxCon Japan 2010  my summary and review</title>
-      <link>https://mitsutaka.github.io/posts/linuxcon-japan-2010-my-summary-and-review/</link>
+      <link>https://mitz.dev/posts/linuxcon-japan-2010-my-summary-and-review/</link>
       <pubDate>Mon, 04 Oct 2010 09:08:00 +0000</pubDate>
       
-      <guid>https://mitsutaka.github.io/posts/linuxcon-japan-2010-my-summary-and-review/</guid>
-      <description>LinuxCon Japan is the premiere Linux conference in Asia. Attending many core open source developers, kernel hackers, administrators, users and so on. It&#39;s an important opportunity for open source contributors. So this is my summary and review.About my session. It&#39;s my first time presentation in English. Actually I had prepared three months. First, I&#39;m not a native speaker. don&#39;t speak English well. So it needed. Second, My presentation was a plan to port the MeeGo to a device.</description>
+      <guid>https://mitz.dev/posts/linuxcon-japan-2010-my-summary-and-review/</guid>
+      <description>LinuxCon Japan is the premiere Linux conference in Asia. Attending many core open source developers, kernel hackers, administrators, users and so on. It&amp;rsquo;s an important opportunity for open source contributors. So this is my summary and review.About my session. It&amp;rsquo;s my first time presentation in English. Actually I had prepared three months. First, I&amp;rsquo;m not a native speaker. don&amp;rsquo;t speak English well. So it needed. Second, My presentation was a plan to port the MeeGo to a device.</description>
     </item>
     
     <item>
       <title>LinuxCon Japan 2010 Porting MeeGo to Other devices 20100927</title>
-      <link>https://mitsutaka.github.io/posts/linuxcon-japan-2010-porting-meego-to-other-devices-20100927/</link>
+      <link>https://mitz.dev/posts/linuxcon-japan-2010-porting-meego-to-other-devices-20100927/</link>
       <pubDate>Thu, 30 Sep 2010 02:12:00 +0000</pubDate>
       
-      <guid>https://mitsutaka.github.io/posts/linuxcon-japan-2010-porting-meego-to-other-devices-20100927/</guid>
+      <guid>https://mitz.dev/posts/linuxcon-japan-2010-porting-meego-to-other-devices-20100927/</guid>
       <description>Check out this SlideShare Presentation: LinuxCon Japan 2010 Porting MeeGo to Other devices 20100927View more presentationsfrom Mitsutaka Amano.</description>
     </item>
     
     <item>
       <title>My CFP has been accepted LinuxCon Japan</title>
-      <link>https://mitsutaka.github.io/posts/my-cfp-has-been-accepted-linuxcon-japan/</link>
+      <link>https://mitz.dev/posts/my-cfp-has-been-accepted-linuxcon-japan/</link>
       <pubDate>Thu, 01 Jul 2010 18:03:00 +0000</pubDate>
       
-      <guid>https://mitsutaka.github.io/posts/my-cfp-has-been-accepted-linuxcon-japan/</guid>
-      <description>Yesteaday, LInuxCon Japan was published session schedule by The Linux Foundationhttp://events.linuxfoundation.org/events/linuxcon-japan/scheduleActually, I posted CFP(Call For Partitipation). Making a presentation in English, That&#39;s one of the my goal. I got a chance:)My session is &amp;ldquo;Porting MeeGo to another devices&amp;rdquo;. MeeGo is supported Netbooks, Nokia N900 smartphone now. MeeGo is released arm and x86 binaries.This is an opportunity that can use and support many devices. I&#39;m sure we can do it. Also I have already ported ubuntu lucid to Nexus One.</description>
+      <guid>https://mitz.dev/posts/my-cfp-has-been-accepted-linuxcon-japan/</guid>
+      <description>Yesteaday, LInuxCon Japan was published session schedule by The Linux Foundationhttp://events.linuxfoundation.org/events/linuxcon-japan/scheduleActually, I posted CFP(Call For Partitipation). Making a presentation in English, That&amp;rsquo;s one of the my goal. I got a chance:)My session is &amp;ldquo;Porting MeeGo to another devices&amp;rdquo;. MeeGo is supported Netbooks, Nokia N900 smartphone now. MeeGo is released arm and x86 binaries.This is an opportunity that can use and support many devices. I&amp;rsquo;m sure we can do it. Also I have already ported ubuntu lucid to Nexus One.</description>
     </item>
     
   </channel>

@@ -11,35 +11,35 @@
 
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="MeeGo 1.1 for NexusOne status part2 and how to work(Using microSD and No fastboot! You can also dualboot both of MeeGo and Android)."/>
-<meta name="twitter:description" content="As you see, Here is about MeeGo 1.1 can boot on NexusOne from microSD via fastboot. Part1: http://blog.mitsutaka.org/2010/11/meego-11-for-nexusone-status-and-how-to.htmlAs I referred at LinuxCon Japan, Next step is standalone boot. So it&#39;s complete replacement. Android =&gt; MeeGo. BTW, The slide of LinuxCon Japan is the following.http://events.linuxfoundation.org/slides/2010/linuxcon_japan/linuxcon_jp2010_amano.pdfhttp://www.slideshare.net/mitsutaka/linuxcon-japan-2010-porting-meego-to-other-devices-20100927Warning: APPLY THIS AT YOUR OWN RISK!I replaced boot.img the Android to MeeGo. But boot partition(/dev/mtdblock2) is too small. This block only can write data about 2.5MB. So It can&#39;t put fully rootfs or intelligent initrd."/>
+<meta name="twitter:description" content="As you see, Here is about MeeGo 1.1 can boot on NexusOne from microSD via fastboot. Part1: http://blog.mitsutaka.org/2010/11/meego-11-for-nexusone-status-and-how-to.htmlAs I referred at LinuxCon Japan, Next step is standalone boot. So it&rsquo;s complete replacement. Android =&gt; MeeGo. BTW, The slide of LinuxCon Japan is the following.http://events.linuxfoundation.org/slides/2010/linuxcon_japan/linuxcon_jp2010_amano.pdfhttp://www.slideshare.net/mitsutaka/linuxcon-japan-2010-porting-meego-to-other-devices-20100927Warning: APPLY THIS AT YOUR OWN RISK!I replaced boot.img the Android to MeeGo. But boot partition(/dev/mtdblock2) is too small. This block only can write data about 2.5MB. So It can&rsquo;t put fully rootfs or intelligent initrd."/>
 
     <meta property="og:title" content="MeeGo 1.1 for NexusOne status part2 and how to work(Using microSD and No fastboot! You can also dualboot both of MeeGo and Android)." />
-<meta property="og:description" content="As you see, Here is about MeeGo 1.1 can boot on NexusOne from microSD via fastboot. Part1: http://blog.mitsutaka.org/2010/11/meego-11-for-nexusone-status-and-how-to.htmlAs I referred at LinuxCon Japan, Next step is standalone boot. So it&#39;s complete replacement. Android =&gt; MeeGo. BTW, The slide of LinuxCon Japan is the following.http://events.linuxfoundation.org/slides/2010/linuxcon_japan/linuxcon_jp2010_amano.pdfhttp://www.slideshare.net/mitsutaka/linuxcon-japan-2010-porting-meego-to-other-devices-20100927Warning: APPLY THIS AT YOUR OWN RISK!I replaced boot.img the Android to MeeGo. But boot partition(/dev/mtdblock2) is too small. This block only can write data about 2.5MB. So It can&#39;t put fully rootfs or intelligent initrd." />
+<meta property="og:description" content="As you see, Here is about MeeGo 1.1 can boot on NexusOne from microSD via fastboot. Part1: http://blog.mitsutaka.org/2010/11/meego-11-for-nexusone-status-and-how-to.htmlAs I referred at LinuxCon Japan, Next step is standalone boot. So it&rsquo;s complete replacement. Android =&gt; MeeGo. BTW, The slide of LinuxCon Japan is the following.http://events.linuxfoundation.org/slides/2010/linuxcon_japan/linuxcon_jp2010_amano.pdfhttp://www.slideshare.net/mitsutaka/linuxcon-japan-2010-porting-meego-to-other-devices-20100927Warning: APPLY THIS AT YOUR OWN RISK!I replaced boot.img the Android to MeeGo. But boot partition(/dev/mtdblock2) is too small. This block only can write data about 2.5MB. So It can&rsquo;t put fully rootfs or intelligent initrd." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://mitsutaka.github.io/posts/meego-1.1-for-nexusone-status-part2-and-how-to-workusing-microsd-and-no-fastboot-you-can-also-dualboot-both-of-meego-and-android./" />
+<meta property="og:url" content="https://mitz.dev/posts/meego-1.1-for-nexusone-status-part2-and-how-to-workusing-microsd-and-no-fastboot-you-can-also-dualboot-both-of-meego-and-android./" />
 <meta property="article:published_time" content="2010-11-06T10:49:00+00:00" />
 <meta property="article:modified_time" content="2010-11-06T10:49:00+00:00" />
 
 
     
-      <base href="https://mitsutaka.github.io/posts/meego-1.1-for-nexusone-status-part2-and-how-to-workusing-microsd-and-no-fastboot-you-can-also-dualboot-both-of-meego-and-android./">
+      <base href="https://mitz.dev/posts/meego-1.1-for-nexusone-status-part2-and-how-to-workusing-microsd-and-no-fastboot-you-can-also-dualboot-both-of-meego-and-android./">
     
     <title>
   MeeGo 1.1 for NexusOne status part2 and how to work(Using microSD and No fastboot! You can also dualboot both of MeeGo and Android). · NO TITLE
 </title>
 
     
-      <link rel="canonical" href="https://mitsutaka.github.io/posts/meego-1.1-for-nexusone-status-part2-and-how-to-workusing-microsd-and-no-fastboot-you-can-also-dualboot-both-of-meego-and-android./">
+      <link rel="canonical" href="https://mitz.dev/posts/meego-1.1-for-nexusone-status-part2-and-how-to-workusing-microsd-and-no-fastboot-you-can-also-dualboot-both-of-meego-and-android./">
     
 
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
 
     
       
       
-      <link rel="stylesheet" href="https://mitsutaka.github.io/css/coder.min.28d751104f30c16da1aa1bb04015cbe662cacfe0d1b01af4f2240ad58580069c.css" integrity="sha256-KNdREE8wwW2hqhuwQBXL5mLKz&#43;DRsBr08iQK1YWABpw=" crossorigin="anonymous" media="screen" />
+      <link rel="stylesheet" href="https://mitz.dev/css/coder.min.a4f332213a21ce8eb521670c614470c58923aaaf385e2a73982c31dd7642decb.css" integrity="sha256-pPMyITohzo61IWcMYURwxYkjqq84XipzmCwx3XZC3ss=" crossorigin="anonymous" media="screen" />
     
 
     
@@ -49,11 +49,13 @@
     
 
     
-    
-    <link rel="icon" type="image/png" href="https://mitsutaka.github.io/images/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="https://mitsutaka.github.io/images/favicon-16x16.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.60.1" />
+    
+
+    <link rel="icon" type="image/png" href="https://mitz.dev/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://mitz.dev/images/favicon-16x16.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.68.3" />
   </head>
 
   
@@ -62,25 +64,27 @@
     <main class="wrapper">
       <nav class="navigation">
   <section class="container">
-    <a class="navigation-title" href="https://mitsutaka.github.io/">
+    <a class="navigation-title" href="https://mitz.dev/">
       NO TITLE
     </a>
+    
     <input type="checkbox" id="menu-toggle" />
     <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
     <ul class="navigation-list">
       
         
           <li class="navigation-item">
-            <a class="navigation-link" href="https://mitsutaka.github.io/about/">About</a>
+            <a class="navigation-link" href="https://mitz.dev/about/">About</a>
           </li>
         
           <li class="navigation-item">
-            <a class="navigation-link" href="https://mitsutaka.github.io/posts/">Blog</a>
+            <a class="navigation-link" href="https://mitz.dev/posts/">Blog</a>
           </li>
         
       
       
     </ul>
+    
   </section>
 </nav>
 
@@ -103,31 +107,33 @@
             </span>
             <span class="reading-time">
               <i class="fas fa-clock"></i>
-              2 minutes read
+              2-minute read
             </span>
           </div>
           
           <div class="tags">
   <i class="fas fa-tag"></i>
-    <a href="https://mitsutaka.github.io/tags/nexusone/">nexusone</a>
+    <a href="https://mitz.dev/tags/nexusone/">nexusone</a>
       <span class="separator">•</span>
-    <a href="https://mitsutaka.github.io/tags/xorg/">xorg</a>
+    <a href="https://mitz.dev/tags/xorg/">xorg</a>
       <span class="separator">•</span>
-    <a href="https://mitsutaka.github.io/tags/linux/">linux</a>
+    <a href="https://mitz.dev/tags/linux/">linux</a>
       <span class="separator">•</span>
-    <a href="https://mitsutaka.github.io/tags/kernel/">kernel</a>
+    <a href="https://mitz.dev/tags/kernel/">kernel</a>
       <span class="separator">•</span>
-    <a href="https://mitsutaka.github.io/tags/meego/">meego</a>
+    <a href="https://mitz.dev/tags/meego/">meego</a>
       <span class="separator">•</span>
-    <a href="https://mitsutaka.github.io/tags/android/">android</a></div>
+    <a href="https://mitz.dev/tags/android/">android</a></div>
 
         </div>
       </header>
 
       <div>
-        <p>As you see, Here is about MeeGo 1.1 can boot on NexusOne from microSD via fastboot. <!-- raw HTML omitted --><!-- raw HTML omitted -->Part1: <!-- raw HTML omitted --><a href="http://blog.mitsutaka.org/2010/11/meego-11-for-nexusone-status-and-how-to.html">http://blog.mitsutaka.org/2010/11/meego-11-for-nexusone-status-and-how-to.html</a><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->As I referred at LinuxCon Japan, Next step is standalone boot. So it's complete replacement. Android =&gt; MeeGo. BTW, The slide of LinuxCon Japan is the following.<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><a href="http://events.linuxfoundation.org/slides/2010/linuxcon_japan/linuxcon_jp2010_amano.pdf">http://events.linuxfoundation.org/slides/2010/linuxcon_japan/linuxcon_jp2010_amano.pdf</a><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><a href="http://www.slideshare.net/mitsutaka/linuxcon-japan-2010-porting-meego-to-other-devices-20100927">http://www.slideshare.net/mitsutaka/linuxcon-japan-2010-porting-meego-to-other-devices-20100927</a><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->Warning: APPLY THIS AT YOUR OWN RISK!<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->I replaced boot.img the Android to MeeGo. But boot partition(/dev/mtdblock2) is too small. This block only can write data about 2.5MB. So It can't put fully rootfs or intelligent initrd. then boot.img(recover.img) is required zImage and initrd. But zImage only booting has already been proven. So It's ok that we prepare zImage and <em>empty</em> initrd.<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->1. Prepare a zImage(CONFIG_BLK_DEV_INITRD is not set). How to make a kernel is written at part1.<!-- raw HTML omitted -->2. Prepare an empty inird.<!-- raw HTML omitted -->$ echo -n | sudo cpio -o -H newc | sudo gzip &gt; boot.img-ramdisk-meego.cpio.gz<!-- raw HTML omitted -->3. Run <!-- raw HTML omitted -->mkbootimg<!-- raw HTML omitted -->. cmdline is same as fastboot -c args. then &ldquo;&ndash;base 0x20000000&rdquo; needs for NexusOne.<!-- raw HTML omitted -->$ mkbootimg &ndash;cmdline &lsquo;init=/sbin/init rootwait root=/dev/mmcblk0p2 rootfstype=ext3 rw noinitrd&rsquo; &ndash;kernel zImage &ndash;ramdisk boot.img-ramdisk-meego.cpio.gz &ndash;base 0x20000000 -o boot.img-meego<!-- raw HTML omitted -->4. Power on and switch fastboot mode<!-- raw HTML omitted -->5. Writing boot.img-meego to boot partition.<!-- raw HTML omitted -->$ fastboot flash boot boot.img-meego<!-- raw HTML omitted -->6. Reboot. Enjoy!<!-- raw HTML omitted --><!-- raw HTML omitted -->If you want to boot both of MeeGo and Android, you can use recovery partition. In my case, Default boot was MeeGo and Recovery boot was Android. Both worked successfully! :)<!-- raw HTML omitted --><!-- raw HTML omitted -->$ fastboot flash boot boot.img-meego<!-- raw HTML omitted -->$ fastboot flash recovery boot.img (Original Android boot.img)<!-- raw HTML omitted --><!-- raw HTML omitted -->BTW, There were no place on where all of rootfs can put. Rootfs should be reduced more.<!-- raw HTML omitted -->sh-4.0# df -h<!-- raw HTML omitted -->Filesystem            Size  Used Avail Use% Mounted on<!-- raw HTML omitted -->rootfs                3.0G  1.2G  1.7G  42% / (/dev/mmcblk0p2)<!-- raw HTML omitted -->/dev/root             3.0G  1.2G  1.7G  42% /<!-- raw HTML omitted -->none                  193M  104K  193M   1% /dev<!-- raw HTML omitted -->tmpfs                 4.0M     0  4.0M   0% /var/lock<!-- raw HTML omitted -->tmpfs                 4.0M   36K  4.0M   1% /var/run<!-- raw HTML omitted -->tmpfs                 193M     0  193M   0% /dev/shm<!-- raw HTML omitted -->tmpfs                  20M     0   20M   0% /home/meego/.mozilla<!-- raw HTML omitted -->/dev/mmcblk0p1        492M  389M  104M  79% /mnt/sdcard<!-- raw HTML omitted -->/dev/mtdblock3        145M  122M   24M  84% /mnt/system<!-- raw HTML omitted -->/dev/mtdblock4         95M  1.2M   94M   2% /mnt/cache<!-- raw HTML omitted -->/dev/mtdblock5        197M  144M   54M  73% /mnt/userdata<!-- raw HTML omitted --><!-- raw HTML omitted -->Thank you.</p>
+        
+        <p>As you see, Here is about MeeGo 1.1 can boot on NexusOne from microSD via fastboot. <!-- raw HTML omitted --><!-- raw HTML omitted -->Part1: <!-- raw HTML omitted --><a href="http://blog.mitsutaka.org/2010/11/meego-11-for-nexusone-status-and-how-to.html">http://blog.mitsutaka.org/2010/11/meego-11-for-nexusone-status-and-how-to.html</a><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->As I referred at LinuxCon Japan, Next step is standalone boot. So it&rsquo;s complete replacement. Android =&gt; MeeGo. BTW, The slide of LinuxCon Japan is the following.<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><a href="http://events.linuxfoundation.org/slides/2010/linuxcon_japan/linuxcon_jp2010_amano.pdf">http://events.linuxfoundation.org/slides/2010/linuxcon_japan/linuxcon_jp2010_amano.pdf</a><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><a href="http://www.slideshare.net/mitsutaka/linuxcon-japan-2010-porting-meego-to-other-devices-20100927">http://www.slideshare.net/mitsutaka/linuxcon-japan-2010-porting-meego-to-other-devices-20100927</a><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->Warning: APPLY THIS AT YOUR OWN RISK!<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->I replaced boot.img the Android to MeeGo. But boot partition(/dev/mtdblock2) is too small. This block only can write data about 2.5MB. So It can&rsquo;t put fully rootfs or intelligent initrd. then boot.img(recover.img) is required zImage and initrd. But zImage only booting has already been proven. So It&rsquo;s ok that we prepare zImage and <em>empty</em> initrd.<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->1. Prepare a zImage(CONFIG_BLK_DEV_INITRD is not set). How to make a kernel is written at part1.<!-- raw HTML omitted -->2. Prepare an empty inird.<!-- raw HTML omitted -->$ echo -n | sudo cpio -o -H newc | sudo gzip &gt; boot.img-ramdisk-meego.cpio.gz<!-- raw HTML omitted -->3. Run <!-- raw HTML omitted -->mkbootimg<!-- raw HTML omitted -->. cmdline is same as fastboot -c args. then &ldquo;&ndash;base 0x20000000&rdquo; needs for NexusOne.<!-- raw HTML omitted -->$ mkbootimg &ndash;cmdline &lsquo;init=/sbin/init rootwait root=/dev/mmcblk0p2 rootfstype=ext3 rw noinitrd&rsquo; &ndash;kernel zImage &ndash;ramdisk boot.img-ramdisk-meego.cpio.gz &ndash;base 0x20000000 -o boot.img-meego<!-- raw HTML omitted -->4. Power on and switch fastboot mode<!-- raw HTML omitted -->5. Writing boot.img-meego to boot partition.<!-- raw HTML omitted -->$ fastboot flash boot boot.img-meego<!-- raw HTML omitted -->6. Reboot. Enjoy!<!-- raw HTML omitted --><!-- raw HTML omitted -->If you want to boot both of MeeGo and Android, you can use recovery partition. In my case, Default boot was MeeGo and Recovery boot was Android. Both worked successfully! :)<!-- raw HTML omitted --><!-- raw HTML omitted -->$ fastboot flash boot boot.img-meego<!-- raw HTML omitted -->$ fastboot flash recovery boot.img (Original Android boot.img)<!-- raw HTML omitted --><!-- raw HTML omitted -->BTW, There were no place on where all of rootfs can put. Rootfs should be reduced more.<!-- raw HTML omitted -->sh-4.0# df -h<!-- raw HTML omitted -->Filesystem            Size  Used Avail Use% Mounted on<!-- raw HTML omitted -->rootfs                3.0G  1.2G  1.7G  42% / (/dev/mmcblk0p2)<!-- raw HTML omitted -->/dev/root             3.0G  1.2G  1.7G  42% /<!-- raw HTML omitted -->none                  193M  104K  193M   1% /dev<!-- raw HTML omitted -->tmpfs                 4.0M     0  4.0M   0% /var/lock<!-- raw HTML omitted -->tmpfs                 4.0M   36K  4.0M   1% /var/run<!-- raw HTML omitted -->tmpfs                 193M     0  193M   0% /dev/shm<!-- raw HTML omitted -->tmpfs                  20M     0   20M   0% /home/meego/.mozilla<!-- raw HTML omitted -->/dev/mmcblk0p1        492M  389M  104M  79% /mnt/sdcard<!-- raw HTML omitted -->/dev/mtdblock3        145M  122M   24M  84% /mnt/system<!-- raw HTML omitted -->/dev/mtdblock4         95M  1.2M   94M   2% /mnt/cache<!-- raw HTML omitted -->/dev/mtdblock5        197M  144M   54M  73% /mnt/userdata<!-- raw HTML omitted --><!-- raw HTML omitted -->Thank you.</p>
 
       </div>
+
 
       <footer>
         
@@ -144,22 +150,27 @@
 
       </div>
 
-      <footer class="footer">
-  <section class="container">
-    
-      <p>Copyright © 2006 - 2019 Mitz Amano. All rights reserved.</p>
-    
-     © 2019
-    
-       · 
-      Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
-    
-    
-       · 
-      [<a href="https://github.com/luizdepra/hugo-coder/tree/"></a>]
-    
-  </section>
-</footer>
+      
+  <footer class="footer">
+    <section class="container">
+      
+        <p>Copyright © 2006 - 2019 Mitz Amano. All rights reserved.</p>
+      
+      
+        ©
+        
+        2020
+         Mitz Amano 
+      
+      
+         · 
+        Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+      
+      
+        
+      
+    </section>
+  </footer>
 
     </main>
 
@@ -177,6 +188,8 @@ if (!doNotTrack) {
 }
 </script>
 
+
+    
 
   </body>
 

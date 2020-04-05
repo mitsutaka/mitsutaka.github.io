@@ -16,30 +16,30 @@
     <meta property="og:title" content="2週間ほどピークだけどちょっとzshを" />
 <meta property="og:description" content="macbookで利用しているシェルをこの前zshにしました。たまにちょこちょこ替えていたのですが、今回は本格的です。設定ファイルもいろいろ参考にして書きました。一部を公開します。find-grep () { find . -type f -print | xargs grep -n &ndash;binary-files=without-match $@ }chpwd() { ls -ltrGv } # cd をしたときにlsを実行する#### option section##setopt NO_beep # ビープ音を鳴らさないようにするsetopt NO_flow_control # C-s, C-qを無効にする。setopt NO_list_types # auto_list の補完候補一覧で、ls -F のようにファイルの種別をマーク表示しないsetopt PROMPT_SUBSTsetopt append_history # 複数の zsh を同時に使う時など history ファイルに上書きせず追加setopt auto_cd # ディレクトリ名だけで､ディレクトリの移動をする｡setopt auto_list # 補完候補が複数ある時に、一覧表示setopt auto_menu # 補完キー（Tab, Ctrl&#43;I) を連打するだけで順に補完候補を自動で補完setopt auto_param_keys # カッコの対応などを自動的に補完setopt auto_param_slash # ディレクトリ名の補完で末尾の / を自動的に付加し、次の補完に備えるsetopt auto_pushd # cdのタイミングで自動的にpushd#setopt correct # リターンを押す度にスペルチェックをする。#setopt correct_allsetopt extended_glob # globを拡張する。setopt extended_history # 履歴ファイルに時刻を記録setopt hist_expand # 補完時にヒストリを自動的に展開する。setopt hist_ignore_all_dups # 重複したヒストリは追加しないsetopt hist_ignore_dups # 直前と同じコマンドラインはヒストリに追加しないsetopt hist_verify # ヒストリを呼び出してから実行する間に一旦編集できる状態になるsetopt magic_equal_subst # コマンドラインの引数で &ndash;prefix=/usr などの = 以降でも補完できるsetopt mark_dirs # ファイル名の展開でディレクトリにマッチした場合末尾に / を付加するsetopt print_eight_bit # 8 ビット目を通すようになり、日本語のファイル名を表示可能setopt pushd_to_home # pushd を引数無しで実行した時に pushd ~ とする。#setopt rmstar_wait # rm * を実行する前に確認される。setopt share_history # シェルのプロセスごとに履歴を共有#### environment section##HISTFILE=~/." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://mitsutaka.github.io/posts/2%E9%80%B1%E9%96%93%E3%81%BB%E3%81%A9%E3%83%94%E3%83%BC%E3%82%AF%E3%81%A0%E3%81%91%E3%81%A9%E3%81%A1%E3%82%87%E3%81%A3%E3%81%A8zsh%E3%82%92/" />
+<meta property="og:url" content="https://mitz.dev/posts/2%E9%80%B1%E9%96%93%E3%81%BB%E3%81%A9%E3%83%94%E3%83%BC%E3%82%AF%E3%81%A0%E3%81%91%E3%81%A9%E3%81%A1%E3%82%87%E3%81%A3%E3%81%A8zsh%E3%82%92/" />
 <meta property="article:published_time" content="2007-02-21T04:37:00+00:00" />
 <meta property="article:modified_time" content="2007-02-21T04:37:00+00:00" />
 
 
     
-      <base href="https://mitsutaka.github.io/posts/2%E9%80%B1%E9%96%93%E3%81%BB%E3%81%A9%E3%83%94%E3%83%BC%E3%82%AF%E3%81%A0%E3%81%91%E3%81%A9%E3%81%A1%E3%82%87%E3%81%A3%E3%81%A8zsh%E3%82%92/">
+      <base href="https://mitz.dev/posts/2%E9%80%B1%E9%96%93%E3%81%BB%E3%81%A9%E3%83%94%E3%83%BC%E3%82%AF%E3%81%A0%E3%81%91%E3%81%A9%E3%81%A1%E3%82%87%E3%81%A3%E3%81%A8zsh%E3%82%92/">
     
     <title>
   2週間ほどピークだけどちょっとzshを · NO TITLE
 </title>
 
     
-      <link rel="canonical" href="https://mitsutaka.github.io/posts/2%E9%80%B1%E9%96%93%E3%81%BB%E3%81%A9%E3%83%94%E3%83%BC%E3%82%AF%E3%81%A0%E3%81%91%E3%81%A9%E3%81%A1%E3%82%87%E3%81%A3%E3%81%A8zsh%E3%82%92/">
+      <link rel="canonical" href="https://mitz.dev/posts/2%E9%80%B1%E9%96%93%E3%81%BB%E3%81%A9%E3%83%94%E3%83%BC%E3%82%AF%E3%81%A0%E3%81%91%E3%81%A9%E3%81%A1%E3%82%87%E3%81%A3%E3%81%A8zsh%E3%82%92/">
     
 
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
 
     
       
       
-      <link rel="stylesheet" href="https://mitsutaka.github.io/css/coder.min.28d751104f30c16da1aa1bb04015cbe662cacfe0d1b01af4f2240ad58580069c.css" integrity="sha256-KNdREE8wwW2hqhuwQBXL5mLKz&#43;DRsBr08iQK1YWABpw=" crossorigin="anonymous" media="screen" />
+      <link rel="stylesheet" href="https://mitz.dev/css/coder.min.a4f332213a21ce8eb521670c614470c58923aaaf385e2a73982c31dd7642decb.css" integrity="sha256-pPMyITohzo61IWcMYURwxYkjqq84XipzmCwx3XZC3ss=" crossorigin="anonymous" media="screen" />
     
 
     
@@ -49,11 +49,13 @@
     
 
     
-    
-    <link rel="icon" type="image/png" href="https://mitsutaka.github.io/images/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="https://mitsutaka.github.io/images/favicon-16x16.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.60.1" />
+    
+
+    <link rel="icon" type="image/png" href="https://mitz.dev/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://mitz.dev/images/favicon-16x16.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.68.3" />
   </head>
 
   
@@ -62,25 +64,27 @@
     <main class="wrapper">
       <nav class="navigation">
   <section class="container">
-    <a class="navigation-title" href="https://mitsutaka.github.io/">
+    <a class="navigation-title" href="https://mitz.dev/">
       NO TITLE
     </a>
+    
     <input type="checkbox" id="menu-toggle" />
     <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
     <ul class="navigation-list">
       
         
           <li class="navigation-item">
-            <a class="navigation-link" href="https://mitsutaka.github.io/about/">About</a>
+            <a class="navigation-link" href="https://mitz.dev/about/">About</a>
           </li>
         
           <li class="navigation-item">
-            <a class="navigation-link" href="https://mitsutaka.github.io/posts/">Blog</a>
+            <a class="navigation-link" href="https://mitz.dev/posts/">Blog</a>
           </li>
         
       
       
     </ul>
+    
   </section>
 </nav>
 
@@ -103,21 +107,23 @@
             </span>
             <span class="reading-time">
               <i class="fas fa-clock"></i>
-              One minute read
+              1-minute read
             </span>
           </div>
           
           <div class="tags">
   <i class="fas fa-tag"></i>
-    <a href="https://mitsutaka.github.io/tags/macbook/">macbook</a></div>
+    <a href="https://mitz.dev/tags/macbook/">macbook</a></div>
 
         </div>
       </header>
 
       <div>
+        
         <p>macbookで利用しているシェルをこの前zshにしました。たまにちょこちょこ替えていたのですが、今回は本格的です。設定ファイルもいろいろ参考にして書きました。一部を公開します。<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->find-grep () { find . -type f -print | xargs grep -n &ndash;binary-files=without-match $@ }<!-- raw HTML omitted -->chpwd() { ls -ltrGv } # cd をしたときにlsを実行する<!-- raw HTML omitted --><!-- raw HTML omitted -->##<!-- raw HTML omitted -->## option section<!-- raw HTML omitted -->##<!-- raw HTML omitted -->setopt NO_beep # ビープ音を鳴らさないようにする<!-- raw HTML omitted -->setopt NO_flow_control # C-s, C-qを無効にする。<!-- raw HTML omitted -->setopt NO_list_types # auto_list の補完候補一覧で、ls -F のようにファイルの種別をマーク表示しない<!-- raw HTML omitted -->setopt PROMPT_SUBST<!-- raw HTML omitted -->setopt append_history # 複数の zsh を同時に使う時など history ファイルに上書きせず追加<!-- raw HTML omitted -->setopt auto_cd # ディレクトリ名だけで､ディレクトリの移動をする｡<!-- raw HTML omitted -->setopt auto_list # 補完候補が複数ある時に、一覧表示<!-- raw HTML omitted -->setopt auto_menu # 補完キー（Tab, Ctrl+I) を連打するだけで順に補完候補を自動で補完<!-- raw HTML omitted -->setopt auto_param_keys # カッコの対応などを自動的に補完<!-- raw HTML omitted -->setopt auto_param_slash # ディレクトリ名の補完で末尾の / を自動的に付加し、次の補完に備える<!-- raw HTML omitted -->setopt auto_pushd # cdのタイミングで自動的にpushd<!-- raw HTML omitted -->#setopt correct # リターンを押す度にスペルチェックをする。<!-- raw HTML omitted -->#setopt correct_all<!-- raw HTML omitted -->setopt extended_glob # globを拡張する。<!-- raw HTML omitted -->setopt extended_history # 履歴ファイルに時刻を記録<!-- raw HTML omitted -->setopt hist_expand # 補完時にヒストリを自動的に展開する。<!-- raw HTML omitted -->setopt hist_ignore_all_dups # 重複したヒストリは追加しないsetopt hist_ignore_dups # 直前と同じコマンドラインはヒストリに追加しない<!-- raw HTML omitted -->setopt hist_verify # ヒストリを呼び出してから実行する間に一旦編集できる状態になるsetopt magic_equal_subst # コマンドラインの引数で &ndash;prefix=/usr などの = 以降でも補完できる<!-- raw HTML omitted -->setopt mark_dirs # ファイル名の展開でディレクトリにマッチした場合末尾に / を付加する<!-- raw HTML omitted -->setopt print_eight_bit # 8 ビット目を通すようになり、日本語のファイル名を表示可能<!-- raw HTML omitted -->setopt pushd_to_home # pushd を引数無しで実行した時に pushd ~ とする。<!-- raw HTML omitted -->#setopt rmstar_wait # rm * を実行する前に確認される。<!-- raw HTML omitted -->setopt share_history # シェルのプロセスごとに履歴を共有<!-- raw HTML omitted --><!-- raw HTML omitted -->##<!-- raw HTML omitted -->## environment section<!-- raw HTML omitted -->##<!-- raw HTML omitted -->HISTFILE=~/.histfile # ヒストリの設定<!-- raw HTML omitted -->HISTSIZE=10000<!-- raw HTML omitted -->SAVEHIST=10000<!-- raw HTML omitted -->LISTMAX=0 # 補完するかの質問は画面を超える時にのみに行う｡<!-- raw HTML omitted -->WORDCHARS=&rsquo;<em>?_-.[]~=&amp;;!#$%^(){}&lt;&gt;&rsquo; # Ctrl+wで､直前の/までを削除する｡<!-- raw HTML omitted --><!-- raw HTML omitted -->##<!-- raw HTML omitted -->## zstyle section<!-- raw HTML omitted -->##<!-- raw HTML omitted -->zstyle &lsquo;:completion:</em>:sudo:<em>&rsquo; command-path /usr/local/sbin /usr/local/bin /usr/sbin /usr/bin /sbin /bin # sudo でも補完の対象<!-- raw HTML omitted -->zstyle &lsquo;:completion:</em>&rsquo; list-colors ${(s.:.)LS_COLORS} # ファイルリスト補完でもlsと同様に色をつける｡<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->zshはやたら専門用語が多いらしいのであまり説明できません。でもなかなか面白いです。<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
 
       </div>
+
 
       <footer>
         
@@ -134,22 +140,27 @@
 
       </div>
 
-      <footer class="footer">
-  <section class="container">
-    
-      <p>Copyright © 2006 - 2019 Mitz Amano. All rights reserved.</p>
-    
-     © 2019
-    
-       · 
-      Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
-    
-    
-       · 
-      [<a href="https://github.com/luizdepra/hugo-coder/tree/"></a>]
-    
-  </section>
-</footer>
+      
+  <footer class="footer">
+    <section class="container">
+      
+        <p>Copyright © 2006 - 2019 Mitz Amano. All rights reserved.</p>
+      
+      
+        ©
+        
+        2020
+         Mitz Amano 
+      
+      
+         · 
+        Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+      
+      
+        
+      
+    </section>
+  </footer>
 
     </main>
 
@@ -167,6 +178,8 @@ if (!doNotTrack) {
 }
 </script>
 
+
+    
 
   </body>
 

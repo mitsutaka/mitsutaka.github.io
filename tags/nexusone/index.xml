@@ -2,76 +2,76 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>nexusone on NO TITLE</title>
-    <link>https://mitsutaka.github.io/tags/nexusone/</link>
+    <link>https://mitz.dev/tags/nexusone/</link>
     <description>Recent content in nexusone on NO TITLE</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 16 Jan 2011 06:05:00 +0000</lastBuildDate>
     
-	<atom:link href="https://mitsutaka.github.io/tags/nexusone/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://mitz.dev/tags/nexusone/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Opened the MeeGo Porting project(Unofficial) on gitorious!</title>
-      <link>https://mitsutaka.github.io/posts/opened-the-meego-porting-projectunofficial-on-gitorious/</link>
+      <link>https://mitz.dev/posts/opened-the-meego-porting-projectunofficial-on-gitorious/</link>
       <pubDate>Sun, 16 Jan 2011 06:05:00 +0000</pubDate>
       
-      <guid>https://mitsutaka.github.io/posts/opened-the-meego-porting-projectunofficial-on-gitorious/</guid>
-      <description>Many people are asking me about the MeeGo porting. Of course, I didn&#39;t fully explain how meego to work on the Nexus One. So I provided my resource to the gitorious. then please try them!http://gitorious.org/meego-portingAlso I&#39;m trying to work Toshiba AC100 is based NVIDIA Tegra. Also I&#39;ll push them.Happy Hacking! :)</description>
+      <guid>https://mitz.dev/posts/opened-the-meego-porting-projectunofficial-on-gitorious/</guid>
+      <description>Many people are asking me about the MeeGo porting. Of course, I didn&amp;rsquo;t fully explain how meego to work on the Nexus One. So I provided my resource to the gitorious. then please try them!http://gitorious.org/meego-portingAlso I&amp;rsquo;m trying to work Toshiba AC100 is based NVIDIA Tegra. Also I&amp;rsquo;ll push them.Happy Hacking! :)</description>
     </item>
     
     <item>
       <title>Japan Linux Conference 2010 Porting MeeGo to Android platforms 20101112</title>
-      <link>https://mitsutaka.github.io/posts/japan-linux-conference-2010-porting-meego-to-android-platforms-20101112/</link>
+      <link>https://mitz.dev/posts/japan-linux-conference-2010-porting-meego-to-android-platforms-20101112/</link>
       <pubDate>Fri, 12 Nov 2010 20:23:00 +0000</pubDate>
       
-      <guid>https://mitsutaka.github.io/posts/japan-linux-conference-2010-porting-meego-to-android-platforms-20101112/</guid>
+      <guid>https://mitz.dev/posts/japan-linux-conference-2010-porting-meego-to-android-platforms-20101112/</guid>
       <description>Text is only Japanese sorry.Check out this SlideShare Presentation:Japan Linux Conference 2010 Porting MeeGo to Android platforms 20101112View more presentationsfrom Mitsutaka Amano.</description>
     </item>
     
     <item>
       <title>MeeGo 1.1 for NexusOne status part2 and how to work(Using microSD and No fastboot! You can also dualboot both of MeeGo and Android).</title>
-      <link>https://mitsutaka.github.io/posts/meego-1.1-for-nexusone-status-part2-and-how-to-workusing-microsd-and-no-fastboot-you-can-also-dualboot-both-of-meego-and-android./</link>
+      <link>https://mitz.dev/posts/meego-1.1-for-nexusone-status-part2-and-how-to-workusing-microsd-and-no-fastboot-you-can-also-dualboot-both-of-meego-and-android./</link>
       <pubDate>Sat, 06 Nov 2010 10:49:00 +0000</pubDate>
       
-      <guid>https://mitsutaka.github.io/posts/meego-1.1-for-nexusone-status-part2-and-how-to-workusing-microsd-and-no-fastboot-you-can-also-dualboot-both-of-meego-and-android./</guid>
-      <description>As you see, Here is about MeeGo 1.1 can boot on NexusOne from microSD via fastboot. Part1: http://blog.mitsutaka.org/2010/11/meego-11-for-nexusone-status-and-how-to.htmlAs I referred at LinuxCon Japan, Next step is standalone boot. So it&#39;s complete replacement. Android =&amp;gt; MeeGo. BTW, The slide of LinuxCon Japan is the following.http://events.linuxfoundation.org/slides/2010/linuxcon_japan/linuxcon_jp2010_amano.pdfhttp://www.slideshare.net/mitsutaka/linuxcon-japan-2010-porting-meego-to-other-devices-20100927Warning: APPLY THIS AT YOUR OWN RISK!I replaced boot.img the Android to MeeGo. But boot partition(/dev/mtdblock2) is too small. This block only can write data about 2.5MB. So It can&#39;t put fully rootfs or intelligent initrd.</description>
+      <guid>https://mitz.dev/posts/meego-1.1-for-nexusone-status-part2-and-how-to-workusing-microsd-and-no-fastboot-you-can-also-dualboot-both-of-meego-and-android./</guid>
+      <description>As you see, Here is about MeeGo 1.1 can boot on NexusOne from microSD via fastboot. Part1: http://blog.mitsutaka.org/2010/11/meego-11-for-nexusone-status-and-how-to.htmlAs I referred at LinuxCon Japan, Next step is standalone boot. So it&amp;rsquo;s complete replacement. Android =&amp;gt; MeeGo. BTW, The slide of LinuxCon Japan is the following.http://events.linuxfoundation.org/slides/2010/linuxcon_japan/linuxcon_jp2010_amano.pdfhttp://www.slideshare.net/mitsutaka/linuxcon-japan-2010-porting-meego-to-other-devices-20100927Warning: APPLY THIS AT YOUR OWN RISK!I replaced boot.img the Android to MeeGo. But boot partition(/dev/mtdblock2) is too small. This block only can write data about 2.5MB. So It can&amp;rsquo;t put fully rootfs or intelligent initrd.</description>
     </item>
     
     <item>
       <title>MeeGo 1.1 for NexusOne status and how to work(Using microSD and Boot vi fastboot).</title>
-      <link>https://mitsutaka.github.io/posts/meego-1.1-for-nexusone-status-and-how-to-workusing-microsd-and-boot-vi-fastboot./</link>
+      <link>https://mitz.dev/posts/meego-1.1-for-nexusone-status-and-how-to-workusing-microsd-and-boot-vi-fastboot./</link>
       <pubDate>Wed, 03 Nov 2010 02:05:00 +0000</pubDate>
       
-      <guid>https://mitsutaka.github.io/posts/meego-1.1-for-nexusone-status-and-how-to-workusing-microsd-and-boot-vi-fastboot./</guid>
-      <description>Updated on 20101107(kernel build, kickstart file, dialer screenshot, fdisk /dev/mmcblk0) Part2. Single boot: http://blog.mitsutaka.org/2010/11/meego-11-for-nexusone-status-part2-and.htmlAs you know, MeeGo could be worked on the NexusOne. It was v1.1 development release that time. Then I tried if MeeGo 1.1 final release could work on it. Of course, It could be work. and We&#39;ve made it more responsive to running.1. Linux kernel zImage is loaded from PC via fastboot command. It uses the Android kernel for MSM.</description>
+      <guid>https://mitz.dev/posts/meego-1.1-for-nexusone-status-and-how-to-workusing-microsd-and-boot-vi-fastboot./</guid>
+      <description>Updated on 20101107(kernel build, kickstart file, dialer screenshot, fdisk /dev/mmcblk0) Part2. Single boot: http://blog.mitsutaka.org/2010/11/meego-11-for-nexusone-status-part2-and.htmlAs you know, MeeGo could be worked on the NexusOne. It was v1.1 development release that time. Then I tried if MeeGo 1.1 final release could work on it. Of course, It could be work. and We&amp;rsquo;ve made it more responsive to running.1. Linux kernel zImage is loaded from PC via fastboot command. It uses the Android kernel for MSM.</description>
     </item>
     
     <item>
       <title>LinuxCon Japan 2010  my summary and review</title>
-      <link>https://mitsutaka.github.io/posts/linuxcon-japan-2010-my-summary-and-review/</link>
+      <link>https://mitz.dev/posts/linuxcon-japan-2010-my-summary-and-review/</link>
       <pubDate>Mon, 04 Oct 2010 09:08:00 +0000</pubDate>
       
-      <guid>https://mitsutaka.github.io/posts/linuxcon-japan-2010-my-summary-and-review/</guid>
-      <description>LinuxCon Japan is the premiere Linux conference in Asia. Attending many core open source developers, kernel hackers, administrators, users and so on. It&#39;s an important opportunity for open source contributors. So this is my summary and review.About my session. It&#39;s my first time presentation in English. Actually I had prepared three months. First, I&#39;m not a native speaker. don&#39;t speak English well. So it needed. Second, My presentation was a plan to port the MeeGo to a device.</description>
+      <guid>https://mitz.dev/posts/linuxcon-japan-2010-my-summary-and-review/</guid>
+      <description>LinuxCon Japan is the premiere Linux conference in Asia. Attending many core open source developers, kernel hackers, administrators, users and so on. It&amp;rsquo;s an important opportunity for open source contributors. So this is my summary and review.About my session. It&amp;rsquo;s my first time presentation in English. Actually I had prepared three months. First, I&amp;rsquo;m not a native speaker. don&amp;rsquo;t speak English well. So it needed. Second, My presentation was a plan to port the MeeGo to a device.</description>
     </item>
     
     <item>
       <title>Memo: dmesg and X.org.0.log on the MeeGo &#43; Nexus One</title>
-      <link>https://mitsutaka.github.io/posts/memo-dmesg-and-x.org.0.log-on-the-meego-nexus-one/</link>
+      <link>https://mitz.dev/posts/memo-dmesg-and-x.org.0.log-on-the-meego-nexus-one/</link>
       <pubDate>Sat, 24 Jul 2010 09:03:00 +0000</pubDate>
       
-      <guid>https://mitsutaka.github.io/posts/memo-dmesg-and-x.org.0.log-on-the-meego-nexus-one/</guid>
-      <description>MeeGo kernel was paniced on the N1. then I used android kernel was built by myself.X.Org doesn&#39;t work yet. dmesg[ 0.000000] Initializing cgroup subsys cpu[ 0.000000] Linux version 2.6.29-droid-debian (dbrowne@TheBria) (gcc version 4.4.0 (GCC) ) #11 PREEMPT Mon Feb 8 01:02:44 EST 2010[ 0.000000] CPU: ARMv7 Processor [510f00f2] revision 2 (ARMv7), cr=10c5387f[ 0.000000] CPU: VIPT nonaliasing data cache, VIVT ASID tagged instruction cache[ 0.000000] Machine: mahimahi[ 0.000000] Ignoring unrecognised tag 0x4d534d71[ 0.</description>
+      <guid>https://mitz.dev/posts/memo-dmesg-and-x.org.0.log-on-the-meego-nexus-one/</guid>
+      <description>MeeGo kernel was paniced on the N1. then I used android kernel was built by myself.X.Org doesn&amp;rsquo;t work yet. dmesg[ 0.000000] Initializing cgroup subsys cpu[ 0.000000] Linux version 2.6.29-droid-debian (dbrowne@TheBria) (gcc version 4.4.0 (GCC) ) #11 PREEMPT Mon Feb 8 01:02:44 EST 2010[ 0.000000] CPU: ARMv7 Processor [510f00f2] revision 2 (ARMv7), cr=10c5387f[ 0.000000] CPU: VIPT nonaliasing data cache, VIVT ASID tagged instruction cache[ 0.000000] Machine: mahimahi[ 0.000000] Ignoring unrecognised tag 0x4d534d71[ 0.</description>
     </item>
     
     <item>
       <title>My CFP has been accepted LinuxCon Japan</title>
-      <link>https://mitsutaka.github.io/posts/my-cfp-has-been-accepted-linuxcon-japan/</link>
+      <link>https://mitz.dev/posts/my-cfp-has-been-accepted-linuxcon-japan/</link>
       <pubDate>Thu, 01 Jul 2010 18:03:00 +0000</pubDate>
       
-      <guid>https://mitsutaka.github.io/posts/my-cfp-has-been-accepted-linuxcon-japan/</guid>
-      <description>Yesteaday, LInuxCon Japan was published session schedule by The Linux Foundationhttp://events.linuxfoundation.org/events/linuxcon-japan/scheduleActually, I posted CFP(Call For Partitipation). Making a presentation in English, That&#39;s one of the my goal. I got a chance:)My session is &amp;ldquo;Porting MeeGo to another devices&amp;rdquo;. MeeGo is supported Netbooks, Nokia N900 smartphone now. MeeGo is released arm and x86 binaries.This is an opportunity that can use and support many devices. I&#39;m sure we can do it. Also I have already ported ubuntu lucid to Nexus One.</description>
+      <guid>https://mitz.dev/posts/my-cfp-has-been-accepted-linuxcon-japan/</guid>
+      <description>Yesteaday, LInuxCon Japan was published session schedule by The Linux Foundationhttp://events.linuxfoundation.org/events/linuxcon-japan/scheduleActually, I posted CFP(Call For Partitipation). Making a presentation in English, That&amp;rsquo;s one of the my goal. I got a chance:)My session is &amp;ldquo;Porting MeeGo to another devices&amp;rdquo;. MeeGo is supported Netbooks, Nokia N900 smartphone now. MeeGo is released arm and x86 binaries.This is an opportunity that can use and support many devices. I&amp;rsquo;m sure we can do it. Also I have already ported ubuntu lucid to Nexus One.</description>
     </item>
     
   </channel>

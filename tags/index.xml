@@ -2,147 +2,147 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on NO TITLE</title>
-    <link>https://mitsutaka.github.io/tags/</link>
+    <link>https://mitz.dev/tags/</link>
     <description>Recent content in Tags on NO TITLE</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 18 Jan 2012 08:30:00 +0000</lastBuildDate>
     
-	<atom:link href="https://mitsutaka.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://mitz.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>tizen</title>
-      <link>https://mitsutaka.github.io/tags/tizen/</link>
+      <link>https://mitz.dev/tags/tizen/</link>
       <pubDate>Wed, 18 Jan 2012 08:30:00 +0000</pubDate>
       
-      <guid>https://mitsutaka.github.io/tags/tizen/</guid>
+      <guid>https://mitz.dev/tags/tizen/</guid>
       <description></description>
     </item>
     
     <item>
       <title>books</title>
-      <link>https://mitsutaka.github.io/tags/books/</link>
+      <link>https://mitz.dev/tags/books/</link>
       <pubDate>Mon, 31 Oct 2011 15:00:00 +0000</pubDate>
       
-      <guid>https://mitsutaka.github.io/tags/books/</guid>
+      <guid>https://mitz.dev/tags/books/</guid>
       <description></description>
     </item>
     
     <item>
       <title>linux</title>
-      <link>https://mitsutaka.github.io/tags/linux/</link>
+      <link>https://mitz.dev/tags/linux/</link>
       <pubDate>Sun, 16 Jan 2011 06:05:00 +0000</pubDate>
       
-      <guid>https://mitsutaka.github.io/tags/linux/</guid>
+      <guid>https://mitz.dev/tags/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>meego</title>
-      <link>https://mitsutaka.github.io/tags/meego/</link>
+      <link>https://mitz.dev/tags/meego/</link>
       <pubDate>Sun, 16 Jan 2011 06:05:00 +0000</pubDate>
       
-      <guid>https://mitsutaka.github.io/tags/meego/</guid>
+      <guid>https://mitz.dev/tags/meego/</guid>
       <description></description>
     </item>
     
     <item>
       <title>nexusone</title>
-      <link>https://mitsutaka.github.io/tags/nexusone/</link>
+      <link>https://mitz.dev/tags/nexusone/</link>
       <pubDate>Sun, 16 Jan 2011 06:05:00 +0000</pubDate>
       
-      <guid>https://mitsutaka.github.io/tags/nexusone/</guid>
+      <guid>https://mitz.dev/tags/nexusone/</guid>
       <description></description>
     </item>
     
     <item>
       <title>android</title>
-      <link>https://mitsutaka.github.io/tags/android/</link>
+      <link>https://mitz.dev/tags/android/</link>
       <pubDate>Fri, 12 Nov 2010 20:23:00 +0000</pubDate>
       
-      <guid>https://mitsutaka.github.io/tags/android/</guid>
+      <guid>https://mitz.dev/tags/android/</guid>
       <description></description>
     </item>
     
     <item>
       <title>kernel</title>
-      <link>https://mitsutaka.github.io/tags/kernel/</link>
+      <link>https://mitz.dev/tags/kernel/</link>
       <pubDate>Fri, 12 Nov 2010 20:23:00 +0000</pubDate>
       
-      <guid>https://mitsutaka.github.io/tags/kernel/</guid>
+      <guid>https://mitz.dev/tags/kernel/</guid>
       <description></description>
     </item>
     
     <item>
       <title>xorg</title>
-      <link>https://mitsutaka.github.io/tags/xorg/</link>
+      <link>https://mitz.dev/tags/xorg/</link>
       <pubDate>Sat, 06 Nov 2010 10:49:00 +0000</pubDate>
       
-      <guid>https://mitsutaka.github.io/tags/xorg/</guid>
+      <guid>https://mitz.dev/tags/xorg/</guid>
       <description></description>
     </item>
     
     <item>
       <title>linuxcon</title>
-      <link>https://mitsutaka.github.io/tags/linuxcon/</link>
+      <link>https://mitz.dev/tags/linuxcon/</link>
       <pubDate>Mon, 04 Oct 2010 09:08:00 +0000</pubDate>
       
-      <guid>https://mitsutaka.github.io/tags/linuxcon/</guid>
+      <guid>https://mitz.dev/tags/linuxcon/</guid>
       <description></description>
     </item>
     
     <item>
       <title>linuxfoundation</title>
-      <link>https://mitsutaka.github.io/tags/linuxfoundation/</link>
+      <link>https://mitz.dev/tags/linuxfoundation/</link>
       <pubDate>Mon, 04 Oct 2010 09:08:00 +0000</pubDate>
       
-      <guid>https://mitsutaka.github.io/tags/linuxfoundation/</guid>
+      <guid>https://mitz.dev/tags/linuxfoundation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>n900</title>
-      <link>https://mitsutaka.github.io/tags/n900/</link>
+      <link>https://mitz.dev/tags/n900/</link>
       <pubDate>Sun, 12 Sep 2010 18:57:00 +0000</pubDate>
       
-      <guid>https://mitsutaka.github.io/tags/n900/</guid>
+      <guid>https://mitz.dev/tags/n900/</guid>
       <description></description>
     </item>
     
     <item>
       <title>macbook</title>
-      <link>https://mitsutaka.github.io/tags/macbook/</link>
+      <link>https://mitz.dev/tags/macbook/</link>
       <pubDate>Sat, 06 Mar 2010 09:58:00 +0000</pubDate>
       
-      <guid>https://mitsutaka.github.io/tags/macbook/</guid>
+      <guid>https://mitz.dev/tags/macbook/</guid>
       <description></description>
     </item>
     
     <item>
       <title>chromiumos</title>
-      <link>https://mitsutaka.github.io/tags/chromiumos/</link>
+      <link>https://mitz.dev/tags/chromiumos/</link>
       <pubDate>Sat, 27 Feb 2010 17:13:00 +0000</pubDate>
       
-      <guid>https://mitsutaka.github.io/tags/chromiumos/</guid>
+      <guid>https://mitz.dev/tags/chromiumos/</guid>
       <description></description>
     </item>
     
     <item>
       <title>iphone</title>
-      <link>https://mitsutaka.github.io/tags/iphone/</link>
+      <link>https://mitz.dev/tags/iphone/</link>
       <pubDate>Thu, 11 Feb 2010 03:18:00 +0000</pubDate>
       
-      <guid>https://mitsutaka.github.io/tags/iphone/</guid>
+      <guid>https://mitz.dev/tags/iphone/</guid>
       <description></description>
     </item>
     
     <item>
       <title>emacs</title>
-      <link>https://mitsutaka.github.io/tags/emacs/</link>
+      <link>https://mitz.dev/tags/emacs/</link>
       <pubDate>Sat, 08 Dec 2007 14:23:00 +0000</pubDate>
       
-      <guid>https://mitsutaka.github.io/tags/emacs/</guid>
+      <guid>https://mitz.dev/tags/emacs/</guid>
       <description></description>
     </item>
     

@@ -2,381 +2,381 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>linux on NO TITLE</title>
-    <link>https://mitsutaka.github.io/tags/linux/</link>
+    <link>https://mitz.dev/tags/linux/</link>
     <description>Recent content in linux on NO TITLE</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 16 Jan 2011 06:05:00 +0000</lastBuildDate>
     
-	<atom:link href="https://mitsutaka.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://mitz.dev/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Opened the MeeGo Porting project(Unofficial) on gitorious!</title>
-      <link>https://mitsutaka.github.io/posts/opened-the-meego-porting-projectunofficial-on-gitorious/</link>
+      <link>https://mitz.dev/posts/opened-the-meego-porting-projectunofficial-on-gitorious/</link>
       <pubDate>Sun, 16 Jan 2011 06:05:00 +0000</pubDate>
       
-      <guid>https://mitsutaka.github.io/posts/opened-the-meego-porting-projectunofficial-on-gitorious/</guid>
-      <description>Many people are asking me about the MeeGo porting. Of course, I didn&#39;t fully explain how meego to work on the Nexus One. So I provided my resource to the gitorious. then please try them!http://gitorious.org/meego-portingAlso I&#39;m trying to work Toshiba AC100 is based NVIDIA Tegra. Also I&#39;ll push them.Happy Hacking! :)</description>
+      <guid>https://mitz.dev/posts/opened-the-meego-porting-projectunofficial-on-gitorious/</guid>
+      <description>Many people are asking me about the MeeGo porting. Of course, I didn&amp;rsquo;t fully explain how meego to work on the Nexus One. So I provided my resource to the gitorious. then please try them!http://gitorious.org/meego-portingAlso I&amp;rsquo;m trying to work Toshiba AC100 is based NVIDIA Tegra. Also I&amp;rsquo;ll push them.Happy Hacking! :)</description>
     </item>
     
     <item>
       <title>Japan Linux Conference 2010 Porting MeeGo to Android platforms 20101112</title>
-      <link>https://mitsutaka.github.io/posts/japan-linux-conference-2010-porting-meego-to-android-platforms-20101112/</link>
+      <link>https://mitz.dev/posts/japan-linux-conference-2010-porting-meego-to-android-platforms-20101112/</link>
       <pubDate>Fri, 12 Nov 2010 20:23:00 +0000</pubDate>
       
-      <guid>https://mitsutaka.github.io/posts/japan-linux-conference-2010-porting-meego-to-android-platforms-20101112/</guid>
+      <guid>https://mitz.dev/posts/japan-linux-conference-2010-porting-meego-to-android-platforms-20101112/</guid>
       <description>Text is only Japanese sorry.Check out this SlideShare Presentation:Japan Linux Conference 2010 Porting MeeGo to Android platforms 20101112View more presentationsfrom Mitsutaka Amano.</description>
     </item>
     
     <item>
       <title>MeeGo 1.1 for NexusOne status part2 and how to work(Using microSD and No fastboot! You can also dualboot both of MeeGo and Android).</title>
-      <link>https://mitsutaka.github.io/posts/meego-1.1-for-nexusone-status-part2-and-how-to-workusing-microsd-and-no-fastboot-you-can-also-dualboot-both-of-meego-and-android./</link>
+      <link>https://mitz.dev/posts/meego-1.1-for-nexusone-status-part2-and-how-to-workusing-microsd-and-no-fastboot-you-can-also-dualboot-both-of-meego-and-android./</link>
       <pubDate>Sat, 06 Nov 2010 10:49:00 +0000</pubDate>
       
-      <guid>https://mitsutaka.github.io/posts/meego-1.1-for-nexusone-status-part2-and-how-to-workusing-microsd-and-no-fastboot-you-can-also-dualboot-both-of-meego-and-android./</guid>
-      <description>As you see, Here is about MeeGo 1.1 can boot on NexusOne from microSD via fastboot. Part1: http://blog.mitsutaka.org/2010/11/meego-11-for-nexusone-status-and-how-to.htmlAs I referred at LinuxCon Japan, Next step is standalone boot. So it&#39;s complete replacement. Android =&amp;gt; MeeGo. BTW, The slide of LinuxCon Japan is the following.http://events.linuxfoundation.org/slides/2010/linuxcon_japan/linuxcon_jp2010_amano.pdfhttp://www.slideshare.net/mitsutaka/linuxcon-japan-2010-porting-meego-to-other-devices-20100927Warning: APPLY THIS AT YOUR OWN RISK!I replaced boot.img the Android to MeeGo. But boot partition(/dev/mtdblock2) is too small. This block only can write data about 2.5MB. So It can&#39;t put fully rootfs or intelligent initrd.</description>
+      <guid>https://mitz.dev/posts/meego-1.1-for-nexusone-status-part2-and-how-to-workusing-microsd-and-no-fastboot-you-can-also-dualboot-both-of-meego-and-android./</guid>
+      <description>As you see, Here is about MeeGo 1.1 can boot on NexusOne from microSD via fastboot. Part1: http://blog.mitsutaka.org/2010/11/meego-11-for-nexusone-status-and-how-to.htmlAs I referred at LinuxCon Japan, Next step is standalone boot. So it&amp;rsquo;s complete replacement. Android =&amp;gt; MeeGo. BTW, The slide of LinuxCon Japan is the following.http://events.linuxfoundation.org/slides/2010/linuxcon_japan/linuxcon_jp2010_amano.pdfhttp://www.slideshare.net/mitsutaka/linuxcon-japan-2010-porting-meego-to-other-devices-20100927Warning: APPLY THIS AT YOUR OWN RISK!I replaced boot.img the Android to MeeGo. But boot partition(/dev/mtdblock2) is too small. This block only can write data about 2.5MB. So It can&amp;rsquo;t put fully rootfs or intelligent initrd.</description>
     </item>
     
     <item>
       <title>MeeGo 1.1 for NexusOne status and how to work(Using microSD and Boot vi fastboot).</title>
-      <link>https://mitsutaka.github.io/posts/meego-1.1-for-nexusone-status-and-how-to-workusing-microsd-and-boot-vi-fastboot./</link>
+      <link>https://mitz.dev/posts/meego-1.1-for-nexusone-status-and-how-to-workusing-microsd-and-boot-vi-fastboot./</link>
       <pubDate>Wed, 03 Nov 2010 02:05:00 +0000</pubDate>
       
-      <guid>https://mitsutaka.github.io/posts/meego-1.1-for-nexusone-status-and-how-to-workusing-microsd-and-boot-vi-fastboot./</guid>
-      <description>Updated on 20101107(kernel build, kickstart file, dialer screenshot, fdisk /dev/mmcblk0) Part2. Single boot: http://blog.mitsutaka.org/2010/11/meego-11-for-nexusone-status-part2-and.htmlAs you know, MeeGo could be worked on the NexusOne. It was v1.1 development release that time. Then I tried if MeeGo 1.1 final release could work on it. Of course, It could be work. and We&#39;ve made it more responsive to running.1. Linux kernel zImage is loaded from PC via fastboot command. It uses the Android kernel for MSM.</description>
+      <guid>https://mitz.dev/posts/meego-1.1-for-nexusone-status-and-how-to-workusing-microsd-and-boot-vi-fastboot./</guid>
+      <description>Updated on 20101107(kernel build, kickstart file, dialer screenshot, fdisk /dev/mmcblk0) Part2. Single boot: http://blog.mitsutaka.org/2010/11/meego-11-for-nexusone-status-part2-and.htmlAs you know, MeeGo could be worked on the NexusOne. It was v1.1 development release that time. Then I tried if MeeGo 1.1 final release could work on it. Of course, It could be work. and We&amp;rsquo;ve made it more responsive to running.1. Linux kernel zImage is loaded from PC via fastboot command. It uses the Android kernel for MSM.</description>
     </item>
     
     <item>
       <title>LinuxCon Japan 2010  my summary and review</title>
-      <link>https://mitsutaka.github.io/posts/linuxcon-japan-2010-my-summary-and-review/</link>
+      <link>https://mitz.dev/posts/linuxcon-japan-2010-my-summary-and-review/</link>
       <pubDate>Mon, 04 Oct 2010 09:08:00 +0000</pubDate>
       
-      <guid>https://mitsutaka.github.io/posts/linuxcon-japan-2010-my-summary-and-review/</guid>
-      <description>LinuxCon Japan is the premiere Linux conference in Asia. Attending many core open source developers, kernel hackers, administrators, users and so on. It&#39;s an important opportunity for open source contributors. So this is my summary and review.About my session. It&#39;s my first time presentation in English. Actually I had prepared three months. First, I&#39;m not a native speaker. don&#39;t speak English well. So it needed. Second, My presentation was a plan to port the MeeGo to a device.</description>
+      <guid>https://mitz.dev/posts/linuxcon-japan-2010-my-summary-and-review/</guid>
+      <description>LinuxCon Japan is the premiere Linux conference in Asia. Attending many core open source developers, kernel hackers, administrators, users and so on. It&amp;rsquo;s an important opportunity for open source contributors. So this is my summary and review.About my session. It&amp;rsquo;s my first time presentation in English. Actually I had prepared three months. First, I&amp;rsquo;m not a native speaker. don&amp;rsquo;t speak English well. So it needed. Second, My presentation was a plan to port the MeeGo to a device.</description>
     </item>
     
     <item>
       <title>LinuxCon Japan 2010 Porting MeeGo to Other devices 20100927</title>
-      <link>https://mitsutaka.github.io/posts/linuxcon-japan-2010-porting-meego-to-other-devices-20100927/</link>
+      <link>https://mitz.dev/posts/linuxcon-japan-2010-porting-meego-to-other-devices-20100927/</link>
       <pubDate>Thu, 30 Sep 2010 02:12:00 +0000</pubDate>
       
-      <guid>https://mitsutaka.github.io/posts/linuxcon-japan-2010-porting-meego-to-other-devices-20100927/</guid>
+      <guid>https://mitz.dev/posts/linuxcon-japan-2010-porting-meego-to-other-devices-20100927/</guid>
       <description>Check out this SlideShare Presentation: LinuxCon Japan 2010 Porting MeeGo to Other devices 20100927View more presentationsfrom Mitsutaka Amano.</description>
     </item>
     
     <item>
       <title>MeeGo 1.1 Development Release(1.0.90.1.20100831.1) for N900 status</title>
-      <link>https://mitsutaka.github.io/posts/meego-1.1-development-release1.0.90.1.20100831.1-for-n900-status/</link>
+      <link>https://mitz.dev/posts/meego-1.1-development-release1.0.90.1.20100831.1-for-n900-status/</link>
       <pubDate>Sun, 12 Sep 2010 18:57:00 +0000</pubDate>
       
-      <guid>https://mitsutaka.github.io/posts/meego-1.1-development-release1.0.90.1.20100831.1-for-n900-status/</guid>
+      <guid>https://mitz.dev/posts/meego-1.1-development-release1.0.90.1.20100831.1-for-n900-status/</guid>
       <description>As you know, MeeGo 1.1 Development Release(Nightly build) has been released. I saved some log files on my N900 when it was booted by microSD.I used in the following files.meego-handset-armv7l-n900-nokia-proprietary-1.0.90.1.20100831.1-mmcblk0p.raw.bz2meego-handset-armv7l-n900-nokia-proprietary-1.0.90.1.20100831.1-vmlinuz-2.6.35.3-5.2-n900You can get this image from http://tablets-dev.nokia.com/meego-codedrop.php on which you need your N900 product ID.BTW, N900 image can display the Handset UX. Also rotation can be worked.dmesg[ 0.000000] Linux version 2.6.35.3-5.2-n900 (abuild@build04) (gcc version 4.5.0 20100414 (MeeGo 4.5.0-1) (GCC) ) #1 PREEMPT Wed Aug 25 20:14:23 UTC 2010[ 0.</description>
     </item>
     
     <item>
       <title>Memo: dmesg and X.org.0.log on the MeeGo &#43; Nexus One</title>
-      <link>https://mitsutaka.github.io/posts/memo-dmesg-and-x.org.0.log-on-the-meego-nexus-one/</link>
+      <link>https://mitz.dev/posts/memo-dmesg-and-x.org.0.log-on-the-meego-nexus-one/</link>
       <pubDate>Sat, 24 Jul 2010 09:03:00 +0000</pubDate>
       
-      <guid>https://mitsutaka.github.io/posts/memo-dmesg-and-x.org.0.log-on-the-meego-nexus-one/</guid>
-      <description>MeeGo kernel was paniced on the N1. then I used android kernel was built by myself.X.Org doesn&#39;t work yet. dmesg[ 0.000000] Initializing cgroup subsys cpu[ 0.000000] Linux version 2.6.29-droid-debian (dbrowne@TheBria) (gcc version 4.4.0 (GCC) ) #11 PREEMPT Mon Feb 8 01:02:44 EST 2010[ 0.000000] CPU: ARMv7 Processor [510f00f2] revision 2 (ARMv7), cr=10c5387f[ 0.000000] CPU: VIPT nonaliasing data cache, VIVT ASID tagged instruction cache[ 0.000000] Machine: mahimahi[ 0.000000] Ignoring unrecognised tag 0x4d534d71[ 0.</description>
+      <guid>https://mitz.dev/posts/memo-dmesg-and-x.org.0.log-on-the-meego-nexus-one/</guid>
+      <description>MeeGo kernel was paniced on the N1. then I used android kernel was built by myself.X.Org doesn&amp;rsquo;t work yet. dmesg[ 0.000000] Initializing cgroup subsys cpu[ 0.000000] Linux version 2.6.29-droid-debian (dbrowne@TheBria) (gcc version 4.4.0 (GCC) ) #11 PREEMPT Mon Feb 8 01:02:44 EST 2010[ 0.000000] CPU: ARMv7 Processor [510f00f2] revision 2 (ARMv7), cr=10c5387f[ 0.000000] CPU: VIPT nonaliasing data cache, VIVT ASID tagged instruction cache[ 0.000000] Machine: mahimahi[ 0.000000] Ignoring unrecognised tag 0x4d534d71[ 0.</description>
     </item>
     
     <item>
       <title>My CFP has been accepted LinuxCon Japan</title>
-      <link>https://mitsutaka.github.io/posts/my-cfp-has-been-accepted-linuxcon-japan/</link>
+      <link>https://mitz.dev/posts/my-cfp-has-been-accepted-linuxcon-japan/</link>
       <pubDate>Thu, 01 Jul 2010 18:03:00 +0000</pubDate>
       
-      <guid>https://mitsutaka.github.io/posts/my-cfp-has-been-accepted-linuxcon-japan/</guid>
-      <description>Yesteaday, LInuxCon Japan was published session schedule by The Linux Foundationhttp://events.linuxfoundation.org/events/linuxcon-japan/scheduleActually, I posted CFP(Call For Partitipation). Making a presentation in English, That&#39;s one of the my goal. I got a chance:)My session is &amp;ldquo;Porting MeeGo to another devices&amp;rdquo;. MeeGo is supported Netbooks, Nokia N900 smartphone now. MeeGo is released arm and x86 binaries.This is an opportunity that can use and support many devices. I&#39;m sure we can do it. Also I have already ported ubuntu lucid to Nexus One.</description>
+      <guid>https://mitz.dev/posts/my-cfp-has-been-accepted-linuxcon-japan/</guid>
+      <description>Yesteaday, LInuxCon Japan was published session schedule by The Linux Foundationhttp://events.linuxfoundation.org/events/linuxcon-japan/scheduleActually, I posted CFP(Call For Partitipation). Making a presentation in English, That&amp;rsquo;s one of the my goal. I got a chance:)My session is &amp;ldquo;Porting MeeGo to another devices&amp;rdquo;. MeeGo is supported Netbooks, Nokia N900 smartphone now. MeeGo is released arm and x86 binaries.This is an opportunity that can use and support many devices. I&amp;rsquo;m sure we can do it. Also I have already ported ubuntu lucid to Nexus One.</description>
     </item>
     
     <item>
       <title>MeeGo 1.0 for N900 status</title>
-      <link>https://mitsutaka.github.io/posts/meego-1.0-for-n900-status/</link>
+      <link>https://mitz.dev/posts/meego-1.0-for-n900-status/</link>
       <pubDate>Thu, 27 May 2010 02:50:00 +0000</pubDate>
       
-      <guid>https://mitsutaka.github.io/posts/meego-1.0-for-n900-status/</guid>
+      <guid>https://mitz.dev/posts/meego-1.0-for-n900-status/</guid>
       <description>As you know, MeeGo 1.0 has been released. Netbook has the User Experience then you can test that using image on your netbook. But N900 and IVI image has no UX. They seem to be development release in position :(I have a time now, so I output dmesg on my N900 when it was booted by microSD and temporaly boot of kernel.I used in the following files.meego-n900-open-armv7l-1.0.0.20100525.1-sda.raw.bz2 ( bzcat xxx.bz2 | dd of=/dev/sdX(microSD) bs=4k)meego-n900-open-armv7l-1.</description>
     </item>
     
     <item>
       <title>About MeeGo, MeeGo Netbooks UX screenshots</title>
-      <link>https://mitsutaka.github.io/posts/about-meego-meego-netbooks-ux-screenshots/</link>
+      <link>https://mitz.dev/posts/about-meego-meego-netbooks-ux-screenshots/</link>
       <pubDate>Wed, 07 Apr 2010 11:43:00 +0000</pubDate>
       
-      <guid>https://mitsutaka.github.io/posts/about-meego-meego-netbooks-ux-screenshots/</guid>
-      <description>As you know, MeeGo codes has been opened on the end of March. You can get ia32/arm RPMS/SRPMS now. http://repo.meego.comBut currently User eXperience doesn&#39;t published. MeeGo community promised to release at Stard of April. And then, The promise was carried out :-) But we can only boot up and see console screen. There were some opinion to this activity on MeeGo mailing list. For example, &amp;ldquo;User interface has not been released.</description>
+      <guid>https://mitz.dev/posts/about-meego-meego-netbooks-ux-screenshots/</guid>
+      <description>As you know, MeeGo codes has been opened on the end of March. You can get ia32/arm RPMS/SRPMS now. http://repo.meego.comBut currently User eXperience doesn&amp;rsquo;t published. MeeGo community promised to release at Stard of April. And then, The promise was carried out :-) But we can only boot up and see console screen. There were some opinion to this activity on MeeGo mailing list. For example, &amp;ldquo;User interface has not been released.</description>
     </item>
     
     <item>
       <title>My crazy and funny desktop screenshot ;-)</title>
-      <link>https://mitsutaka.github.io/posts/my-crazy-and-funny-desktop-screenshot-/</link>
+      <link>https://mitz.dev/posts/my-crazy-and-funny-desktop-screenshot-/</link>
       <pubDate>Sat, 06 Mar 2010 09:58:00 +0000</pubDate>
       
-      <guid>https://mitsutaka.github.io/posts/my-crazy-and-funny-desktop-screenshot-/</guid>
+      <guid>https://mitz.dev/posts/my-crazy-and-funny-desktop-screenshot-/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Chromium OS(Chrome OS) partitioning</title>
-      <link>https://mitsutaka.github.io/posts/chromium-oschrome-os-partitioning/</link>
+      <link>https://mitz.dev/posts/chromium-oschrome-os-partitioning/</link>
       <pubDate>Sat, 27 Feb 2010 17:13:00 +0000</pubDate>
       
-      <guid>https://mitsutaka.github.io/posts/chromium-oschrome-os-partitioning/</guid>
+      <guid>https://mitz.dev/posts/chromium-oschrome-os-partitioning/</guid>
       <description>My article about Chromium OS(Chrome OS) has already published on Japanese linux magazine. This is a part of contents.This is the partitioning of Chromium OS.</description>
     </item>
     
     <item>
       <title>My synthesis in 2009</title>
-      <link>https://mitsutaka.github.io/posts/my-synthesis-in-2009/</link>
+      <link>https://mitz.dev/posts/my-synthesis-in-2009/</link>
       <pubDate>Thu, 31 Dec 2009 06:29:00 +0000</pubDate>
       
-      <guid>https://mitsutaka.github.io/posts/my-synthesis-in-2009/</guid>
-      <description>This is my synthesis in 2009.I had no time for something due to working. I wrote many documents, technical article, specification. Mainly It&#39;s all about Linux. Moblin, Chrome OS, How to up performance on Desktop Linux, and Recovering the vintage PC as the Linux box and so on. But I don&#39;t feel that better writer more than before :-) You know writing documents is difficult.2nd. I could meet many people. Especially It was in San Francisco.</description>
+      <guid>https://mitz.dev/posts/my-synthesis-in-2009/</guid>
+      <description>This is my synthesis in 2009.I had no time for something due to working. I wrote many documents, technical article, specification. Mainly It&amp;rsquo;s all about Linux. Moblin, Chrome OS, How to up performance on Desktop Linux, and Recovering the vintage PC as the Linux box and so on. But I don&amp;rsquo;t feel that better writer more than before :-) You know writing documents is difficult.2nd. I could meet many people. Especially It was in San Francisco.</description>
     </item>
     
     <item>
       <title>Another request pulications about Chrome OS</title>
-      <link>https://mitsutaka.github.io/posts/another-request-pulications-about-chrome-os/</link>
+      <link>https://mitz.dev/posts/another-request-pulications-about-chrome-os/</link>
       <pubDate>Wed, 02 Dec 2009 04:23:00 +0000</pubDate>
       
-      <guid>https://mitsutaka.github.io/posts/another-request-pulications-about-chrome-os/</guid>
-      <description>I&#39;m writing an article of Linux recentry. But another request came. And This period is 2 weeks. No way!2nd article is about Google Chrome OS. I have already used and verified it. so I can write.But deadline is too early :-(</description>
+      <guid>https://mitz.dev/posts/another-request-pulications-about-chrome-os/</guid>
+      <description>I&amp;rsquo;m writing an article of Linux recentry. But another request came. And This period is 2 weeks. No way!2nd article is about Google Chrome OS. I have already used and verified it. so I can write.But deadline is too early :-(</description>
     </item>
     
     <item>
       <title>Ordered a PS3 (CECHA00)</title>
-      <link>https://mitsutaka.github.io/posts/ordered-a-ps3-cecha00/</link>
+      <link>https://mitz.dev/posts/ordered-a-ps3-cecha00/</link>
       <pubDate>Sat, 28 Nov 2009 07:38:00 +0000</pubDate>
       
-      <guid>https://mitsutaka.github.io/posts/ordered-a-ps3-cecha00/</guid>
-      <description>I ordered PS3 CECHA00 on Amazon. CECHA00 is 1st generation of PS3 and can only run the PS2 games. I was determining before I don&#39;t buy one until releasing FINAL FANTASY XIII(FF13). You know, FF XIII will be released 17th Dec.I thought that will buy CECH-2000A is the latest PS3. But CECH-2000A can not install another operating systems. Isn&#39;t it joke? It&#39;s true. If CECH-2000A, we can not try to run Linux!</description>
+      <guid>https://mitz.dev/posts/ordered-a-ps3-cecha00/</guid>
+      <description>I ordered PS3 CECHA00 on Amazon. CECHA00 is 1st generation of PS3 and can only run the PS2 games. I was determining before I don&amp;rsquo;t buy one until releasing FINAL FANTASY XIII(FF13). You know, FF XIII will be released 17th Dec.I thought that will buy CECH-2000A is the latest PS3. But CECH-2000A can not install another operating systems. Isn&amp;rsquo;t it joke? It&amp;rsquo;s true. If CECH-2000A, we can not try to run Linux!</description>
     </item>
     
     <item>
       <title>執筆したい</title>
-      <link>https://mitsutaka.github.io/posts/%E5%9F%B7%E7%AD%86%E3%81%97%E3%81%9F%E3%81%84/</link>
+      <link>https://mitz.dev/posts/%E5%9F%B7%E7%AD%86%E3%81%97%E3%81%9F%E3%81%84/</link>
       <pubDate>Tue, 02 Sep 2008 13:47:00 +0000</pubDate>
       
-      <guid>https://mitsutaka.github.io/posts/%E5%9F%B7%E7%AD%86%E3%81%97%E3%81%9F%E3%81%84/</guid>
+      <guid>https://mitz.dev/posts/%E5%9F%B7%E7%AD%86%E3%81%97%E3%81%9F%E3%81%84/</guid>
       <description>数ヶ月前に執筆してきたのですがなかなか面白いもんですね。この日も日経Linuxの方と会いましたがまた書きたいとお願いしてみました。あると良いのですがー</description>
     </item>
     
     <item>
       <title>周りの意識もメンテナに</title>
-      <link>https://mitsutaka.github.io/posts/%E5%91%A8%E3%82%8A%E3%81%AE%E6%84%8F%E8%AD%98%E3%82%82%E3%83%A1%E3%83%B3%E3%83%86%E3%83%8A%E3%81%AB/</link>
+      <link>https://mitz.dev/posts/%E5%91%A8%E3%82%8A%E3%81%AE%E6%84%8F%E8%AD%98%E3%82%82%E3%83%A1%E3%83%B3%E3%83%86%E3%83%8A%E3%81%AB/</link>
       <pubDate>Sat, 16 Aug 2008 17:05:00 +0000</pubDate>
       
-      <guid>https://mitsutaka.github.io/posts/%E5%91%A8%E3%82%8A%E3%81%AE%E6%84%8F%E8%AD%98%E3%82%82%E3%83%A1%E3%83%B3%E3%83%86%E3%83%8A%E3%81%AB/</guid>
+      <guid>https://mitz.dev/posts/%E5%91%A8%E3%82%8A%E3%81%AE%E6%84%8F%E8%AD%98%E3%82%82%E3%83%A1%E3%83%B3%E3%83%86%E3%83%8A%E3%81%AB/</guid>
       <description>このツールはLinux専用でディストリビューションに依存しない設計をされているのですが、Ubuntuの開発プロジェクトにかなり依存しています。というのもFedora向けには実装されていないのです。なのでUbuntuの人からよくメールが流れてくる事もあります。そんなときUbuntuの人からUbuntuで作ったパッチをUpstreamにマージしてほしいというメールが流れてきました。とりあえず私はメンテナという認識をしているという内容も含まれていました。結構うれしいものですね。まだまだ勉強しておかないと行けませんが。</description>
     </item>
     
     <item>
       <title>日経Linux9月号</title>
-      <link>https://mitsutaka.github.io/posts/%E6%97%A5%E7%B5%8Clinux9%E6%9C%88%E5%8F%B7/</link>
+      <link>https://mitz.dev/posts/%E6%97%A5%E7%B5%8Clinux9%E6%9C%88%E5%8F%B7/</link>
       <pubDate>Sun, 10 Aug 2008 12:30:00 +0000</pubDate>
       
-      <guid>https://mitsutaka.github.io/posts/%E6%97%A5%E7%B5%8Clinux9%E6%9C%88%E5%8F%B7/</guid>
+      <guid>https://mitz.dev/posts/%E6%97%A5%E7%B5%8Clinux9%E6%9C%88%E5%8F%B7/</guid>
       <description>8/8発売の日経Linux9月号に執筆しました。私の事をご存知な方はぜひご覧になってみてください</description>
     </item>
     
     <item>
       <title>実は今執筆を…</title>
-      <link>https://mitsutaka.github.io/posts/%E5%AE%9F%E3%81%AF%E4%BB%8A%E5%9F%B7%E7%AD%86%E3%82%92/</link>
+      <link>https://mitz.dev/posts/%E5%AE%9F%E3%81%AF%E4%BB%8A%E5%9F%B7%E7%AD%86%E3%82%92/</link>
       <pubDate>Thu, 24 Jul 2008 16:14:00 +0000</pubDate>
       
-      <guid>https://mitsutaka.github.io/posts/%E5%AE%9F%E3%81%AF%E4%BB%8A%E5%9F%B7%E7%AD%86%E3%82%92/</guid>
+      <guid>https://mitz.dev/posts/%E5%AE%9F%E3%81%AF%E4%BB%8A%E5%9F%B7%E7%AD%86%E3%82%92/</guid>
       <description>日経Linuxです8/8発売の9月号です。私を知っている方はご覧あれ</description>
     </item>
     
     <item>
       <title>SSDに悪戦苦闘</title>
-      <link>https://mitsutaka.github.io/posts/ssd%E3%81%AB%E6%82%AA%E6%88%A6%E8%8B%A6%E9%97%98/</link>
+      <link>https://mitz.dev/posts/ssd%E3%81%AB%E6%82%AA%E6%88%A6%E8%8B%A6%E9%97%98/</link>
       <pubDate>Tue, 01 Jul 2008 16:19:00 +0000</pubDate>
       
-      <guid>https://mitsutaka.github.io/posts/ssd%E3%81%AB%E6%82%AA%E6%88%A6%E8%8B%A6%E9%97%98/</guid>
+      <guid>https://mitz.dev/posts/ssd%E3%81%AB%E6%82%AA%E6%88%A6%E8%8B%A6%E9%97%98/</guid>
       <description>とあるメーカーのSSDにおいてGRUBからvmlinuzが読めません。デバイスは見えているようですがハングしてしまいます。GRUBのメンテナンスが停滞しているので、SYSLINUXに変えるべきかもしれません。</description>
     </item>
     
     <item>
       <title>SSDからLinuxがブートしない</title>
-      <link>https://mitsutaka.github.io/posts/ssd%E3%81%8B%E3%82%89linux%E3%81%8C%E3%83%96%E3%83%BC%E3%83%88%E3%81%97%E3%81%AA%E3%81%84/</link>
+      <link>https://mitz.dev/posts/ssd%E3%81%8B%E3%82%89linux%E3%81%8C%E3%83%96%E3%83%BC%E3%83%88%E3%81%97%E3%81%AA%E3%81%84/</link>
       <pubDate>Wed, 25 Jun 2008 05:01:00 +0000</pubDate>
       
-      <guid>https://mitsutaka.github.io/posts/ssd%E3%81%8B%E3%82%89linux%E3%81%8C%E3%83%96%E3%83%BC%E3%83%88%E3%81%97%E3%81%AA%E3%81%84/</guid>
+      <guid>https://mitz.dev/posts/ssd%E3%81%8B%E3%82%89linux%E3%81%8C%E3%83%96%E3%83%BC%E3%83%88%E3%81%97%E3%81%AA%E3%81%84/</guid>
       <description>GRUBは起動するのですが、カーネルのイメージを読み込むタイミングでハングします(vmlinuz)。debugとtestloadで試してみると同様のブロックのところで止まっているようです。SSD特有の問題が残っているのでしょうか…</description>
     </item>
     
     <item>
       <title>Bootcampは…</title>
-      <link>https://mitsutaka.github.io/posts/bootcamp%E3%81%AF/</link>
+      <link>https://mitz.dev/posts/bootcamp%E3%81%AF/</link>
       <pubDate>Tue, 11 Dec 2007 03:37:00 +0000</pubDate>
       
-      <guid>https://mitsutaka.github.io/posts/bootcamp%E3%81%AF/</guid>
+      <guid>https://mitz.dev/posts/bootcamp%E3%81%AF/</guid>
       <description>単一パーティションでないとWindwos用パーティションを切れないんですね。せっかく/Users配下を分割しようと思ったのに…Linuxのようにはなかなかうまくいかないようですね。残念</description>
     </item>
     
     <item>
       <title>なぜviからemacsへ変える決心を？</title>
-      <link>https://mitsutaka.github.io/posts/%E3%81%AA%E3%81%9Cvi%E3%81%8B%E3%82%89emacs%E3%81%B8%E5%A4%89%E3%81%88%E3%82%8B%E6%B1%BA%E5%BF%83%E3%82%92/</link>
+      <link>https://mitz.dev/posts/%E3%81%AA%E3%81%9Cvi%E3%81%8B%E3%82%89emacs%E3%81%B8%E5%A4%89%E3%81%88%E3%82%8B%E6%B1%BA%E5%BF%83%E3%82%92/</link>
       <pubDate>Sun, 18 Nov 2007 17:02:00 +0000</pubDate>
       
-      <guid>https://mitsutaka.github.io/posts/%E3%81%AA%E3%81%9Cvi%E3%81%8B%E3%82%89emacs%E3%81%B8%E5%A4%89%E3%81%88%E3%82%8B%E6%B1%BA%E5%BF%83%E3%82%92/</guid>
+      <guid>https://mitz.dev/posts/%E3%81%AA%E3%81%9Cvi%E3%81%8B%E3%82%89emacs%E3%81%B8%E5%A4%89%E3%81%88%E3%82%8B%E6%B1%BA%E5%BF%83%E3%82%92/</guid>
       <description>会社の中にkernel hackerがいるのですが、ある日linuxの/procについていろいろ教えてもらっていました。その人のモニタを見ながらいろいろしていたのですが、emacsを使っていました。linuxkernelのソースコードを一緒に読んでいたのですが、バッファの使い方が非常に高速でびっくりしました。しかも自分向けにカスタマイズしたemacs(emacs本体)を使っているんだそうです。やはり次元の違う方でした。やろうと思えば何とかなるし、やはりemacsは機能が多いからですね。</description>
     </item>
     
     <item>
       <title>Linuxでファイル暗号化</title>
-      <link>https://mitsutaka.github.io/posts/linux%E3%81%A7%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E6%9A%97%E5%8F%B7%E5%8C%96/</link>
+      <link>https://mitz.dev/posts/linux%E3%81%A7%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E6%9A%97%E5%8F%B7%E5%8C%96/</link>
       <pubDate>Mon, 01 Oct 2007 03:53:00 +0000</pubDate>
       
-      <guid>https://mitsutaka.github.io/posts/linux%E3%81%A7%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E6%9A%97%E5%8F%B7%E5%8C%96/</guid>
+      <guid>https://mitz.dev/posts/linux%E3%81%A7%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E6%9A%97%E5%8F%B7%E5%8C%96/</guid>
       <description>kernelの機能でdm-cryptというものがあります。ファイルシステムのファイル内を暗号化することができ、比較的簡単に使えます。ファイルタイプのファイルシステムの場合はloopbackデバイスを経由してやり取りすることになります。redhat系で代表的なのは以下のパッケージで利用することができます。cryptsetupcryptsetup-lukscryptsetup-luksはcryptsetupをより簡単に利用することができるパッケージです。とまぁこんな感じで久しぶりに技術ネタを書いてみました。。。</description>
     </item>
     
     <item>
       <title>開発環境と運用環境はやっぱり別?</title>
-      <link>https://mitsutaka.github.io/posts/%E9%96%8B%E7%99%BA%E7%92%B0%E5%A2%83%E3%81%A8%E9%81%8B%E7%94%A8%E7%92%B0%E5%A2%83%E3%81%AF%E3%82%84%E3%81%A3%E3%81%B1%E3%82%8A%E5%88%A5/</link>
+      <link>https://mitz.dev/posts/%E9%96%8B%E7%99%BA%E7%92%B0%E5%A2%83%E3%81%A8%E9%81%8B%E7%94%A8%E7%92%B0%E5%A2%83%E3%81%AF%E3%82%84%E3%81%A3%E3%81%B1%E3%82%8A%E5%88%A5/</link>
       <pubDate>Mon, 03 Sep 2007 04:44:00 +0000</pubDate>
       
-      <guid>https://mitsutaka.github.io/posts/%E9%96%8B%E7%99%BA%E7%92%B0%E5%A2%83%E3%81%A8%E9%81%8B%E7%94%A8%E7%92%B0%E5%A2%83%E3%81%AF%E3%82%84%E3%81%A3%E3%81%B1%E3%82%8A%E5%88%A5/</guid>
+      <guid>https://mitz.dev/posts/%E9%96%8B%E7%99%BA%E7%92%B0%E5%A2%83%E3%81%A8%E9%81%8B%E7%94%A8%E7%92%B0%E5%A2%83%E3%81%AF%E3%82%84%E3%81%A3%E3%81%B1%E3%82%8A%E5%88%A5/</guid>
       <description>開発環境はMacbookでも十分に使えます。Linux kernelのコンパイルもそこまで遅く感じません。</description>
     </item>
     
     <item>
       <title>VMWare serverを使う</title>
-      <link>https://mitsutaka.github.io/posts/vmware-server%E3%82%92%E4%BD%BF%E3%81%86/</link>
+      <link>https://mitz.dev/posts/vmware-server%E3%82%92%E4%BD%BF%E3%81%86/</link>
       <pubDate>Sun, 26 Aug 2007 14:31:00 +0000</pubDate>
       
-      <guid>https://mitsutaka.github.io/posts/vmware-server%E3%82%92%E4%BD%BF%E3%81%86/</guid>
+      <guid>https://mitz.dev/posts/vmware-server%E3%82%92%E4%BD%BF%E3%81%86/</guid>
       <description>昨日の続きです。Xenにしようか、VMWare serverにしようか迷っていました。VMWareの方がコンソール機能が充実していますので、VMWware serverにすることにしました。今考えているのは以下のような感じです。HostOS(Linux)+ GuestOS(Webサーバ)+ GuestOS(ファイルサーバ)+ and more&amp;hellip;ある程度スペックの高いマシン、特にメモリが必要になります。</description>
     </item>
     
     <item>
       <title>zshrc見直し</title>
-      <link>https://mitsutaka.github.io/posts/zshrc%E8%A6%8B%E7%9B%B4%E3%81%97/</link>
+      <link>https://mitz.dev/posts/zshrc%E8%A6%8B%E7%9B%B4%E3%81%97/</link>
       <pubDate>Tue, 10 Jul 2007 15:21:00 +0000</pubDate>
       
-      <guid>https://mitsutaka.github.io/posts/zshrc%E8%A6%8B%E7%9B%B4%E3%81%97/</guid>
+      <guid>https://mitz.dev/posts/zshrc%E8%A6%8B%E7%9B%B4%E3%81%97/</guid>
       <description>ZSH_SYSTEM=uname -sZSH_HOSTNAME=hostname -scase $ZSH_SYSTEM inDarwin);;Linux);;esacなんて感じで、システム、ホストごとで処理を切り分けることにしました。面倒くさいですからね〜個別で書き直すというのは…ついでに特定のホストに.</description>
     </item>
     
     <item>
       <title>Linux環境はParallelsで</title>
-      <link>https://mitsutaka.github.io/posts/linux%E7%92%B0%E5%A2%83%E3%81%AFparallels%E3%81%A7/</link>
+      <link>https://mitz.dev/posts/linux%E7%92%B0%E5%A2%83%E3%81%AFparallels%E3%81%A7/</link>
       <pubDate>Tue, 19 Jun 2007 05:49:00 +0000</pubDate>
       
-      <guid>https://mitsutaka.github.io/posts/linux%E7%92%B0%E5%A2%83%E3%81%AFparallels%E3%81%A7/</guid>
+      <guid>https://mitz.dev/posts/linux%E7%92%B0%E5%A2%83%E3%81%AFparallels%E3%81%A7/</guid>
       <description>Betaであるせいかディスクも壊れる事もあります。最近はLinux環境も必要になってきたので、安定していると思われるParallelsでゲストOSを作り直しました。Shared FoldersがLinuxでは利用できないのが残念ですが…とりあえずマウントで対応。</description>
     </item>
     
     <item>
       <title>いろいろアップデートされているのでチェック</title>
-      <link>https://mitsutaka.github.io/posts/%E3%81%84%E3%82%8D%E3%81%84%E3%82%8D%E3%82%A2%E3%83%83%E3%83%97%E3%83%87%E3%83%BC%E3%83%88%E3%81%95%E3%82%8C%E3%81%A6%E3%81%84%E3%82%8B%E3%81%AE%E3%81%A7%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF/</link>
+      <link>https://mitz.dev/posts/%E3%81%84%E3%82%8D%E3%81%84%E3%82%8D%E3%82%A2%E3%83%83%E3%83%97%E3%83%87%E3%83%BC%E3%83%88%E3%81%95%E3%82%8C%E3%81%A6%E3%81%84%E3%82%8B%E3%81%AE%E3%81%A7%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF/</link>
       <pubDate>Sat, 09 Jun 2007 14:17:00 +0000</pubDate>
       
-      <guid>https://mitsutaka.github.io/posts/%E3%81%84%E3%82%8D%E3%81%84%E3%82%8D%E3%82%A2%E3%83%83%E3%83%97%E3%83%87%E3%83%BC%E3%83%88%E3%81%95%E3%82%8C%E3%81%A6%E3%81%84%E3%82%8B%E3%81%AE%E3%81%A7%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF/</guid>
+      <guid>https://mitz.dev/posts/%E3%81%84%E3%82%8D%E3%81%84%E3%82%8D%E3%82%A2%E3%83%83%E3%83%97%E3%83%87%E3%83%BC%E3%83%88%E3%81%95%E3%82%8C%E3%81%A6%E3%81%84%E3%82%8B%E3%81%AE%E3%81%A7%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF/</guid>
       <description>Parallels 3.0, VMWare fusion Beta4がそれぞれリリースされていました。Parallels 3.0はとりあえず評価レベルですが、スナップショット機能が追加されています。さらにlinux toolも追加され、より最適化されるようになりました。VMWare fusion Beta4はUnityといって、Parallelsのcoherenceモードのような機能が追加されています。とりあえずVMWareは大分良くなってきた感がありますね。</description>
     </item>
     
     <item>
       <title>あたりまえだけどvmware-any-any-updateがF7に対応していない</title>
-      <link>https://mitsutaka.github.io/posts/%E3%81%82%E3%81%9F%E3%82%8A%E3%81%BE%E3%81%88%E3%81%A0%E3%81%91%E3%81%A9vmware-any-any-update%E3%81%8Cf7%E3%81%AB%E5%AF%BE%E5%BF%9C%E3%81%97%E3%81%A6%E3%81%84%E3%81%AA%E3%81%84/</link>
+      <link>https://mitz.dev/posts/%E3%81%82%E3%81%9F%E3%82%8A%E3%81%BE%E3%81%88%E3%81%A0%E3%81%91%E3%81%A9vmware-any-any-update%E3%81%8Cf7%E3%81%AB%E5%AF%BE%E5%BF%9C%E3%81%97%E3%81%A6%E3%81%84%E3%81%AA%E3%81%84/</link>
       <pubDate>Tue, 05 Jun 2007 16:52:00 +0000</pubDate>
       
-      <guid>https://mitsutaka.github.io/posts/%E3%81%82%E3%81%9F%E3%82%8A%E3%81%BE%E3%81%88%E3%81%A0%E3%81%91%E3%81%A9vmware-any-any-update%E3%81%8Cf7%E3%81%AB%E5%AF%BE%E5%BF%9C%E3%81%97%E3%81%A6%E3%81%84%E3%81%AA%E3%81%84/</guid>
+      <guid>https://mitz.dev/posts/%E3%81%82%E3%81%9F%E3%82%8A%E3%81%BE%E3%81%88%E3%81%A0%E3%81%91%E3%81%A9vmware-any-any-update%E3%81%8Cf7%E3%81%AB%E5%AF%BE%E5%BF%9C%E3%81%97%E3%81%A6%E3%81%84%E3%81%AA%E3%81%84/</guid>
       <description>あたりまえですけどね。Linuxにvmware-server等をインストールし、vmware-config.plを実行したときに、新しいディストリビューションやgccが入ると、コンパイルエラーを起こし、vmwareが使えません。vmware-any-any-updateは新しいディストリビューション用にvmware-config.plその他インストールスクリプトにパッチを当て、そのままvmware-config.plを起動します。今ならFC6くらいまでは利用できると思います。Fedora7は5/31リリースなので、あたりまえですがまだ対応していません。</description>
     </item>
     
     <item>
       <title>web系にはしりにくくなってしまった理由</title>
-      <link>https://mitsutaka.github.io/posts/web%E7%B3%BB%E3%81%AB%E3%81%AF%E3%81%97%E3%82%8A%E3%81%AB%E3%81%8F%E3%81%8F%E3%81%AA%E3%81%A3%E3%81%A6%E3%81%97%E3%81%BE%E3%81%A3%E3%81%9F%E7%90%86%E7%94%B1/</link>
+      <link>https://mitz.dev/posts/web%E7%B3%BB%E3%81%AB%E3%81%AF%E3%81%97%E3%82%8A%E3%81%AB%E3%81%8F%E3%81%8F%E3%81%AA%E3%81%A3%E3%81%A6%E3%81%97%E3%81%BE%E3%81%A3%E3%81%9F%E7%90%86%E7%94%B1/</link>
       <pubDate>Fri, 01 Jun 2007 16:42:00 +0000</pubDate>
       
-      <guid>https://mitsutaka.github.io/posts/web%E7%B3%BB%E3%81%AB%E3%81%AF%E3%81%97%E3%82%8A%E3%81%AB%E3%81%8F%E3%81%8F%E3%81%AA%E3%81%A3%E3%81%A6%E3%81%97%E3%81%BE%E3%81%A3%E3%81%9F%E7%90%86%E7%94%B1/</guid>
+      <guid>https://mitz.dev/posts/web%E7%B3%BB%E3%81%AB%E3%81%AF%E3%81%97%E3%82%8A%E3%81%AB%E3%81%8F%E3%81%8F%E3%81%AA%E3%81%A3%E3%81%A6%E3%81%97%E3%81%BE%E3%81%A3%E3%81%9F%E7%90%86%E7%94%B1/</guid>
       <description>一時期はperl, javascript, phpとガリガリ書いていた時期がありました。それがいまはめっきりなくなってしまっています。理由はやはりLinuxでしょうか。Linux(UNIX)のシステムに興味を持ち始めてから大分たっていますが、やむことはありません。しまいにはOSS系の企業に就職した訳ですから…。Linuxになるとsh, make, c, pythonなどがたくさんあふれているため、だんだん慣れていきます。それによってweb系からはだんだん離れていってしまうのです。続ければいいじゃんとおもうのですが、Linuxにはまた違う面白みがある訳ですね。</description>
     </item>
     
     <item>
       <title>busybox調整</title>
-      <link>https://mitsutaka.github.io/posts/busybox%E8%AA%BF%E6%95%B4/</link>
+      <link>https://mitz.dev/posts/busybox%E8%AA%BF%E6%95%B4/</link>
       <pubDate>Wed, 04 Apr 2007 17:35:00 +0000</pubDate>
       
-      <guid>https://mitsutaka.github.io/posts/busybox%E8%AA%BF%E6%95%B4/</guid>
+      <guid>https://mitz.dev/posts/busybox%E8%AA%BF%E6%95%B4/</guid>
       <description>私がどんな開発をやっているかあまり説明していませんでした。今は小規模のLinuxシステムを開発しています。最低限のアプリケーションだけのせて動かすというもので、Knoppixみたく何でもかんでものせるということはやっていません。今回はたまたまブートの部分に修正が入ったため、それに合わせる様busyboxを調整しました。調整したといってもブート時に使うコマンドが足りなかったのでconfigオプションに追加しただけです。CONFIG_SED=y</description>
     </item>
     
     <item>
       <title>MacOSXをレクチャー</title>
-      <link>https://mitsutaka.github.io/posts/macosx%E3%82%92%E3%83%AC%E3%82%AF%E3%83%81%E3%83%A3%E3%83%BC/</link>
+      <link>https://mitz.dev/posts/macosx%E3%82%92%E3%83%AC%E3%82%AF%E3%83%81%E3%83%A3%E3%83%BC/</link>
       <pubDate>Sun, 01 Apr 2007 17:09:00 +0000</pubDate>
       
-      <guid>https://mitsutaka.github.io/posts/macosx%E3%82%92%E3%83%AC%E3%82%AF%E3%83%81%E3%83%A3%E3%83%BC/</guid>
+      <guid>https://mitz.dev/posts/macosx%E3%82%92%E3%83%AC%E3%82%AF%E3%83%81%E3%83%A3%E3%83%BC/</guid>
       <description>会社の人が会社の中で一台転がっていたPowerMacG4を使いたいとの事。その方はMac自体ほとんど触った事がない方でした。「なんでマウスのケーブルはこんなに短いんだ？」「それはキーボードのUSBに接続して利用するのが一般的だから…」などといった感じです。G4に入っていたのは10.3(Panther?)でGUIのメニューがTigerと若干異なっていました。自分も感心しつつMacOSXでよく使っている使い方等を教えていました。ふだんコンソールでLinuxを触っているばかりなのでこんな機会もいいですね</description>
     </item>
     
     <item>
       <title>OSC 2ndday</title>
-      <link>https://mitsutaka.github.io/posts/osc-2ndday/</link>
+      <link>https://mitz.dev/posts/osc-2ndday/</link>
       <pubDate>Sat, 17 Mar 2007 12:19:00 +0000</pubDate>
       
-      <guid>https://mitsutaka.github.io/posts/osc-2ndday/</guid>
+      <guid>https://mitz.dev/posts/osc-2ndday/</guid>
       <description>先日よりかなり自由に過ごせました。とにかくセミナーを見に行くので時間を費やしました。あえてLinuxに関係のないセミナーを受けています。あまり考えを閉じない様にするためです。OpenSolarisやSambaのVista対応などを聞きにいきました。本当はもう少し遊びたかったですが、とりあえず仕事ということで行ったので自粛。</description>
     </item>
     
     <item>
       <title>Mach-O</title>
-      <link>https://mitsutaka.github.io/posts/mach-o/</link>
+      <link>https://mitz.dev/posts/mach-o/</link>
       <pubDate>Wed, 14 Mar 2007 15:13:00 +0000</pubDate>
       
-      <guid>https://mitsutaka.github.io/posts/mach-o/</guid>
+      <guid>https://mitz.dev/posts/mach-o/</guid>
       <description>普段MacOSXを利用しているにも関わらず、あまり気にならないところがありました。Mach-Oというファイルフォーマット形式です。http://ja.wikipedia.org/wiki/Mach-O今はユニバーサルバイナリと呼ばれているものですが、複数のアーキテクチャのバイナリを保持することができる形式です(MAB)。例えば% file which Emacs &amp;lt;= Carbon Emacsのバイナリファイルを指定する。/usr/bin/Emacs: Mach-O universal binary with 2 architectures/usr/bin/Emacs (for architecture i386): Mach-O executable i386/usr/bin/Emacs (for architecture ppc): Mach-O executable ppci386(IA32), ppcに対応している事が分かります。普段利用しているLinuxであればバイナリファイルはこんな感じに出力されています。test.o: ELF 32-bit LSB relocatable, Intel 80386, version 1 (SYSV), not strippedIntel CPUにチェンジしたAppleには無くてはならない技術ですね。実はNEXTSTEPというOSで既に実現されていた様ですが。http://journal.</description>
     </item>
     
     <item>
       <title>VMWare fusion Beta2</title>
-      <link>https://mitsutaka.github.io/posts/vmware-fusion-beta2/</link>
+      <link>https://mitz.dev/posts/vmware-fusion-beta2/</link>
       <pubDate>Mon, 12 Mar 2007 10:45:00 +0000</pubDate>
       
-      <guid>https://mitsutaka.github.io/posts/vmware-fusion-beta2/</guid>
+      <guid>https://mitz.dev/posts/vmware-fusion-beta2/</guid>
       <description>3/1にリリースされました。追加機能は以下の通りです。Experimental 3D graphics: The rumors are true! You can now play select DirectX 8.1 games in a Windows XP virtual machine. See the release notes for details.DirectX 8.1のサポートにより3Dゲームが動く様になった様です(ただしexperimental)。Rollback: Take a snapshot of your virtual machine configured just the way you like it, so you can quickly roll back to that ideal state whenever you need to, with a single click.スナップショット機能の追加です。vmware-server相当の機能で、一つだけスナップショットを作る事が可能です。Run Microsoft Vista on your Mac: Want to run Vista on your Mac?</description>
     </item>
     
     <item>
       <title>ターミナルを卒業したい</title>
-      <link>https://mitsutaka.github.io/posts/%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB%E3%82%92%E5%8D%92%E6%A5%AD%E3%81%97%E3%81%9F%E3%81%84/</link>
+      <link>https://mitz.dev/posts/%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB%E3%82%92%E5%8D%92%E6%A5%AD%E3%81%97%E3%81%9F%E3%81%84/</link>
       <pubDate>Fri, 12 Jan 2007 02:29:00 +0000</pubDate>
       
-      <guid>https://mitsutaka.github.io/posts/%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB%E3%82%92%E5%8D%92%E6%A5%AD%E3%81%97%E3%81%9F%E3%81%84/</guid>
+      <guid>https://mitz.dev/posts/%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB%E3%82%92%E5%8D%92%E6%A5%AD%E3%81%97%E3%81%9F%E3%81%84/</guid>
       <description>ターミナルを使い続けて１年以上になりました。xterm, kterm, gnome-terminalなどいろいろ使ってみましたが、文字コードを使い分ける時があるのでgnome-terminalが一番使いやすいです。MacOSXではもちろん「ターミナル」です。ほとんどgnome-terminalとかわりませんが。しかし、kernelエンジニア(linux)の方々を診てみるとemacsだけで全て完結している方も多いです。半年くらい前ではemacsは単なるエディタだと思っていました。でも、メール、シェル、開発ツールなど必要なもの全てそろっています。少しずつこっちで全部できるようになろうと考えています。</description>
     </item>
     
     <item>
       <title>vmware fusionを起動するとファンクションキーのショートカットが使えなくなる</title>
-      <link>https://mitsutaka.github.io/posts/vmware-fusion%E3%82%92%E8%B5%B7%E5%8B%95%E3%81%99%E3%82%8B%E3%81%A8%E3%83%95%E3%82%A1%E3%83%B3%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%AD%E3%83%BC%E3%81%AE%E3%82%B7%E3%83%A7%E3%83%BC%E3%83%88%E3%82%AB%E3%83%83%E3%83%88%E3%81%8C%E4%BD%BF%E3%81%88%E3%81%AA%E3%81%8F%E3%81%AA%E3%82%8B/</link>
+      <link>https://mitz.dev/posts/vmware-fusion%E3%82%92%E8%B5%B7%E5%8B%95%E3%81%99%E3%82%8B%E3%81%A8%E3%83%95%E3%82%A1%E3%83%B3%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%AD%E3%83%BC%E3%81%AE%E3%82%B7%E3%83%A7%E3%83%BC%E3%83%88%E3%82%AB%E3%83%83%E3%83%88%E3%81%8C%E4%BD%BF%E3%81%88%E3%81%AA%E3%81%8F%E3%81%AA%E3%82%8B/</link>
       <pubDate>Wed, 10 Jan 2007 15:01:00 +0000</pubDate>
       
-      <guid>https://mitsutaka.github.io/posts/vmware-fusion%E3%82%92%E8%B5%B7%E5%8B%95%E3%81%99%E3%82%8B%E3%81%A8%E3%83%95%E3%82%A1%E3%83%B3%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%AD%E3%83%BC%E3%81%AE%E3%82%B7%E3%83%A7%E3%83%BC%E3%83%88%E3%82%AB%E3%83%83%E3%83%88%E3%81%8C%E4%BD%BF%E3%81%88%E3%81%AA%E3%81%8F%E3%81%AA%E3%82%8B/</guid>
+      <guid>https://mitz.dev/posts/vmware-fusion%E3%82%92%E8%B5%B7%E5%8B%95%E3%81%99%E3%82%8B%E3%81%A8%E3%83%95%E3%82%A1%E3%83%B3%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%AD%E3%83%BC%E3%81%AE%E3%82%B7%E3%83%A7%E3%83%BC%E3%83%88%E3%82%AB%E3%83%83%E3%83%88%E3%81%8C%E4%BD%BF%E3%81%88%E3%81%AA%E3%81%8F%E3%81%AA%E3%82%8B/</guid>
       <description>会社ではLinuxを使っています。vmware fusionのおかげで今まで作ったゲストOSもMacOS上で動かす事ができます。しかしvmware fusionを起動すると一部のファンクションキーが使えなくなります。例えばF12はデフォルトでDashboardが起動します。最近知ったので現状調査中。。</description>
     </item>
     
     <item>
       <title>EnableBigLba</title>
-      <link>https://mitsutaka.github.io/posts/enablebiglba/</link>
+      <link>https://mitz.dev/posts/enablebiglba/</link>
       <pubDate>Sun, 07 Jan 2007 15:07:00 +0000</pubDate>
       
-      <guid>https://mitsutaka.github.io/posts/enablebiglba/</guid>
+      <guid>https://mitz.dev/posts/enablebiglba/</guid>
       <description>先日の続きです。ファイルサーバはプリンタの共有もさせる予定です。Linuxサーバにしようと思ったのですが、プリンタ(Canon PIXUS MP600)は複合機なのでうまく認識できませんでした。とりあえず手元にあったWin2kをインストール。しかし500GBのHDDは128GBまでしか認識できません。いわゆる128GBの壁って言うやつですね。しかたなくレジストリを追加しました。HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\atapi\ParametersにEnableBigLbaというキー名のDWORD値をセット。値を1にします。HDDはSATAなので今までのUATAとは別の設定をしなくてはいけないかと思っていましたが、どうやらそんな心配はいりませんでした。さて、明日は成人の日です。祝日ですがいつも通りの日々を過ごす事になりそうです。</description>
     </item>
     
     <item>
       <title>今年の目標</title>
-      <link>https://mitsutaka.github.io/posts/%E4%BB%8A%E5%B9%B4%E3%81%AE%E7%9B%AE%E6%A8%99/</link>
+      <link>https://mitz.dev/posts/%E4%BB%8A%E5%B9%B4%E3%81%AE%E7%9B%AE%E6%A8%99/</link>
       <pubDate>Tue, 02 Jan 2007 14:48:00 +0000</pubDate>
       
-      <guid>https://mitsutaka.github.io/posts/%E4%BB%8A%E5%B9%B4%E3%81%AE%E7%9B%AE%E6%A8%99/</guid>
+      <guid>https://mitz.dev/posts/%E4%BB%8A%E5%B9%B4%E3%81%AE%E7%9B%AE%E6%A8%99/</guid>
       <description>今年の目標を列挙します。1. ruby on railsを使いこなす。2. linux kernel日々勉強。3. 英語日々勉強4. とあるコミュニティに参加5. 海外デビュー?</description>
     </item>
     
