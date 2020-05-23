@@ -4,9 +4,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="en">
 
     <meta name="author" content="Mitz Amano">
-    <meta name="description" content="Mitz&#39;s personal website">
+    <meta name="description" content="普段MacOSXを利用しているにも関わらず、あまり気にならないところがありました。Mach-Oというファイルフォーマット形式です。http://ja.wikipedia.org/wiki/Mach-O今はユニバーサルバイナリと呼ばれているものですが、複数のアーキテクチャのバイナリを保持することができる形式です(MAB)。例えば% file which Emacs &lt;= Carbon Emacsのバイナリファイルを指定する。/usr/bin/Emacs: Mach-O universal binary with 2 architectures/usr/bin/Emacs (for architecture i386): Mach-O executable i386/usr/bin/Emacs (for architecture ppc): Mach-O executable ppci386(IA32), ppcに対応している事が分かります。普段利用しているLinuxであればバイナリファイルはこんな感じに出力されています。test.o: ELF 32-bit LSB relocatable, Intel 80386, version 1 (SYSV), not strippedIntel CPUにチェンジしたAppleには無くてはならない技術ですね。実はNEXTSTEPというOSで既に実現されていた様ですが。http://journal.">
     <meta name="keywords" content="blog,developer,personal">
 
     <meta name="twitter:card" content="summary"/>
@@ -33,7 +34,7 @@
     
 
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
 
     
@@ -50,12 +51,10 @@
 
     
 
-    
-
     <link rel="icon" type="image/png" href="https://www.mitz.dev/images/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://www.mitz.dev/images/favicon-16x16.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.68.3" />
+    <meta name="generator" content="Hugo 0.71.0" />
   </head>
 
   
@@ -146,7 +145,7 @@
   <footer class="footer">
     <section class="container">
       
-        <p>Copyright © 2006 - 2019 Mitz Amano. All rights reserved.</p>
+        <p>Copyright © 2006 - 2020 Mitz Amano. All rights reserved.</p>
       
       
         ©
@@ -165,6 +164,8 @@
   </footer>
 
     </main>
+
+    
 
     
 <script type="application/javascript">

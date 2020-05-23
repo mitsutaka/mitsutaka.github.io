@@ -4,9 +4,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="en">
 
     <meta name="author" content="Mitz Amano">
-    <meta name="description" content="Mitz&#39;s personal website">
+    <meta name="description" content="まだ基本的な設定しかできていません。これからです。;;;;;; emacs settings by Noir;;;;;; MacOS only settings(setq mac-option-modifier &lsquo;meta);(setq mac-allow-anti-aliasing nil)(mac-key-mode 1);;; shell settings(setq shell-file-name &ldquo;bash&rdquo;)(setenv &ldquo;SHELL&rdquo; shell-file-name)(setq explicit-shell-file-name shell-file-name)(setq explicit-sh-args &lsquo;(&quot;-login&rdquo; &ldquo;-i&rdquo;))(setq shell-command-switch &ldquo;-c&rdquo;)(setq win32-quote-process-args t);;; clean shell-mode(autoload &lsquo;ansi-color-for-comint-mode-on &ldquo;ansi-color&quot;&quot;Set `ansi-color-for-comint-mode&rsquo; to t.&rdquo; t)(add-hook &lsquo;shell-mode-hook &lsquo;ansi-color-for-comint-mode-on);;; hitory compensention shell-mode(add-hook &lsquo;shell-mode-hook(function (lambda ()(define-key shell-mode-map &ldquo;\C-p&rdquo; &lsquo;comint-previous-input)(define-key shell-mode-map &ldquo;\C-n&rdquo; &lsquo;comint-next-input))));;; character encoding settings(set-language-environment &lsquo;Japanese)(set-default-coding-systems &lsquo;utf-8-unix)(set-buffer-file-coding-system &lsquo;utf-8-unix)(set-clipboard-coding-system &lsquo;sjis-mac)(utf-translate-cjk-mode 1)(set-file-name-coding-system &lsquo;utf-8)(if window-system(set-keyboard-coding-system &lsquo;sjis-mac)(progn(set-keyboard-coding-system &lsquo;utf-8)(set-terminal-coding-system &lsquo;utf-8)));;; PATH settings(setq exec-path (cons &ldquo;/usr/local/bin&rdquo; exec-path))(setenv &ldquo;PATH&quot;(concat &lsquo;&quot;/usr/local/bin:&rdquo; (getenv &ldquo;PATH&rdquo;)));;; Color settings(if window-system (progn(setq initial-frame-alist &lsquo;((vertcal-scroll-bar .">
     <meta name="keywords" content="blog,developer,personal">
 
     <meta name="twitter:card" content="summary"/>
@@ -33,7 +34,7 @@
     
 
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
 
     
@@ -50,12 +51,10 @@
 
     
 
-    
-
     <link rel="icon" type="image/png" href="https://www.mitz.dev/images/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://www.mitz.dev/images/favicon-16x16.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.68.3" />
+    <meta name="generator" content="Hugo 0.71.0" />
   </head>
 
   
@@ -144,7 +143,7 @@
   <footer class="footer">
     <section class="container">
       
-        <p>Copyright © 2006 - 2019 Mitz Amano. All rights reserved.</p>
+        <p>Copyright © 2006 - 2020 Mitz Amano. All rights reserved.</p>
       
       
         ©
@@ -163,6 +162,8 @@
   </footer>
 
     </main>
+
+    
 
     
 <script type="application/javascript">
