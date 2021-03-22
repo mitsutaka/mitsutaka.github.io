@@ -1,26 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
-    <loc>https://www.mitz.dev/about/</loc>
+    <loc>/about/</loc>
     <lastmod>2019-08-31T09:07:53+09:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+  </url><url>
+    <loc>/categories/</loc>
+  </url><url>
+    <loc>/series/</loc>
+  </url><url>
+    <loc>/tags/</loc>
   </url>
-  
-  <url>
-    <loc>https://www.mitz.dev/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.mitz.dev/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.mitz.dev/series/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.mitz.dev/tags/</loc>
-  </url>
-  
 </urlset>
